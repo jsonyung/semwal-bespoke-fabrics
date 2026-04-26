@@ -63,9 +63,15 @@
 
       .tools {
         display: grid;
-        grid-template-columns: minmax(0, 1fr) auto;
+        grid-template-columns: minmax(0, 1fr) auto auto;
         gap: 12px;
         align-items: center;
+      }
+
+      .actions {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
       }
 
       input {
@@ -102,6 +108,28 @@
         font: inherit;
       }
 
+      .action-link,
+      .action-button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 38px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 0 12px;
+        background: #fff;
+        color: var(--ink);
+        text-decoration: none;
+        font: inherit;
+        white-space: nowrap;
+      }
+
+      .action-link.primary {
+        border-color: var(--accent);
+        background: var(--accent);
+        color: #fff;
+      }
+
       button.active {
         border-color: var(--accent);
         background: var(--accent);
@@ -116,15 +144,15 @@
         height: 40px;
         min-height: 40px;
         border-radius: 999px;
-        border-color: rgba(255, 255, 255, 0.16);
-        background: rgba(255, 255, 255, 0.08);
-        color: #fff;
+        border-color: var(--line);
+        background: #fff;
+        color: var(--ink);
         font-size: 24px;
         line-height: 1;
       }
 
       .icon-btn:hover {
-        background: rgba(255, 255, 255, 0.16);
+        background: #f2eee8;
       }
 
       main {
@@ -204,8 +232,8 @@
         z-index: 20;
         display: none;
         grid-template-rows: auto minmax(0, 1fr) auto;
-        background: #1f1f1f;
-        color: #fff;
+        background: var(--paper);
+        color: var(--ink);
       }
 
       .viewer.open {
@@ -218,8 +246,8 @@
         gap: 14px;
         align-items: center;
         padding: 14px 18px;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.09);
-        background: rgba(20, 20, 20, 0.92);
+        border-bottom: 1px solid var(--line);
+        background: var(--panel);
       }
 
       .viewer-title {
@@ -228,12 +256,12 @@
 
       .viewer-code {
         display: block;
-        font-size: 22px;
+        font-size: 24px;
         font-weight: 800;
       }
 
       .viewer-detail {
-        color: rgba(255, 255, 255, 0.66);
+        color: var(--muted);
         font-size: 13px;
       }
 
@@ -257,11 +285,11 @@
 
       .viewer-image {
         max-width: 100%;
-        max-height: calc(100vh - 192px);
+        max-height: calc(100vh - 184px);
         border-radius: 6px;
         object-fit: contain;
-        background: #111;
-        box-shadow: 0 18px 60px rgba(0, 0, 0, 0.38);
+        background: #fff;
+        box-shadow: var(--shadow);
       }
 
       .viewer-arrow {
@@ -277,12 +305,12 @@
         display: grid;
         gap: 8px;
         padding: 10px 16px 14px;
-        background: rgba(20, 20, 20, 0.94);
-        border-top: 1px solid rgba(255, 255, 255, 0.09);
+        background: var(--panel);
+        border-top: 1px solid var(--line);
       }
 
       .viewer-count {
-        color: rgba(255, 255, 255, 0.72);
+        color: var(--muted);
         font-size: 12px;
         text-align: center;
       }
@@ -292,7 +320,7 @@
         gap: 8px;
         overflow-x: auto;
         padding: 2px 4px 6px;
-        scrollbar-color: rgba(255, 255, 255, 0.35) transparent;
+        scrollbar-color: #b9b0a8 transparent;
       }
 
       .filmstrip button {
@@ -304,12 +332,12 @@
         overflow: hidden;
         border-radius: 6px;
         border: 2px solid transparent;
-        background: #2d2d2d;
+        background: #eee9e2;
       }
 
       .filmstrip button.active {
-        border-color: #fff;
-        background: #2d2d2d;
+        border-color: var(--accent);
+        background: #eee9e2;
       }
 
       .filmstrip img {
@@ -322,6 +350,15 @@
       @media (max-width: 680px) {
         .tools {
           grid-template-columns: 1fr;
+        }
+
+        .actions {
+          width: 100%;
+        }
+
+        .action-link,
+        .action-button {
+          flex: 1 1 140px;
         }
 
         .grid {
@@ -372,6 +409,10 @@
             <button class="active" type="button" data-filter="all">All</button>
             <button type="button" data-filter="I">I</button>
             <button type="button" data-filter="PI">PI</button>
+          </div>
+          <div class="actions">
+            <button id="openGallery" class="action-button" type="button">Gallery View</button>
+            <a class="action-link primary" href="semwal-bespoke-fabrics-catalog.pdf" download>Download PDF</a>
           </div>
         </div>
       </div>
@@ -424,6 +465,7 @@
       const closeViewer = document.querySelector("#closeViewer");
       const prevButton = document.querySelector("#prevButton");
       const nextButton = document.querySelector("#nextButton");
+      const openGallery = document.querySelector("#openGallery");
       let fabrics = [];
       let visibleFabrics = [];
       let activeFilter = "all";
@@ -526,6 +568,9 @@
       closeViewer.addEventListener("click", closeViewerPanel);
       prevButton.addEventListener("click", () => moveViewer(-1));
       nextButton.addEventListener("click", () => moveViewer(1));
+      openGallery.addEventListener("click", () => {
+        if (visibleFabrics.length) openViewer(0);
+      });
       viewer.addEventListener("click", (event) => {
         if (event.target === viewer) closeViewerPanel();
       });
