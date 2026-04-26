@@ -2,6 +2,12 @@
 
 A searchable fabric catalog for Semwal Bespoke.
 
+## Open Catalog
+
+- Live searchable website: [https://jsonyung.github.io/semwal-bespoke-fabrics/](https://jsonyung.github.io/semwal-bespoke-fabrics/)
+- PDF catalog: [semwal-bespoke-fabrics-catalog.pdf](semwal-bespoke-fabrics-catalog.pdf)
+- GitHub searchable catalog: [CATALOG.md](CATALOG.md)
+
 ## What is inside
 
 - Total fabric images: **307**
@@ -18,11 +24,99 @@ A searchable fabric catalog for Semwal Bespoke.
 
 ## How to search
 
-- On GitHub, open `CATALOG.md` and use browser search for a code like `I-440`.
-- On GitHub Pages, open `index.html` and use the search box.
+- Best option: open the live website and type a fabric code like `I-440`.
+- On GitHub, open `CATALOG.md` and use browser search with `Ctrl+F` or `Cmd+F`.
+- In the PDF, use PDF search with `Ctrl+F` or `Cmd+F`.
 
-## Adding more fabrics
+## Easy Update For New Fabrics
 
-1. Add new fabric images into `images/` using code filenames such as `I-463.jpg`.
-2. Run `./update-catalog.sh`.
-3. Confirm the commit and push when asked.
+Use this when a new fabric photo needs to be added.
+
+### 1. Add The Image
+
+Put the new fabric image inside the `images/` folder.
+
+Name the file with the fabric code:
+
+```text
+I-463.jpg
+I-464.jpg
+PI-532.jpg
+```
+
+Rules:
+
+- Use the fabric code as the filename.
+- Keep the extension like `.jpg` or `.png`.
+- Do not use spaces in the filename.
+- Do not rename old files unless the fabric code is wrong.
+
+### 2. Run One Command
+
+Open Terminal inside this project folder and run:
+
+```bash
+./update-catalog.sh
+```
+
+The updater will:
+
+- Count all fabric images.
+- Update `CATALOG.md`.
+- Update `catalog-data.json`.
+- Update website thumbnails in `thumbs/`.
+- Regenerate the PDF catalog.
+- Show what changed.
+- Ask before committing and pushing to GitHub.
+
+When it asks:
+
+```text
+Commit and push these catalog changes now? [y/N]
+```
+
+Type:
+
+```text
+y
+```
+
+Then press Enter.
+
+### 3. What Updates Online
+
+After pushing, GitHub updates:
+
+- Live website search
+- GitHub catalog
+- PDF catalog
+- Image thumbnails
+
+GitHub Pages can take a few minutes to refresh. If the website looks old, do a hard refresh with `Cmd+Shift+R` on Mac or `Ctrl+Shift+R` on Windows.
+
+## PDF Generation
+
+The PDF is generated automatically by:
+
+```bash
+python3 scripts/generate_pdf_catalog.py
+```
+
+Normally, do not run this alone. Use:
+
+```bash
+./update-catalog.sh
+```
+
+That updates the PDF plus the website/catalog files together.
+
+## Moving Or Sharing This Project
+
+Move the whole `semwal-bespoke-fabrics` folder together. The website needs these files to stay together:
+
+- `index.html`
+- `catalog-data.json`
+- `images/`
+- `thumbs/`
+
+For another office computer, download the repository ZIP from GitHub, unzip it, and keep the folder together.
