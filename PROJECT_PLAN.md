@@ -21,9 +21,13 @@
 
 1. In GitHub, open repository settings.
 2. Go to Pages.
-3. Select deploy from the main branch.
+3. Select deploy from the `main` branch and `/root` folder.
 4. Open the generated GitHub Pages link.
 5. Use the search box in `index.html` to find fabrics by code.
+
+Expected website URL:
+
+`https://jsonyung.github.io/semwal-bespoke-fabrics/`
 
 ## Stage 4 - PDF Catalog
 
