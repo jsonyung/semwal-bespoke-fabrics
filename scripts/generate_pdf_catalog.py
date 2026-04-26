@@ -43,36 +43,49 @@ def draw_page_background(pdf: canvas.Canvas) -> None:
 def draw_cover(pdf: canvas.Canvas, records: list[dict[str, str]], temp_dir: Path) -> None:
     draw_page_background(pdf)
     pdf.setFillColor(ACCENT)
-    pdf.rect(0, PAGE_HEIGHT - 76 * mm, PAGE_WIDTH, 76 * mm, stroke=0, fill=1)
+    pdf.rect(0, PAGE_HEIGHT - 90 * mm, PAGE_WIDTH, 90 * mm, stroke=0, fill=1)
     if LOGO_FILE.exists():
-        logo_size = 30 * mm
+        logo_size = 34 * mm
         pdf.drawImage(
             str(LOGO_FILE),
             PAGE_WIDTH - MARGIN_X - logo_size,
-            PAGE_HEIGHT - 47 * mm,
+            PAGE_HEIGHT - 53 * mm,
             width=logo_size,
             height=logo_size,
             preserveAspectRatio=True,
             mask="auto",
         )
     pdf.setFillColor(colors.white)
-    pdf.setFont("Helvetica-Bold", 30)
-    pdf.drawString(MARGIN_X, PAGE_HEIGHT - 36 * mm, "Semwal Bespoke")
-    pdf.setFont("Helvetica", 22)
-    pdf.drawString(MARGIN_X, PAGE_HEIGHT - 49 * mm, "Fabrics Catalog")
+    pdf.setFont("Helvetica-Bold", 31)
+    pdf.drawString(MARGIN_X, PAGE_HEIGHT - 34 * mm, "Semwal Bespoke")
+    pdf.setFont("Helvetica", 23)
+    pdf.drawString(MARGIN_X, PAGE_HEIGHT - 48 * mm, "Premium Fabrics Catalog")
+    pdf.setFont("Helvetica", 10)
+    pdf.drawString(MARGIN_X, PAGE_HEIGHT - 61 * mm, "Curated fabric swatches for bespoke tailoring selection")
 
     pdf.setFillColor(INK)
-    pdf.setFont("Helvetica-Bold", 16)
-    pdf.drawString(MARGIN_X, PAGE_HEIGHT - 98 * mm, f"{len(records)} searchable fabric swatches")
+    pdf.setFont("Helvetica-Bold", 18)
+    pdf.drawString(MARGIN_X, PAGE_HEIGHT - 112 * mm, f"{len(records)} fabric swatches")
     pdf.setFont("Helvetica", 11)
     pdf.setFillColor(MUTED)
-    pdf.drawString(MARGIN_X, PAGE_HEIGHT - 108 * mm, "Use fabric codes to find images in the PDF, GitHub catalog, or web search page.")
+    pdf.drawString(MARGIN_X, PAGE_HEIGHT - 122 * mm, "Search by fabric code in the PDF or online catalog.")
 
-    samples = records[:6]
+    pdf.setFillColor(colors.white)
+    pdf.roundRect(MARGIN_X, PAGE_HEIGHT - 157 * mm, PAGE_WIDTH - 2 * MARGIN_X, 20 * mm, 4, stroke=0, fill=1)
+    pdf.setStrokeColor(LINE)
+    pdf.roundRect(MARGIN_X, PAGE_HEIGHT - 157 * mm, PAGE_WIDTH - 2 * MARGIN_X, 20 * mm, 4, stroke=1, fill=0)
+    pdf.setFillColor(INK)
+    pdf.setFont("Helvetica-Bold", 11)
+    pdf.drawString(MARGIN_X + 6 * mm, PAGE_HEIGHT - 146 * mm, "Online catalog")
+    pdf.setFillColor(MUTED)
+    pdf.setFont("Helvetica", 9)
+    pdf.drawString(MARGIN_X + 42 * mm, PAGE_HEIGHT - 146 * mm, "https://jsonyung.github.io/semwal-bespoke-fabrics/")
+
+    samples = records[:8]
     start_x = MARGIN_X
-    start_y = PAGE_HEIGHT - 186 * mm
-    box = 27 * mm
-    gap = 5 * mm
+    start_y = PAGE_HEIGHT - 210 * mm
+    box = 21 * mm
+    gap = 4 * mm
     for index, record in enumerate(samples):
         x = start_x + index * (box + gap)
         draw_image_box(pdf, PROJECT_DIR / record["image"], temp_dir, x, start_y, box, box)
@@ -80,12 +93,12 @@ def draw_cover(pdf: canvas.Canvas, records: list[dict[str, str]], temp_dir: Path
         pdf.setFillColor(INK)
         pdf.drawCentredString(x + box / 2, start_y - 5 * mm, record["code"])
 
-    pdf.setFillColor(WARM)
-    pdf.rect(MARGIN_X, 42 * mm, 54 * mm, 1.2 * mm, stroke=0, fill=1)
+    pdf.setFillColor(ACCENT)
+    pdf.rect(MARGIN_X, 41 * mm, 58 * mm, 1.2 * mm, stroke=0, fill=1)
     pdf.setFillColor(MUTED)
     pdf.setFont("Helvetica", 9)
-    pdf.drawString(MARGIN_X, 31 * mm, f"Generated {date.today().isoformat()}")
-    pdf.drawString(MARGIN_X, 25 * mm, "Catalog source: image code filenames")
+    pdf.drawString(MARGIN_X, 30 * mm, f"Updated {date.today().isoformat()}")
+    pdf.drawString(MARGIN_X, 24 * mm, "Semwal Bespoke Fabrics | Fabric code reference catalog")
     pdf.showPage()
 
 
@@ -133,10 +146,10 @@ def draw_image_box(
     width: float,
     height: float,
 ) -> None:
-    pdf.setFillColor(colors.white)
-    pdf.roundRect(x, y, width, height, 4, stroke=0, fill=1)
+    pdf.setFillColor(PANEL)
+    pdf.roundRect(x, y, width, height, 3, stroke=0, fill=1)
     pdf.setStrokeColor(LINE)
-    pdf.roundRect(x, y, width, height, 4, stroke=1, fill=0)
+    pdf.roundRect(x, y, width, height, 3, stroke=1, fill=0)
 
     preview_path = prepared_image(image_path, temp_dir)
     with Image.open(preview_path) as image:
@@ -176,13 +189,17 @@ def draw_catalog_pages(pdf: canvas.Canvas, records: list[dict[str, str]], temp_d
             col = item_index % columns
             x = MARGIN_X + col * (card_w + gap_x)
             y = start_y - row * (card_h + gap_y)
-            draw_image_box(pdf, PROJECT_DIR / record["image"], temp_dir, x, y + 11 * mm, card_w, image_h)
+            pdf.setFillColor(PANEL)
+            pdf.roundRect(x - 2 * mm, y, card_w + 4 * mm, card_h, 4, stroke=0, fill=1)
+            pdf.setStrokeColor(LINE)
+            pdf.roundRect(x - 2 * mm, y, card_w + 4 * mm, card_h, 4, stroke=1, fill=0)
+            draw_image_box(pdf, PROJECT_DIR / record["image"], temp_dir, x, y + 12 * mm, card_w, image_h - 1 * mm)
             pdf.setFillColor(INK)
-            pdf.setFont("Helvetica-Bold", 11)
-            pdf.drawString(x, y + 4 * mm, record["code"])
+            pdf.setFont("Helvetica-Bold", 12)
+            pdf.drawString(x, y + 5 * mm, record["code"])
             pdf.setFillColor(MUTED)
             pdf.setFont("Helvetica", 7)
-            pdf.drawRightString(x + card_w, y + 4.2 * mm, record["type"])
+            pdf.drawRightString(x + card_w, y + 5.4 * mm, record["type"])
         pdf.showPage()
 
 

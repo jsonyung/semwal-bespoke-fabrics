@@ -48,14 +48,22 @@
 
       .mast {
         display: grid;
-        gap: 18px;
-        padding: 28px 0 22px;
+        gap: 22px;
+        padding: 28px 0 24px;
       }
 
       .brand {
         display: flex;
         align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+      }
+
+      .brand-main {
+        display: flex;
+        align-items: center;
         gap: 14px;
+        min-width: 0;
       }
 
       .brand-logo {
@@ -63,6 +71,26 @@
         height: 58px;
         border-radius: 14px;
         box-shadow: var(--shadow);
+      }
+
+      .brand-stat {
+        display: grid;
+        min-width: 116px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 10px 12px;
+        background: var(--paper);
+        text-align: right;
+      }
+
+      .brand-stat strong {
+        font-size: 20px;
+        line-height: 1;
+      }
+
+      .brand-stat span {
+        color: var(--muted);
+        font-size: 12px;
       }
 
       h1 {
@@ -80,7 +108,7 @@
 
       .tools {
         display: grid;
-        grid-template-columns: minmax(0, 1fr) auto auto;
+        grid-template-columns: minmax(280px, 1fr) auto;
         gap: 12px;
         align-items: center;
       }
@@ -89,13 +117,14 @@
         display: flex;
         gap: 8px;
         flex-wrap: wrap;
+        justify-content: flex-end;
       }
 
       input {
         width: 100%;
         min-height: 46px;
         border: 1px solid var(--line);
-        border-radius: 8px;
+        border-radius: 7px;
         padding: 0 14px;
         background: #fff;
         color: var(--ink);
@@ -105,7 +134,7 @@
 
       input:focus {
         border-color: var(--accent);
-        box-shadow: 0 0 0 3px rgba(22, 111, 103, 0.16);
+        box-shadow: 0 0 0 3px rgba(63, 81, 181, 0.16);
       }
 
       .filters {
@@ -179,7 +208,7 @@
       }
 
       main {
-        padding: 22px 0 40px;
+        padding: 24px 0 44px;
       }
 
       .stats {
@@ -192,10 +221,14 @@
         font-size: 14px;
       }
 
+      .stats strong {
+        color: var(--ink);
+      }
+
       .grid {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
-        gap: 14px;
+        grid-template-columns: repeat(auto-fill, minmax(176px, 1fr));
+        gap: 16px;
       }
 
       .card {
@@ -204,6 +237,13 @@
         border-radius: 8px;
         background: var(--panel);
         box-shadow: var(--shadow);
+        transition: border-color 150ms ease, box-shadow 150ms ease, transform 150ms ease;
+      }
+
+      .card:hover {
+        border-color: rgba(63, 81, 181, 0.42);
+        box-shadow: var(--strong-shadow);
+        transform: translateY(-2px);
       }
 
       .thumb {
@@ -225,7 +265,7 @@
         align-items: center;
         justify-content: space-between;
         gap: 10px;
-        padding: 10px 11px 11px;
+        padding: 11px 12px 12px;
       }
 
       .code {
@@ -254,7 +294,7 @@
         inset: 0;
         z-index: 20;
         display: none;
-        grid-template-rows: auto minmax(0, 1fr) auto;
+        grid-template-rows: 74px minmax(0, 1fr) 104px;
         background: var(--paper);
         color: var(--ink);
       }
@@ -268,7 +308,8 @@
         grid-template-columns: auto minmax(0, 1fr) auto;
         gap: 14px;
         align-items: center;
-        padding: 14px 18px;
+        min-height: 74px;
+        padding: 10px 18px;
         border-bottom: 1px solid var(--line);
         background: var(--panel);
       }
@@ -306,11 +347,12 @@
       .viewer-stage {
         position: relative;
         display: grid;
-        grid-template-columns: 58px minmax(0, 1fr) 58px;
-        gap: 12px;
+        grid-template-columns: 64px minmax(0, 1fr) 64px;
+        gap: 10px;
         align-items: center;
         min-height: 0;
-        padding: 18px 18px 14px;
+        overflow: hidden;
+        padding: 14px 18px;
       }
 
       .viewer-image-wrap {
@@ -319,12 +361,15 @@
         place-items: center;
         min-width: 0;
         min-height: 0;
+        overflow: hidden;
         height: 100%;
       }
 
       .viewer-image {
         max-width: 100%;
-        max-height: calc(100vh - 184px);
+        max-height: 100%;
+        width: auto;
+        height: auto;
         border-radius: 6px;
         object-fit: contain;
         background: #fff;
@@ -356,6 +401,7 @@
 
       .viewer-arrow {
         justify-self: center;
+        z-index: 3;
         width: 44px;
         min-width: 44px;
         height: 44px;
@@ -367,6 +413,8 @@
       .viewer-bottom {
         display: grid;
         gap: 8px;
+        min-height: 104px;
+        overflow: hidden;
         padding: 10px 16px 14px;
         background: var(--panel);
         border-top: 1px solid var(--line);
@@ -382,6 +430,7 @@
         display: flex;
         gap: 8px;
         overflow-x: auto;
+        overflow-y: hidden;
         padding: 2px 4px 6px;
         scrollbar-color: #b9b0a8 transparent;
       }
@@ -417,6 +466,14 @@
           border-radius: 12px;
         }
 
+        .brand {
+          align-items: flex-start;
+        }
+
+        .brand-stat {
+          display: none;
+        }
+
         .tools {
           grid-template-columns: 1fr;
         }
@@ -442,25 +499,23 @@
 
         .viewer-stage {
           grid-template-columns: 1fr;
-          padding: 10px;
+          padding: 10px 12px;
         }
 
         .viewer-arrow {
           position: absolute;
           top: 50%;
           transform: translateY(-50%);
+          z-index: 5;
+          background: rgba(255, 255, 255, 0.94);
         }
 
         #prevButton {
-          left: 10px;
+          left: 12px;
         }
 
         #nextButton {
-          right: 10px;
-        }
-
-        .viewer-image {
-          max-height: calc(100vh - 196px);
+          right: 12px;
         }
       }
     </style>
@@ -469,10 +524,16 @@
     <header>
       <div class="wrap mast">
         <div class="brand">
-          <img class="brand-logo" src="assets/semwal-logo.svg" alt="Semwal Bespoke logo" />
-          <div>
-            <h1>Semwal Bespoke Fabrics</h1>
-            <p class="sub">Search by fabric code, series, or filename.</p>
+          <div class="brand-main">
+            <img class="brand-logo" src="assets/semwal-logo.svg" alt="Semwal Bespoke logo" />
+            <div>
+              <h1>Semwal Bespoke Fabrics</h1>
+              <p class="sub">Premium fabric catalog for quick code search and client selection.</p>
+            </div>
+          </div>
+          <div class="brand-stat">
+            <strong id="totalFabrics">307</strong>
+            <span>Fabrics</span>
           </div>
         </div>
         <div class="tools">
@@ -493,7 +554,7 @@
     <main class="wrap">
       <div class="stats">
         <span id="resultCount">Loading fabrics...</span>
-        <span>Tip: use browser find on GitHub, or this search on GitHub Pages.</span>
+        <span>Tap any fabric to inspect it in gallery view.</span>
       </div>
       <section id="grid" class="grid" aria-live="polite"></section>
       <div id="empty" class="empty">No fabric matched that search.</div>
@@ -530,6 +591,7 @@
       const empty = document.querySelector("#empty");
       const search = document.querySelector("#search");
       const resultCount = document.querySelector("#resultCount");
+      const totalFabrics = document.querySelector("#totalFabrics");
       const filterButtons = Array.from(document.querySelectorAll("[data-filter]"));
       const viewer = document.querySelector("#viewer");
       const viewerCode = document.querySelector("#viewerCode");
@@ -577,7 +639,7 @@
             `
           )
           .join("");
-        resultCount.textContent = `${visibleFabrics.length} of ${fabrics.length} fabrics`;
+        resultCount.innerHTML = `<strong>${visibleFabrics.length}</strong> of ${fabrics.length} fabrics`;
         empty.style.display = visibleFabrics.length ? "none" : "block";
       }
 
@@ -701,6 +763,7 @@
         .then((response) => response.json())
         .then((data) => {
           fabrics = data;
+          totalFabrics.textContent = data.length;
           render();
         })
         .catch(() => {
