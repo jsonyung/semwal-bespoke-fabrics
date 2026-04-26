@@ -9,6 +9,7 @@ A searchable fabric catalog for Semwal Bespoke.
 - Searchable Markdown catalog: [CATALOG.md](CATALOG.md)
 - Browser search catalog: [index.html](index.html)
 - Machine-readable data: [catalog-data.json](catalog-data.json)
+- Web thumbnails: [thumbs/](thumbs/)
 
 ## Code summary
 

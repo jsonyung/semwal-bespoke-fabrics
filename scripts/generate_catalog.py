@@ -4,9 +4,12 @@ import json
 import re
 from pathlib import Path
 
+from PIL import Image
+
 
 PROJECT_DIR = Path(__file__).resolve().parents[1]
 IMAGE_DIR = PROJECT_DIR / "images"
+THUMB_DIR = PROJECT_DIR / "thumbs"
 IMAGE_EXTENSIONS = {".jpg", ".jpeg", ".png", ".webp", ".heic", ".tif", ".tiff"}
 
 
@@ -26,6 +29,19 @@ def fabric_type(code: str) -> str:
     return "Uncategorized"
 
 
+def create_thumbnail(source: Path, code: str) -> str:
+    THUMB_DIR.mkdir(exist_ok=True)
+    output = THUMB_DIR / f"{code}.jpg"
+    if output.exists() and output.stat().st_mtime >= source.stat().st_mtime:
+        return f"thumbs/{output.name}"
+
+    with Image.open(source) as image:
+        image = image.convert("RGB")
+        image.thumbnail((420, 420), Image.Resampling.LANCZOS)
+        image.save(output, "JPEG", quality=72, optimize=True, progressive=True)
+    return f"thumbs/{output.name}"
+
+
 def build_records() -> list[dict[str, str]]:
     files = [
         path
@@ -35,11 +51,13 @@ def build_records() -> list[dict[str, str]]:
     records = []
     for path in sorted(files, key=natural_key):
         code = path.stem
+        thumb = create_thumbnail(path, code)
         records.append(
             {
                 "code": code,
                 "type": fabric_type(code),
                 "image": f"images/{path.name}",
+                "thumb": thumb,
                 "filename": path.name,
             }
         )
@@ -65,7 +83,7 @@ def write_catalog_md(records: list[dict[str, str]]) -> None:
     for record in records:
         lines.append(
             f"| `{record['code']}` | {record['type']} | "
-            f"![{record['code']}]({record['image']}) | "
+            f"[![{record['code']}]({record['thumb']})]({record['image']}) | "
             f"[{record['filename']}]({record['image']}) |"
         )
     lines.append("")
@@ -99,6 +117,7 @@ def write_readme(records: list[dict[str, str]]) -> None:
         "- Searchable Markdown catalog: [CATALOG.md](CATALOG.md)",
         "- Browser search catalog: [index.html](index.html)",
         "- Machine-readable data: [catalog-data.json](catalog-data.json)",
+        "- Web thumbnails: [thumbs/](thumbs/)",
         "",
         "## Code summary",
         "",

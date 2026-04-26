@@ -247,7 +247,7 @@
             (item) => `
               <article class="card">
                 <a class="thumb" href="${item.image}" aria-label="Open ${item.code}">
-                  <img src="${item.image}" alt="${item.code}" loading="lazy" />
+                  <img src="${item.thumb || item.image}" alt="${item.code}" loading="lazy" decoding="async" />
                 </a>
                 <div class="meta">
                   <span class="code">${item.code}</span>
@@ -271,7 +271,11 @@
 
       search.addEventListener("input", render);
 
-      fetch("catalog-data.json")
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.register("sw.js").catch(() => {});
+      }
+
+      fetch("catalog-data.json", { cache: "force-cache" })
         .then((response) => response.json())
         .then((data) => {
           fabrics = data;
