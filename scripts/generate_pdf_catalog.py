@@ -15,18 +15,20 @@ from reportlab.pdfgen import canvas
 PROJECT_DIR = Path(__file__).resolve().parents[1]
 DATA_FILE = PROJECT_DIR / "catalog-data.json"
 OUTPUT_FILE = PROJECT_DIR / "semwal-bespoke-fabrics-catalog.pdf"
+LOGO_FILE = PROJECT_DIR / "assets" / "semwal-logo.png"
 
 PAGE_WIDTH, PAGE_HEIGHT = A4
 MARGIN_X = 15 * mm
 MARGIN_TOP = 18 * mm
 MARGIN_BOTTOM = 15 * mm
 BRAND = "Semwal Bespoke Fabrics"
-ACCENT = colors.HexColor("#166F67")
-WARM = colors.HexColor("#8C3F2F")
-INK = colors.HexColor("#181716")
-MUTED = colors.HexColor("#6B655F")
-LINE = colors.HexColor("#DED8D0")
-PAPER = colors.HexColor("#FBFAF7")
+ACCENT = colors.HexColor("#3F51B5")
+WARM = colors.HexColor("#1E88E5")
+INK = colors.HexColor("#1B1E28")
+MUTED = colors.HexColor("#5A6072")
+LINE = colors.HexColor("#D8DCE8")
+PAPER = colors.HexColor("#F6F7FB")
+PANEL = colors.white
 
 
 def load_records() -> list[dict[str, str]]:
@@ -42,6 +44,17 @@ def draw_cover(pdf: canvas.Canvas, records: list[dict[str, str]], temp_dir: Path
     draw_page_background(pdf)
     pdf.setFillColor(ACCENT)
     pdf.rect(0, PAGE_HEIGHT - 76 * mm, PAGE_WIDTH, 76 * mm, stroke=0, fill=1)
+    if LOGO_FILE.exists():
+        logo_size = 30 * mm
+        pdf.drawImage(
+            str(LOGO_FILE),
+            PAGE_WIDTH - MARGIN_X - logo_size,
+            PAGE_HEIGHT - 47 * mm,
+            width=logo_size,
+            height=logo_size,
+            preserveAspectRatio=True,
+            mask="auto",
+        )
     pdf.setFillColor(colors.white)
     pdf.setFont("Helvetica-Bold", 30)
     pdf.drawString(MARGIN_X, PAGE_HEIGHT - 36 * mm, "Semwal Bespoke")
@@ -77,15 +90,26 @@ def draw_cover(pdf: canvas.Canvas, records: list[dict[str, str]], temp_dir: Path
 
 
 def draw_header(pdf: canvas.Canvas, title: str, page_label: str) -> None:
+    if LOGO_FILE.exists():
+        logo_size = 9 * mm
+        pdf.drawImage(
+            str(LOGO_FILE),
+            MARGIN_X,
+            PAGE_HEIGHT - 15 * mm,
+            width=logo_size,
+            height=logo_size,
+            preserveAspectRatio=True,
+            mask="auto",
+        )
     pdf.setFillColor(INK)
     pdf.setFont("Helvetica-Bold", 13)
-    pdf.drawString(MARGIN_X, PAGE_HEIGHT - 12 * mm, title)
+    pdf.drawString(MARGIN_X + 12 * mm, PAGE_HEIGHT - 12 * mm, title)
     pdf.setFillColor(MUTED)
     pdf.setFont("Helvetica", 8)
     pdf.drawRightString(PAGE_WIDTH - MARGIN_X, PAGE_HEIGHT - 12 * mm, page_label)
     pdf.setStrokeColor(LINE)
     pdf.setLineWidth(0.5)
-    pdf.line(MARGIN_X, PAGE_HEIGHT - 16 * mm, PAGE_WIDTH - MARGIN_X, PAGE_HEIGHT - 16 * mm)
+    pdf.line(MARGIN_X, PAGE_HEIGHT - 18 * mm, PAGE_WIDTH - MARGIN_X, PAGE_HEIGHT - 18 * mm)
 
 
 def prepared_image(image_path: Path, temp_dir: Path, max_px: int = 900) -> Path:
@@ -141,7 +165,7 @@ def draw_catalog_pages(pdf: canvas.Canvas, records: list[dict[str, str]], temp_d
     card_w = (PAGE_WIDTH - 2 * MARGIN_X - gap_x * (columns - 1)) / columns
     card_h = 72 * mm
     image_h = 58 * mm
-    start_y = PAGE_HEIGHT - MARGIN_TOP - 16 * mm - card_h
+    start_y = PAGE_HEIGHT - MARGIN_TOP - 18 * mm - card_h
 
     for page_index, offset in enumerate(range(0, len(records), columns * rows), start=1):
         draw_page_background(pdf)
