@@ -95,6 +95,7 @@ def write_readme(records: list[dict[str, str]]) -> None:
         "## What is inside",
         "",
         f"- Total fabric images: **{len(records)}**",
+        "- PDF catalog: [semwal-bespoke-fabrics-catalog.pdf](semwal-bespoke-fabrics-catalog.pdf)",
         "- Searchable Markdown catalog: [CATALOG.md](CATALOG.md)",
         "- Browser search catalog: [index.html](index.html)",
         "- Machine-readable data: [catalog-data.json](catalog-data.json)",
@@ -111,8 +112,8 @@ def write_readme(records: list[dict[str, str]]) -> None:
         "## Adding more fabrics",
         "",
         "1. Add new fabric images into `images/` using code filenames such as `I-463.jpg`.",
-        "2. Run `python3 scripts/generate_catalog.py`.",
-        "3. Commit and push the updated files.",
+        "2. Run `./update-catalog.sh`.",
+        "3. Confirm the commit and push when asked.",
         "",
     ]
     (PROJECT_DIR / "README.md").write_text("\n".join(lines), encoding="utf-8")

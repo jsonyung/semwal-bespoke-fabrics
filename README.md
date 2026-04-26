@@ -23,5 +23,5 @@ A searchable fabric catalog for Semwal Bespoke.
 ## Adding more fabrics
 
 1. Add new fabric images into `images/` using code filenames such as `I-463.jpg`.
-2. Run `python3 scripts/generate_catalog.py`.
-3. Commit and push the updated files.
+2. Run `./update-catalog.sh`.
+3. Confirm the commit and push when asked.
