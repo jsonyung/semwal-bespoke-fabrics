@@ -28,6 +28,10 @@
         font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       }
 
+      body.viewer-open {
+        overflow: hidden;
+      }
+
       header {
         border-bottom: 1px solid var(--line);
         background: var(--panel);
@@ -104,6 +108,25 @@
         color: #fff;
       }
 
+      .icon-btn {
+        display: grid;
+        place-items: center;
+        width: 40px;
+        min-width: 40px;
+        height: 40px;
+        min-height: 40px;
+        border-radius: 999px;
+        border-color: rgba(255, 255, 255, 0.16);
+        background: rgba(255, 255, 255, 0.08);
+        color: #fff;
+        font-size: 24px;
+        line-height: 1;
+      }
+
+      .icon-btn:hover {
+        background: rgba(255, 255, 255, 0.16);
+      }
+
       main {
         padding: 22px 0 40px;
       }
@@ -175,6 +198,127 @@
         background: #fff;
       }
 
+      .viewer {
+        position: fixed;
+        inset: 0;
+        z-index: 20;
+        display: none;
+        grid-template-rows: auto minmax(0, 1fr) auto;
+        background: #1f1f1f;
+        color: #fff;
+      }
+
+      .viewer.open {
+        display: grid;
+      }
+
+      .viewer-top {
+        display: grid;
+        grid-template-columns: auto minmax(0, 1fr) auto;
+        gap: 14px;
+        align-items: center;
+        padding: 14px 18px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.09);
+        background: rgba(20, 20, 20, 0.92);
+      }
+
+      .viewer-title {
+        min-width: 0;
+      }
+
+      .viewer-code {
+        display: block;
+        font-size: 22px;
+        font-weight: 800;
+      }
+
+      .viewer-detail {
+        color: rgba(255, 255, 255, 0.66);
+        font-size: 13px;
+      }
+
+      .viewer-stage {
+        position: relative;
+        display: grid;
+        grid-template-columns: 68px minmax(0, 1fr) 68px;
+        gap: 8px;
+        align-items: center;
+        min-height: 0;
+        padding: 18px;
+      }
+
+      .viewer-image-wrap {
+        display: grid;
+        place-items: center;
+        min-width: 0;
+        min-height: 0;
+        height: 100%;
+      }
+
+      .viewer-image {
+        max-width: 100%;
+        max-height: calc(100vh - 192px);
+        border-radius: 6px;
+        object-fit: contain;
+        background: #111;
+        box-shadow: 0 18px 60px rgba(0, 0, 0, 0.38);
+      }
+
+      .viewer-arrow {
+        justify-self: center;
+        width: 46px;
+        min-width: 46px;
+        height: 46px;
+        min-height: 46px;
+        font-size: 32px;
+      }
+
+      .viewer-bottom {
+        display: grid;
+        gap: 8px;
+        padding: 10px 16px 14px;
+        background: rgba(20, 20, 20, 0.94);
+        border-top: 1px solid rgba(255, 255, 255, 0.09);
+      }
+
+      .viewer-count {
+        color: rgba(255, 255, 255, 0.72);
+        font-size: 12px;
+        text-align: center;
+      }
+
+      .filmstrip {
+        display: flex;
+        gap: 8px;
+        overflow-x: auto;
+        padding: 2px 4px 6px;
+        scrollbar-color: rgba(255, 255, 255, 0.35) transparent;
+      }
+
+      .filmstrip button {
+        flex: 0 0 auto;
+        width: 58px;
+        height: 58px;
+        min-height: 58px;
+        padding: 0;
+        overflow: hidden;
+        border-radius: 6px;
+        border: 2px solid transparent;
+        background: #2d2d2d;
+      }
+
+      .filmstrip button.active {
+        border-color: #fff;
+        background: #2d2d2d;
+      }
+
+      .filmstrip img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+      }
+
       @media (max-width: 680px) {
         .tools {
           grid-template-columns: 1fr;
@@ -188,6 +332,29 @@
         .stats {
           align-items: flex-start;
           flex-direction: column;
+        }
+
+        .viewer-stage {
+          grid-template-columns: 1fr;
+          padding: 10px;
+        }
+
+        .viewer-arrow {
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+        }
+
+        #prevButton {
+          left: 10px;
+        }
+
+        #nextButton {
+          right: 10px;
+        }
+
+        .viewer-image {
+          max-height: calc(100vh - 196px);
         }
       }
     </style>
@@ -219,14 +386,48 @@
       <div id="empty" class="empty">No fabric matched that search.</div>
     </main>
 
+    <section id="viewer" class="viewer" aria-modal="true" role="dialog" aria-label="Fabric viewer">
+      <div class="viewer-top">
+        <button id="closeViewer" class="icon-btn" type="button" aria-label="Close viewer">&times;</button>
+        <div class="viewer-title">
+          <span id="viewerCode" class="viewer-code"></span>
+          <span id="viewerDetail" class="viewer-detail"></span>
+        </div>
+        <a id="openOriginal" class="icon-btn" href="#" target="_blank" rel="noreferrer" aria-label="Open original image">&#8599;</a>
+      </div>
+      <div class="viewer-stage">
+        <button id="prevButton" class="icon-btn viewer-arrow" type="button" aria-label="Previous fabric">&#8249;</button>
+        <div class="viewer-image-wrap">
+          <img id="viewerImage" class="viewer-image" alt="" />
+        </div>
+        <button id="nextButton" class="icon-btn viewer-arrow" type="button" aria-label="Next fabric">&#8250;</button>
+      </div>
+      <div class="viewer-bottom">
+        <div id="viewerCount" class="viewer-count"></div>
+        <div id="filmstrip" class="filmstrip" aria-label="Fabric thumbnails"></div>
+      </div>
+    </section>
+
     <script>
       const grid = document.querySelector("#grid");
       const empty = document.querySelector("#empty");
       const search = document.querySelector("#search");
       const resultCount = document.querySelector("#resultCount");
       const filterButtons = Array.from(document.querySelectorAll("[data-filter]"));
+      const viewer = document.querySelector("#viewer");
+      const viewerCode = document.querySelector("#viewerCode");
+      const viewerDetail = document.querySelector("#viewerDetail");
+      const viewerImage = document.querySelector("#viewerImage");
+      const viewerCount = document.querySelector("#viewerCount");
+      const filmstrip = document.querySelector("#filmstrip");
+      const openOriginal = document.querySelector("#openOriginal");
+      const closeViewer = document.querySelector("#closeViewer");
+      const prevButton = document.querySelector("#prevButton");
+      const nextButton = document.querySelector("#nextButton");
       let fabrics = [];
+      let visibleFabrics = [];
       let activeFilter = "all";
+      let activeIndex = 0;
 
       function matchesFilter(item) {
         if (activeFilter === "all") return true;
@@ -241,12 +442,12 @@
 
       function render() {
         const query = search.value.trim();
-        const visible = fabrics.filter((item) => matchesFilter(item) && matchesQuery(item, query));
-        grid.innerHTML = visible
+        visibleFabrics = fabrics.filter((item) => matchesFilter(item) && matchesQuery(item, query));
+        grid.innerHTML = visibleFabrics
           .map(
-            (item) => `
+            (item, index) => `
               <article class="card">
-                <a class="thumb" href="${item.image}" aria-label="Open ${item.code}">
+                <a class="thumb" href="${item.image}" data-index="${index}" aria-label="Open ${item.code}">
                   <img src="${item.thumb || item.image}" alt="${item.code}" loading="lazy" decoding="async" />
                 </a>
                 <div class="meta">
@@ -257,9 +458,84 @@
             `
           )
           .join("");
-        resultCount.textContent = `${visible.length} of ${fabrics.length} fabrics`;
-        empty.style.display = visible.length ? "none" : "block";
+        resultCount.textContent = `${visibleFabrics.length} of ${fabrics.length} fabrics`;
+        empty.style.display = visibleFabrics.length ? "none" : "block";
       }
+
+      function renderFilmstrip() {
+        const start = Math.max(0, activeIndex - 18);
+        const end = Math.min(visibleFabrics.length, activeIndex + 19);
+        filmstrip.innerHTML = visibleFabrics
+          .slice(start, end)
+          .map((item, offset) => {
+            const index = start + offset;
+            return `
+              <button type="button" class="${index === activeIndex ? "active" : ""}" data-index="${index}" aria-label="Open ${item.code}">
+                <img src="${item.thumb || item.image}" alt="${item.code}" loading="lazy" decoding="async" />
+              </button>
+            `;
+          })
+          .join("");
+        const activeThumb = filmstrip.querySelector("button.active");
+        activeThumb?.scrollIntoView({ inline: "center", block: "nearest" });
+      }
+
+      function showFabric(index) {
+        if (!visibleFabrics.length) return;
+        activeIndex = (index + visibleFabrics.length) % visibleFabrics.length;
+        const item = visibleFabrics[activeIndex];
+        viewerCode.textContent = item.code;
+        viewerDetail.textContent = `${item.filename} · ${item.type}`;
+        viewerImage.src = item.image;
+        viewerImage.alt = item.code;
+        openOriginal.href = item.image;
+        viewerCount.textContent = `${activeIndex + 1} of ${visibleFabrics.length}`;
+        renderFilmstrip();
+      }
+
+      function openViewer(index) {
+        showFabric(index);
+        viewer.classList.add("open");
+        document.body.classList.add("viewer-open");
+        closeViewer.focus();
+      }
+
+      function closeViewerPanel() {
+        viewer.classList.remove("open");
+        document.body.classList.remove("viewer-open");
+        viewerImage.removeAttribute("src");
+      }
+
+      function moveViewer(direction) {
+        showFabric(activeIndex + direction);
+      }
+
+      grid.addEventListener("click", (event) => {
+        const link = event.target.closest("[data-index]");
+        if (!link) return;
+        event.preventDefault();
+        openViewer(Number(link.dataset.index));
+      });
+
+      filmstrip.addEventListener("click", (event) => {
+        const button = event.target.closest("[data-index]");
+        if (!button) return;
+        showFabric(Number(button.dataset.index));
+      });
+
+      closeViewer.addEventListener("click", closeViewerPanel);
+      prevButton.addEventListener("click", () => moveViewer(-1));
+      nextButton.addEventListener("click", () => moveViewer(1));
+      viewer.addEventListener("click", (event) => {
+        if (event.target === viewer) closeViewerPanel();
+      });
+
+      document.addEventListener("keydown", (event) => {
+        if (!viewer.classList.contains("open")) return;
+        if (event.key === "Escape") closeViewerPanel();
+        if (event.key === "ArrowLeft") moveViewer(-1);
+        if (event.key === "ArrowRight") moveViewer(1);
+      });
 
       filterButtons.forEach((button) => {
         button.addEventListener("click", () => {

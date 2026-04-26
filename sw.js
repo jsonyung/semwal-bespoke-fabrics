@@ -1,8 +1,9 @@
-const CACHE_NAME = "semwal-bespoke-fabrics-v2";
+const CACHE_NAME = "semwal-bespoke-fabrics-v3";
 const CORE_ASSETS = [
   "./",
   "./index.html",
-  "./catalog-data.json"
+  "./catalog-data.json",
+  "./sw.js"
 ];
 
 self.addEventListener("install", (event) => {
