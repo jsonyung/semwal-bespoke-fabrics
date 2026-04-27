@@ -61,10 +61,11 @@ Open Terminal inside this project folder and run:
 
 The updater will:
 
-- Count all fabric images.
+- Count all active fabric images.
+- Count archived out-of-stock images.
 - Update `CATALOG.md`.
 - Update `catalog-data.json`.
-- Update website thumbnails in `thumbs/`.
+- Update website thumbnails in `thumbs/` and remove unused thumbnails.
 - Regenerate the PDF catalog.
 - Show what changed.
 - Ask before committing and pushing to GitHub.
@@ -75,13 +76,7 @@ When it asks:
 Commit and push these catalog changes now? [y/N]
 ```
 
-Type:
-
-```text
-y
-```
-
-Then press Enter.
+Type `y`, then press Enter.
 
 ### 3. What Updates Online
 
@@ -93,6 +88,31 @@ After pushing, GitHub updates:
 - Image thumbnails
 
 GitHub Pages can take a few minutes to refresh. If the website looks old, do a hard refresh with `Cmd+Shift+R` on Mac or `Ctrl+Shift+R` on Windows.
+
+## Out Of Stock Or Removed Fabrics
+
+Use this when a fabric should disappear from the live website and PDF catalog.
+
+### Temporarily Out Of Stock
+
+1. Move the fabric image from `images/` to `archive/out-of-stock/`.
+2. Keep the same filename, for example `I-440.jpg`.
+3. Run `./update-catalog.sh`.
+4. Type `y` when asked to commit and push.
+
+That fabric will be removed from the website, PDF, `CATALOG.md`, and `catalog-data.json`, but the photo is safely kept in the archive.
+
+### Back In Stock
+
+1. Move the image from `archive/out-of-stock/` back to `images/`.
+2. Run `./update-catalog.sh`.
+3. Type `y` when asked to commit and push.
+
+### Permanently Remove
+
+Delete the fabric image from `images/`, then run `./update-catalog.sh`.
+
+The updater also removes old unused thumbnails.
 
 ## PDF Generation
 
@@ -118,5 +138,6 @@ Move the whole `semwal-bespoke-fabrics` folder together. The website needs these
 - `catalog-data.json`
 - `images/`
 - `thumbs/`
+- `assets/`
 
 For another office computer, download the repository ZIP from GitHub, unzip it, and keep the folder together.

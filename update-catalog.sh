@@ -8,6 +8,10 @@ echo
 
 image_count="$(find images -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' -o -iname '*.webp' -o -iname '*.heic' -o -iname '*.tif' -o -iname '*.tiff' \) | wc -l | tr -d ' ')"
 echo "Found ${image_count} fabric images in images/"
+if [ -d "archive/out-of-stock" ]; then
+  archived_count="$(find archive/out-of-stock -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' -o -iname '*.webp' -o -iname '*.heic' -o -iname '*.tif' -o -iname '*.tiff' \) | wc -l | tr -d ' ')"
+  echo "Found ${archived_count} archived out-of-stock images."
+fi
 echo
 
 echo "Regenerating searchable catalog files..."
