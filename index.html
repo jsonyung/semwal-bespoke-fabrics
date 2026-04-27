@@ -347,12 +347,11 @@
       .viewer-stage {
         position: relative;
         display: grid;
-        grid-template-columns: 64px minmax(0, 1fr) 64px;
-        gap: 10px;
+        grid-template-columns: 58px minmax(0, 1fr) 58px;
+        gap: 12px;
         align-items: center;
         min-height: 0;
-        overflow: hidden;
-        padding: 18px 22px;
+        padding: 18px 18px 14px;
       }
 
       .viewer-image-wrap {
@@ -361,15 +360,12 @@
         place-items: center;
         min-width: 0;
         min-height: 0;
-        overflow: hidden;
         height: 100%;
       }
 
       .viewer-image {
-        width: 100%;
-        height: 100%;
         max-width: 100%;
-        max-height: 100%;
+        max-height: calc(100vh - 184px);
         border-radius: 6px;
         object-fit: contain;
         background: #fff;
@@ -499,7 +495,7 @@
 
         .viewer-stage {
           grid-template-columns: 1fr;
-          padding: 10px 12px;
+          padding: 10px;
         }
 
         .viewer-arrow {
@@ -515,7 +511,11 @@
         }
 
         #nextButton {
-          right: 12px;
+          right: 10px;
+        }
+
+        .viewer-image {
+          max-height: calc(100vh - 196px);
         }
       }
     </style>
