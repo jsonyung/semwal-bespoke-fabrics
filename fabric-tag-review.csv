@@ -1,0 +1,308 @@
+code,filename,colors,patterns,uses,styles,image
+I-18,I-18.jpg,grey,solid,shirt,"shirt, formal, light",images/I-18.jpg
+I-19,I-19.jpg,"grey, white",solid,shirt,"shirt, formal, light",images/I-19.jpg
+I-21,I-21.jpg,grey,solid,shirt,"shirt, formal, light",images/I-21.jpg
+I-24,I-24.jpg,"navy, teal, black",checks,shirt,"shirt, formal, dark",images/I-24.jpg
+I-25,I-25.jpg,"black, charcoal, grey",checks,shirt,"shirt, formal, light, dark",images/I-25.jpg
+I-27,I-27.jpg,"grey, white",checks,shirt,"shirt, formal, light",images/I-27.jpg
+I-28,I-28.jpg,"grey, white, charcoal",checks,shirt,"shirt, formal, light, dark",images/I-28.jpg
+I-29,I-29.jpg,"grey, white, charcoal",checks,shirt,"shirt, formal, light, dark",images/I-29.jpg
+I-30,I-30.jpg,"grey, white, charcoal",checks,shirt,"shirt, formal, light, dark",images/I-30.jpg
+I-31,I-31.jpg,"grey, white",solid,shirt,"shirt, formal, light",images/I-31.jpg
+I-32,I-32.jpg,"grey, white, charcoal",checks,shirt,"shirt, formal, light, dark",images/I-32.jpg
+I-33,I-33.jpg,"grey, white",solid,shirt,"shirt, formal, light",images/I-33.jpg
+I-34,I-34.jpg,"grey, white, charcoal",checks,shirt,"shirt, formal, light, dark",images/I-34.jpg
+I-35,I-35.jpg,"grey, charcoal",stripes,shirt,"shirt, formal, light, dark",images/I-35.jpg
+I-36,I-36.jpg,"grey, white",solid,shirt,"shirt, formal, light",images/I-36.jpg
+I-37,I-37.jpg,"grey, white",stripes,shirt,"shirt, formal, light",images/I-37.jpg
+I-38,I-38.jpg,"grey, white",stripes,shirt,"shirt, formal, light",images/I-38.jpg
+I-39,I-39.jpg,"grey, beige, cream",checks,shirt,"shirt, formal, light",images/I-39.jpg
+I-41,I-41.jpg,"grey, white, beige",checks,shirt,"shirt, formal, light",images/I-41.jpg
+I-42,I-42.jpg,"grey, charcoal, white",checks,shirt,"shirt, formal, light, dark",images/I-42.jpg
+I-51,I-51.jpg,"navy, grey, white",stripes,shirt,"shirt, formal, light, dark",images/I-51.jpg
+I-52,I-52.jpg,"grey, charcoal, white",checks,shirt,"shirt, formal, light, dark",images/I-52.jpg
+I-54,I-54.jpg,"blue, grey",texture,shirt,"shirt, casual, light",images/I-54.jpg
+I-56,I-56.jpg,"black, navy, grey",checks,shirt,"shirt, formal, light, dark",images/I-56.jpg
+I-61,I-61.jpg,grey,solid,shirt,"shirt, formal, light",images/I-61.jpg
+I-65,I-65.jpg,"blue, grey",stripes,shirt,"shirt, formal, light",images/I-65.jpg
+I-66,I-66.jpg,"blue, grey",checks,shirt,"shirt, formal, light",images/I-66.jpg
+I-67,I-67.jpg,"grey, blue",stripes,shirt,"shirt, formal, light",images/I-67.jpg
+I-68,I-68.jpg,"blue, grey",checks,shirt,"shirt, formal, light",images/I-68.jpg
+I-69,I-69.jpg,"grey, blue",stripes,shirt,"shirt, formal, light",images/I-69.jpg
+I-70,I-70.jpg,"grey, blue, white",stripes,shirt,"shirt, formal, light",images/I-70.jpg
+I-71,I-71.jpg,"blue, grey, navy",checks,shirt,"shirt, formal, light, dark",images/I-71.jpg
+I-72,I-72.jpg,"blue, grey, navy",checks,shirt,"shirt, formal, light, dark",images/I-72.jpg
+I-73,I-73.jpg,"grey, charcoal",checks,shirt,"shirt, formal, light, dark",images/I-73.jpg
+I-74,I-74.jpg,"grey, blue",stripes,shirt,"shirt, formal, light",images/I-74.jpg
+I-75,I-75.jpg,"grey, blue",stripes,shirt,"shirt, formal, light",images/I-75.jpg
+I-79,I-79.jpg,"grey, blue, navy",stripes,shirt,"shirt, formal, light, dark",images/I-79.jpg
+I-82,I-82.jpg,"grey, blue",stripes,shirt,"shirt, formal, light",images/I-82.jpg
+I-83,I-83.jpg,"grey, navy, blue",stripes,shirt,"shirt, formal, light, dark",images/I-83.jpg
+I-84,I-84.jpg,"grey, blue",stripes,shirt,"shirt, formal, light",images/I-84.jpg
+I-86,I-86.jpg,"grey, blue, navy",stripes,shirt,"shirt, formal, light, dark",images/I-86.jpg
+I-87,I-87.jpg,maroon,stripes,shirt,"shirt, formal, dark",images/I-87.jpg
+I-88,I-88.jpg,"navy, black",checks,shirt,"shirt, formal, dark",images/I-88.jpg
+I-96,I-96.jpg,"red, grey",texture,shirt,"shirt, casual, light",images/I-96.jpg
+I-101,I-101.jpg,"red, beige, grey",checks,shirt,"shirt, formal, light",images/I-101.jpg
+I-102,I-102.jpg,"brown, black, charcoal",checks,shirt,"shirt, formal, dark",images/I-102.jpg
+I-103,I-103.jpg,"black, maroon, brown",checks,shirt,"shirt, formal, dark",images/I-103.jpg
+I-104,I-104.jpg,"grey, blue, white",checks,shirt,"shirt, formal, light",images/I-104.jpg
+I-105,I-105.jpg,"grey, white, charcoal",checks,shirt,"shirt, formal, light, dark",images/I-105.jpg
+I-107,I-107.jpg,"maroon, grey",stripes,shirt,"shirt, formal, light, dark",images/I-107.jpg
+I-112,I-112.jpg,"purple, grey",texture,shirt,"shirt, casual, light",images/I-112.jpg
+I-115,I-115.jpg,"maroon, grey",stripes,shirt,"shirt, formal, light, dark",images/I-115.jpg
+I-119,I-119.jpg,grey,solid,shirt,"shirt, formal, light",images/I-119.jpg
+I-127,I-127.jpg,"grey, blue",texture,shirt,"shirt, casual, light",images/I-127.jpg
+I-129,I-129.jpg,"charcoal, grey, black",checks,shirt,"shirt, formal, light, dark",images/I-129.jpg
+I-131,I-131.jpg,"navy, grey, blue",checks,shirt,"shirt, formal, light, dark",images/I-131.jpg
+I-133,I-133.jpg,grey,stripes,shirt,"shirt, formal, light",images/I-133.jpg
+I-135,I-135.jpg,grey,solid,shirt,"shirt, formal, light",images/I-135.jpg
+I-138,I-138.jpg,grey,solid,shirt,"shirt, formal, light",images/I-138.jpg
+I-144,I-144.jpg,grey,solid,shirt,"shirt, formal, light",images/I-144.jpg
+I-145,I-145.jpg,"grey, blue",stripes,shirt,"shirt, formal, light",images/I-145.jpg
+I-147,I-147.jpg,grey,stripes,shirt,"shirt, formal, light",images/I-147.jpg
+I-153,I-153.jpg,"grey, blue",stripes,shirt,"shirt, formal, light",images/I-153.jpg
+I-155,I-155.jpg,"blue, grey",checks,shirt,"shirt, formal, light",images/I-155.jpg
+I-156,I-156.jpg,"grey, blue, navy",checks,shirt,"shirt, formal, light, dark",images/I-156.jpg
+I-157,I-157.jpg,"grey, blue, white",checks,shirt,"shirt, formal, light",images/I-157.jpg
+I-158,I-158.jpg,"grey, blue, beige",checks,shirt,"shirt, formal, light",images/I-158.jpg
+I-159,I-159.jpg,grey,texture,shirt,"shirt, casual, light",images/I-159.jpg
+I-160,I-160.jpg,grey,solid,shirt,"shirt, formal, light",images/I-160.jpg
+I-162,I-162.jpg,grey,solid,shirt,"shirt, formal, light",images/I-162.jpg
+I-164,I-164.jpg,grey,solid,shirt,"shirt, formal, light",images/I-164.jpg
+I-165,I-165.jpg,grey,solid,shirt,"shirt, formal, light",images/I-165.jpg
+I-168,I-168.jpg,"blue, grey, purple",checks,shirt,"shirt, formal, light",images/I-168.jpg
+I-169,I-169.jpg,"blue, teal",checks,shirt,"shirt, formal",images/I-169.jpg
+I-175,I-175.jpg,"grey, white",stripes,shirt,"shirt, formal, light",images/I-175.jpg
+I-176,I-176.jpg,"grey, white",solid,shirt,"shirt, formal, light",images/I-176.jpg
+I-177,I-177.jpg,"grey, white",checks,shirt,"shirt, formal, light",images/I-177.jpg
+I-178,I-178.jpg,"grey, white",checks,shirt,"shirt, formal, light",images/I-178.jpg
+I-180,I-180.jpg,grey,solid,shirt,"shirt, formal, light",images/I-180.jpg
+I-182,I-182.jpg,"grey, charcoal, white",checks,shirt,"shirt, formal, light, dark",images/I-182.jpg
+I-183,I-183.jpg,"navy, black, blue",checks,shirt,"shirt, formal, dark",images/I-183.jpg
+I-184,I-184.jpg,"grey, white, teal",checks,shirt,"shirt, formal, light",images/I-184.jpg
+I-185,I-185.jpg,"grey, teal",stripes,shirt,"shirt, formal, light",images/I-185.jpg
+I-186,I-186.jpg,"grey, charcoal",checks,shirt,"shirt, formal, light, dark",images/I-186.jpg
+I-194,I-194.jpg,grey,solid,shirt,"shirt, formal, light",images/I-194.jpg
+I-196,I-196.jpg,grey,solid,shirt,"shirt, formal, light",images/I-196.jpg
+I-198,I-198.jpg,"blue, grey",checks,shirt,"shirt, formal, light",images/I-198.jpg
+I-203,I-203.jpg,"grey, blue",stripes,shirt,"shirt, formal, light",images/I-203.jpg
+I-207,I-207.jpg,grey,solid,shirt,"shirt, formal, light",images/I-207.jpg
+I-210,I-210.jpg,"blue, grey",texture,shirt,"shirt, casual, light",images/I-210.jpg
+I-211,I-211.jpg,grey,solid,shirt,"shirt, formal, light",images/I-211.jpg
+I-212,I-212.jpg,grey,solid,shirt,"shirt, formal, light",images/I-212.jpg
+I-214,I-214.jpg,"charcoal, grey",texture,shirt,"shirt, casual, light, dark",images/I-214.jpg
+I-215,I-215.jpg,"red, grey",solid,shirt,"shirt, formal, light",images/I-215.jpg
+I-217,I-217.jpg,grey,solid,shirt,"shirt, formal, light",images/I-217.jpg
+I-219,I-219.jpg,grey,solid,shirt,"shirt, formal, light",images/I-219.jpg
+I-220,I-220.jpg,grey,solid,shirt,"shirt, formal, light",images/I-220.jpg
+I-222,I-222.jpg,grey,solid,shirt,"shirt, formal, light",images/I-222.jpg
+I-223,I-223.jpg,"blue, grey",solid,shirt,"shirt, formal, light",images/I-223.jpg
+I-224,I-224.jpg,"teal, grey",solid,shirt,"shirt, formal, light",images/I-224.jpg
+I-225,I-225.jpg,"grey, teal",solid,shirt,"shirt, formal, light",images/I-225.jpg
+I-227,I-227.jpg,grey,solid,shirt,"shirt, formal, light",images/I-227.jpg
+I-232,I-232.jpg,grey,solid,shirt,"shirt, formal, light",images/I-232.jpg
+I-234,I-234.jpg,"blue, grey",solid,shirt,"shirt, formal, light",images/I-234.jpg
+I-235,I-235.jpg,"blue, grey",solid,shirt,"shirt, formal, light",images/I-235.jpg
+I-236,I-236.jpg,"grey, blue",stripes,shirt,"shirt, formal, light",images/I-236.jpg
+I-237,I-237.jpg,"blue, grey, navy",solid,shirt,"shirt, formal, light, dark",images/I-237.jpg
+I-239,I-239.jpg,"charcoal, grey",texture,shirt,"shirt, casual, light, dark",images/I-239.jpg
+I-241,I-241.jpg,"grey, charcoal",solid,shirt,"shirt, formal, light, dark",images/I-241.jpg
+I-242,I-242.jpg,"navy, grey, charcoal",texture,shirt,"shirt, casual, light, dark",images/I-242.jpg
+I-247,I-247.jpg,"grey, charcoal",solid,shirt,"shirt, formal, light, dark",images/I-247.jpg
+I-248,I-248.jpg,"black, grey, charcoal",checks,shirt,"shirt, formal, light, dark",images/I-248.jpg
+I-249,I-249.jpg,"grey, charcoal",checks,shirt,"shirt, formal, light, dark",images/I-249.jpg
+I-251,I-251.jpg,"grey, red, maroon",stripes,shirt,"shirt, formal, light, dark",images/I-251.jpg
+I-252,I-252.jpg,"charcoal, grey",checks,shirt,"shirt, formal, light, dark",images/I-252.jpg
+I-254,I-254.jpg,"grey, charcoal",solid,shirt,"shirt, formal, light, dark",images/I-254.jpg
+I-255,I-255.jpg,"blue, grey",solid,shirt,"shirt, formal, light",images/I-255.jpg
+I-256,I-256.jpg,"navy, grey, blue",stripes,shirt,"shirt, formal, light, dark",images/I-256.jpg
+I-259,I-259.jpg,"grey, blue",solid,shirt,"shirt, formal, light",images/I-259.jpg
+I-261,I-261.jpg,grey,solid,shirt,"shirt, formal, light",images/I-261.jpg
+I-263,I-263.jpg,"grey, navy",texture,shirt,"shirt, casual, light, dark",images/I-263.jpg
+I-265,I-265.jpg,"grey, blue",solid,shirt,"shirt, formal, light",images/I-265.jpg
+I-266,I-266.jpg,"black, grey",texture,shirt,"shirt, casual, light, dark",images/I-266.jpg
+I-267,I-267.jpg,"black, grey, purple",texture,shirt,"shirt, casual, light, dark",images/I-267.jpg
+I-268,I-268.jpg,"green, grey",solid,shirt,"shirt, formal, light",images/I-268.jpg
+I-269,I-269.jpg,grey,solid,shirt,"shirt, formal, light",images/I-269.jpg
+I-273,I-273.jpg,"pink, grey, purple",solid,shirt,"shirt, formal, light",images/I-273.jpg
+I-274,I-274.jpg,"green, grey, charcoal",solid,shirt,"shirt, formal, light, dark",images/I-274.jpg
+I-277,I-277.jpg,"blue, teal, grey",stripes,shirt,"shirt, formal, light",images/I-277.jpg
+I-278,I-278.jpg,"grey, blue, green",stripes,shirt,"shirt, formal, light",images/I-278.jpg
+I-279,I-279.jpg,"grey, blue, pink",stripes,shirt,"shirt, formal, light",images/I-279.jpg
+I-280,I-280.jpg,grey,solid,shirt,"shirt, formal, light",images/I-280.jpg
+I-281,I-281.jpg,"grey, charcoal",solid,shirt,"shirt, formal, light, dark",images/I-281.jpg
+I-282,I-282.jpg,grey,solid,shirt,"shirt, formal, light",images/I-282.jpg
+I-283,I-283.jpg,grey,solid,shirt,"shirt, formal, light",images/I-283.jpg
+I-284,I-284.jpg,grey,solid,shirt,"shirt, formal, light",images/I-284.jpg
+I-285,I-285.jpg,"grey, charcoal",solid,shirt,"shirt, formal, light, dark",images/I-285.jpg
+I-286,I-286.jpg,"grey, charcoal",solid,shirt,"shirt, formal, light, dark",images/I-286.jpg
+I-287,I-287.jpg,"grey, charcoal",solid,shirt,"shirt, formal, light, dark",images/I-287.jpg
+I-288,I-288.jpg,grey,solid,shirt,"shirt, formal, light",images/I-288.jpg
+I-291,I-291.jpg,grey,solid,shirt,"shirt, formal, light",images/I-291.jpg
+I-292,I-292.jpg,"purple, grey, charcoal",texture,shirt,"shirt, casual, light, dark",images/I-292.jpg
+I-293,I-293.jpg,"black, grey",texture,shirt,"shirt, casual, light, dark",images/I-293.jpg
+I-294,I-294.jpg,"grey, blue",solid,shirt,"shirt, formal, light",images/I-294.jpg
+I-295,I-295.jpg,"green, grey",texture,shirt,"shirt, casual, light",images/I-295.jpg
+I-296,I-296.jpg,"blue, purple, grey",texture,shirt,"shirt, casual, light",images/I-296.jpg
+I-297,I-297.jpg,"blue, grey",texture,shirt,"shirt, casual, light",images/I-297.jpg
+I-298,I-298.jpg,"grey, green, charcoal",checks,shirt,"shirt, formal, light, dark",images/I-298.jpg
+I-299,I-299.jpg,"black, grey",texture,shirt,"shirt, casual, light, dark",images/I-299.jpg
+I-300,I-300.jpg,"brown, grey, beige",checks,shirt,"shirt, formal, light, dark",images/I-300.jpg
+I-301,I-301.jpg,"navy, grey, blue",checks,shirt,"shirt, formal, light, dark",images/I-301.jpg
+I-302,I-302.jpg,"red, grey",checks,shirt,"shirt, formal, light",images/I-302.jpg
+I-303,I-303.jpg,"navy, black, grey",texture,shirt,"shirt, casual, light, dark",images/I-303.jpg
+I-306,I-306.jpg,"red, grey, orange",solid,shirt,"shirt, formal, light",images/I-306.jpg
+I-309,I-309.jpg,"charcoal, grey",solid,shirt,"shirt, formal, light, dark",images/I-309.jpg
+I-310,I-310.jpg,grey,solid,shirt,"shirt, formal, light",images/I-310.jpg
+I-311,I-311.jpg,"grey, charcoal",solid,shirt,"shirt, formal, light, dark",images/I-311.jpg
+I-313,I-313.jpg,"charcoal, grey, green",solid,shirt,"shirt, formal, light, dark",images/I-313.jpg
+I-314,I-314.jpg,"grey, charcoal",solid,shirt,"shirt, formal, light, dark",images/I-314.jpg
+I-315,I-315.jpg,"grey, charcoal",solid,shirt,"shirt, formal, light, dark",images/I-315.jpg
+I-316,I-316.jpg,"grey, green, charcoal",solid,shirt,"shirt, formal, light, dark",images/I-316.jpg
+I-317,I-317.jpg,"grey, charcoal",solid,shirt,"shirt, formal, light, dark",images/I-317.jpg
+I-318,I-318.jpg,"grey, charcoal",solid,shirt,"shirt, formal, light, dark",images/I-318.jpg
+I-320,I-320.jpg,"grey, charcoal",solid,shirt,"shirt, formal, light, dark",images/I-320.jpg
+I-321,I-321.jpg,"grey, charcoal",solid,shirt,"shirt, formal, light, dark",images/I-321.jpg
+I-322,I-322.jpg,"grey, charcoal, cream",stripes,shirt,"shirt, formal, light, dark",images/I-322.jpg
+I-323,I-323.jpg,"purple, grey",solid,shirt,"shirt, formal, light",images/I-323.jpg
+I-324,I-324.jpg,"blue, grey",texture,shirt,"shirt, casual, light",images/I-324.jpg
+I-325,I-325.jpg,"blue, grey",texture,shirt,"shirt, casual, light",images/I-325.jpg
+I-326,I-326.jpg,"grey, blue",solid,shirt,"shirt, formal, light",images/I-326.jpg
+I-329,I-329.jpg,grey,solid,shirt,"shirt, formal, light",images/I-329.jpg
+I-333,I-333.jpg,"blue, grey",texture,shirt,"shirt, casual, light",images/I-333.jpg
+I-334,I-334.jpg,"black, grey",texture,shirt,"shirt, casual, light, dark",images/I-334.jpg
+I-336,I-336.jpg,"grey, charcoal, black",checks,shirt,"shirt, formal, light, dark",images/I-336.jpg
+I-337,I-337.jpg,"teal, grey, navy",stripes,shirt,"shirt, formal, light, dark",images/I-337.jpg
+I-338,I-338.jpg,"grey, green, charcoal",checks,shirt,"shirt, formal, light, dark",images/I-338.jpg
+I-339,I-339.jpg,"blue, grey, teal",stripes,shirt,"shirt, formal, light",images/I-339.jpg
+I-340,I-340.jpg,"black, grey, navy",stripes,shirt,"shirt, formal, light, dark",images/I-340.jpg
+I-341,I-341.jpg,"grey, blue",solid,shirt,"shirt, formal, light",images/I-341.jpg
+I-342,I-342.jpg,grey,solid,shirt,"shirt, formal, light",images/I-342.jpg
+I-343,I-343.jpg,grey,solid,shirt,"shirt, formal, light",images/I-343.jpg
+I-346,I-346.jpg,grey,solid,shirt,"shirt, formal, light",images/I-346.jpg
+I-353,I-353.jpg,grey,solid,shirt,"shirt, formal, light",images/I-353.jpg
+I-354,I-354.jpg,grey,solid,shirt,"shirt, formal, light",images/I-354.jpg
+I-355,I-355.jpg,grey,solid,shirt,"shirt, formal, light",images/I-355.jpg
+I-356,I-356.jpg,grey,solid,shirt,"shirt, formal, light",images/I-356.jpg
+I-357,I-357.jpg,grey,solid,shirt,"shirt, formal, light",images/I-357.jpg
+I-358,I-358.jpg,grey,solid,shirt,"shirt, formal, light",images/I-358.jpg
+I-359,I-359.jpg,grey,solid,shirt,"shirt, formal, light",images/I-359.jpg
+I-360,I-360.jpg,grey,solid,shirt,"shirt, formal, light",images/I-360.jpg
+I-361,I-361.jpg,grey,solid,shirt,"shirt, formal, light",images/I-361.jpg
+I-362,I-362.jpg,grey,solid,shirt,"shirt, formal, light",images/I-362.jpg
+I-363,I-363.jpg,"grey, white",solid,shirt,"shirt, formal, light",images/I-363.jpg
+I-364,I-364.jpg,"blue, white",solid,shirt,"shirt, formal, light",images/I-364.jpg
+I-365,I-365.jpg,"charcoal, blue",solid,shirt,"shirt, formal, dark",images/I-365.jpg
+I-366,I-366.jpg,"charcoal, grey, white",texture,shirt,"shirt, casual, light, dark",images/I-366.jpg
+I-367,I-367.jpg,grey,solid,shirt,"shirt, formal, light",images/I-367.jpg
+I-368,I-368.jpg,"grey, white",solid,shirt,"shirt, formal, light",images/I-368.jpg
+I-369,I-369.jpg,"grey, white",solid,shirt,"shirt, formal, light",images/I-369.jpg
+I-370,I-370.jpg,grey,solid,shirt,"shirt, formal, light",images/I-370.jpg
+I-371,I-371.jpg,"grey, white",solid,shirt,"shirt, formal, light",images/I-371.jpg
+I-372,I-372.jpg,"grey, white",solid,shirt,"shirt, formal, light",images/I-372.jpg
+I-373,I-373.jpg,"grey, white",solid,shirt,"shirt, formal, light",images/I-373.jpg
+I-374,I-374.jpg,"grey, white",solid,shirt,"shirt, formal, light",images/I-374.jpg
+I-375,I-375.jpg,"grey, cream, white",solid,shirt,"shirt, formal, light",images/I-375.jpg
+I-376,I-376.jpg,"grey, cream, white",solid,shirt,"shirt, formal, light",images/I-376.jpg
+I-377,I-377.jpg,"grey, white",checks,shirt,"shirt, formal, light",images/I-377.jpg
+I-378,I-378.jpg,"grey, charcoal, white",checks,shirt,"shirt, formal, light, dark",images/I-378.jpg
+I-379,I-379.jpg,"grey, white",stripes,shirt,"shirt, formal, light",images/I-379.jpg
+I-380,I-380.jpg,"grey, white",stripes,shirt,"shirt, formal, light",images/I-380.jpg
+I-381,I-381.jpg,grey,solid,shirt,"shirt, formal, light",images/I-381.jpg
+I-382,I-382.jpg,grey,solid,shirt,"shirt, formal, light",images/I-382.jpg
+I-383,I-383.jpg,grey,solid,shirt,"shirt, formal, light",images/I-383.jpg
+I-384,I-384.jpg,grey,solid,shirt,"shirt, formal, light",images/I-384.jpg
+I-385,I-385.jpg,"grey, white",solid,shirt,"shirt, formal, light",images/I-385.jpg
+I-386,I-386.jpg,"grey, white",solid,shirt,"shirt, formal, light",images/I-386.jpg
+I-387,I-387.jpg,"grey, white",solid,shirt,"shirt, formal, light",images/I-387.jpg
+I-388,I-388.jpg,grey,solid,shirt,"shirt, formal, light",images/I-388.jpg
+I-389,I-389.jpg,"white, grey, blue",checks,shirt,"shirt, formal, light",images/I-389.jpg
+I-390,I-390.jpg,"grey, white, charcoal",checks,shirt,"shirt, formal, light, dark",images/I-390.jpg
+I-391,I-391.jpg,"grey, white",stripes,shirt,"shirt, formal, light",images/I-391.jpg
+I-392,I-392.jpg,"grey, charcoal, white",stripes,shirt,"shirt, formal, light, dark",images/I-392.jpg
+I-393,I-393.jpg,"blue, grey, white",checks,shirt,"shirt, formal, light",images/I-393.jpg
+I-394,I-394.jpg,"grey, beige, white",checks,shirt,"shirt, formal, light",images/I-394.jpg
+I-395,I-395.jpg,"white, grey",stripes,shirt,"shirt, formal, light",images/I-395.jpg
+I-396,I-396.jpg,"grey, beige, white",stripes,shirt,"shirt, formal, light",images/I-396.jpg
+I-397,I-397.jpg,blue,solid,shirt,"shirt, formal",images/I-397.jpg
+I-398,I-398.jpg,"grey, blue",solid,shirt,"shirt, formal, light",images/I-398.jpg
+I-399,I-399.jpg,"grey, beige, charcoal",solid,shirt,"shirt, formal, light, dark",images/I-399.jpg
+I-400,I-400.jpg,"grey, charcoal, blue",solid,shirt,"shirt, formal, light, dark",images/I-400.jpg
+I-401,I-401.jpg,"grey, beige, cream",solid,shirt,"shirt, formal, light",images/I-401.jpg
+I-402,I-402.jpg,grey,solid,shirt,"shirt, formal, light",images/I-402.jpg
+I-403,I-403.jpg,"grey, blue, teal",solid,shirt,"shirt, formal, light",images/I-403.jpg
+I-404,I-404.jpg,"grey, beige, cream",checks,shirt,"shirt, formal, light",images/I-404.jpg
+I-405,I-405.jpg,"grey, blue",solid,shirt,"shirt, formal, light",images/I-405.jpg
+I-406,I-406.jpg,"grey, beige",solid,shirt,"shirt, formal, light",images/I-406.jpg
+I-407,I-407.jpg,"charcoal, grey",checks,shirt,"shirt, formal, light, dark",images/I-407.jpg
+I-408,I-408.jpg,"grey, charcoal",stripes,shirt,"shirt, formal, light, dark",images/I-408.jpg
+I-409,I-409.jpg,"blue, grey",solid,shirt,"shirt, formal, light",images/I-409.jpg
+I-410,I-410.jpg,"charcoal, grey",solid,shirt,"shirt, formal, light, dark",images/I-410.jpg
+I-411,I-411.jpg,"blue, grey, teal",solid,shirt,"shirt, formal, light",images/I-411.jpg
+I-412,I-412.jpg,"grey, charcoal",solid,shirt,"shirt, formal, light, dark",images/I-412.jpg
+I-413,I-413.jpg,grey,solid,shirt,"shirt, formal, light",images/I-413.jpg
+I-414,I-414.jpg,"charcoal, grey",solid,shirt,"shirt, formal, light, dark",images/I-414.jpg
+I-415,I-415.jpg,grey,solid,shirt,"shirt, formal, light",images/I-415.jpg
+I-416,I-416.jpg,"blue, teal",solid,shirt,"shirt, formal",images/I-416.jpg
+I-417,I-417.jpg,grey,solid,shirt,"shirt, formal, light",images/I-417.jpg
+I-418,I-418.jpg,grey,solid,shirt,"shirt, formal, light",images/I-418.jpg
+I-419,I-419.jpg,grey,solid,shirt,"shirt, formal, light",images/I-419.jpg
+I-420,I-420.jpg,grey,solid,shirt,"shirt, formal, light",images/I-420.jpg
+I-421,I-421.jpg,grey,solid,shirt,"shirt, formal, light",images/I-421.jpg
+I-422,I-422.jpg,"charcoal, grey",solid,shirt,"shirt, formal, light, dark",images/I-422.jpg
+I-423,I-423.jpg,blue,solid,shirt,"shirt, formal",images/I-423.jpg
+I-424,I-424.jpg,"blue, teal",solid,shirt,"shirt, formal",images/I-424.jpg
+I-425,I-425.jpg,"grey, cream",solid,shirt,"shirt, formal, light",images/I-425.jpg
+I-426,I-426.jpg,grey,solid,shirt,"shirt, formal, light",images/I-426.jpg
+I-427,I-427.jpg,"charcoal, grey",solid,shirt,"shirt, formal, light, dark",images/I-427.jpg
+I-428,I-428.jpg,"blue, navy, charcoal",texture,shirt,"shirt, casual, dark",images/I-428.jpg
+I-429,I-429.jpg,grey,solid,shirt,"shirt, formal, light",images/I-429.jpg
+I-430,I-430.jpg,"beige, grey, charcoal",stripes,shirt,"shirt, formal, light, dark",images/I-430.jpg
+I-431,I-431.jpg,"charcoal, grey",stripes,shirt,"shirt, formal, light, dark",images/I-431.jpg
+I-432,I-432.jpg,"blue, grey",checks,shirt,"shirt, formal, light",images/I-432.jpg
+I-433,I-433.jpg,"grey, charcoal",solid,shirt,"shirt, formal, light, dark",images/I-433.jpg
+I-434,I-434.jpg,"grey, charcoal",solid,shirt,"shirt, formal, light, dark",images/I-434.jpg
+I-435,I-435.jpg,"blue, grey",solid,shirt,"shirt, formal, light",images/I-435.jpg
+I-436,I-436.jpg,"grey, beige, charcoal",checks,shirt,"shirt, formal, light, dark",images/I-436.jpg
+I-437,I-437.jpg,"charcoal, grey",checks,shirt,"shirt, formal, light, dark",images/I-437.jpg
+I-438,I-438.jpg,"grey, charcoal",solid,shirt,"shirt, formal, light, dark",images/I-438.jpg
+I-439,I-439.jpg,"grey, charcoal",stripes,shirt,"shirt, formal, light, dark",images/I-439.jpg
+I-440,I-440.jpg,"grey, charcoal",solid,shirt,"shirt, formal, light, dark",images/I-440.jpg
+I-441,I-441.jpg,"grey, charcoal",solid,shirt,"shirt, formal, light, dark",images/I-441.jpg
+I-442,I-442.jpg,"grey, charcoal",printed,shirt,"shirt, casual, light, dark",images/I-442.jpg
+I-443,I-443.jpg,"grey, charcoal",printed,shirt,"shirt, casual, light, dark",images/I-443.jpg
+I-444,I-444.jpg,black,texture,shirt,"shirt, casual, dark",images/I-444.jpg
+I-445,I-445.jpg,black,texture,shirt,"shirt, casual, dark",images/I-445.jpg
+I-446,I-446.jpg,grey,solid,shirt,"shirt, formal, light",images/I-446.jpg
+I-447,I-447.jpg,grey,solid,shirt,"shirt, formal, light",images/I-447.jpg
+I-448,I-448.jpg,"grey, blue, yellow",stripes,shirt,"shirt, formal, light",images/I-448.jpg
+I-449,I-449.jpg,"charcoal, grey, cream",checks,shirt,"shirt, formal, light, dark",images/I-449.jpg
+I-450,I-450.jpg,"charcoal, grey, blue",solid,shirt,"shirt, formal, light, dark",images/I-450.jpg
+I-451,I-451.jpg,"grey, green",solid,shirt,"shirt, formal, light",images/I-451.jpg
+I-452,I-452.jpg,grey,texture,shirt,"shirt, casual, light",images/I-452.jpg
+I-453,I-453.jpg,"grey, charcoal",solid,shirt,"shirt, formal, light, dark",images/I-453.jpg
+I-454,I-454.jpg,grey,stripes,shirt,"shirt, formal, light",images/I-454.jpg
+I-455,I-455.jpg,"black, grey",texture,shirt,"shirt, casual, light, dark",images/I-455.jpg
+I-456,I-456.jpg,"black, grey",texture,shirt,"shirt, casual, light, dark",images/I-456.jpg
+I-457,I-457.jpg,"grey, teal",solid,shirt,"shirt, formal, light",images/I-457.jpg
+I-458,I-458.jpg,"grey, pink",solid,shirt,"shirt, formal, light",images/I-458.jpg
+I-459,I-459.jpg,"blue, grey",texture,shirt,"shirt, casual, light",images/I-459.jpg
+I-460,I-460.jpg,grey,solid,shirt,"shirt, formal, light",images/I-460.jpg
+I-461,I-461.jpg,"blue, grey",solid,shirt,"shirt, formal, light",images/I-461.jpg
+I-462,I-462.jpg,grey,solid,shirt,"shirt, formal, light",images/I-462.jpg
+PI-502,PI-502.jpg,"cream, grey",solid,shirt,"shirt, premium, formal, light",images/PI-502.jpg
+PI-503,PI-503.jpg,grey,solid,shirt,"shirt, premium, formal, light",images/PI-503.jpg
+PI-504,PI-504.jpg,"grey, charcoal",solid,shirt,"shirt, premium, formal, light, dark",images/PI-504.jpg
+PI-506,PI-506.jpg,grey,solid,shirt,"shirt, premium, formal, light",images/PI-506.jpg
+PI-509,PI-509.jpg,grey,solid,shirt,"shirt, premium, formal, light",images/PI-509.jpg
+PI-514,PI-514.jpg,grey,solid,shirt,"shirt, premium, formal, light",images/PI-514.jpg
+PI-515,PI-515.jpg,"grey, navy",texture,shirt,"shirt, premium, casual, light, dark",images/PI-515.jpg
+PI-517,PI-517.jpg,grey,solid,shirt,"shirt, premium, formal, light",images/PI-517.jpg
+PI-522,PI-522.jpg,grey,solid,shirt,"shirt, premium, formal, light",images/PI-522.jpg
+PI-524,PI-524.jpg,grey,solid,shirt,"shirt, premium, formal, light",images/PI-524.jpg
+PI-526,PI-526.jpg,"blue, grey",texture,shirt,"shirt, premium, casual, light",images/PI-526.jpg
+PI-528,PI-528.jpg,grey,solid,shirt,"shirt, premium, formal, light",images/PI-528.jpg
+PI-529,PI-529.jpg,"blue, grey",solid,shirt,"shirt, premium, formal, light",images/PI-529.jpg
+PI-530,PI-530.jpg,grey,solid,shirt,"shirt, premium, formal, light",images/PI-530.jpg
+PI-531,PI-531.jpg,grey,stripes,shirt,"shirt, premium, formal, light",images/PI-531.jpg

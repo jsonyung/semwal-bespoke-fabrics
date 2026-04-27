@@ -1,0 +1,8192 @@
+{
+  "I-18": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-19": {
+    "colors": [
+      "grey",
+      "white"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "white",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-21": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-24": {
+    "colors": [
+      "navy",
+      "teal",
+      "black"
+    ],
+    "patterns": [
+      "checks"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "dark"
+    ],
+    "tags": [
+      "navy",
+      "teal",
+      "black",
+      "checks",
+      "shirt",
+      "formal",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-25": {
+    "colors": [
+      "black",
+      "charcoal",
+      "grey"
+    ],
+    "patterns": [
+      "checks"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "black",
+      "charcoal",
+      "grey",
+      "checks",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-27": {
+    "colors": [
+      "grey",
+      "white"
+    ],
+    "patterns": [
+      "checks"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "white",
+      "checks",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-28": {
+    "colors": [
+      "grey",
+      "white",
+      "charcoal"
+    ],
+    "patterns": [
+      "checks"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "grey",
+      "white",
+      "charcoal",
+      "checks",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-29": {
+    "colors": [
+      "grey",
+      "white",
+      "charcoal"
+    ],
+    "patterns": [
+      "checks"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "grey",
+      "white",
+      "charcoal",
+      "checks",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-30": {
+    "colors": [
+      "grey",
+      "white",
+      "charcoal"
+    ],
+    "patterns": [
+      "checks"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "grey",
+      "white",
+      "charcoal",
+      "checks",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-31": {
+    "colors": [
+      "grey",
+      "white"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "white",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-32": {
+    "colors": [
+      "grey",
+      "white",
+      "charcoal"
+    ],
+    "patterns": [
+      "checks"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "grey",
+      "white",
+      "charcoal",
+      "checks",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-33": {
+    "colors": [
+      "grey",
+      "white"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "white",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-34": {
+    "colors": [
+      "grey",
+      "white",
+      "charcoal"
+    ],
+    "patterns": [
+      "checks"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "grey",
+      "white",
+      "charcoal",
+      "checks",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-35": {
+    "colors": [
+      "grey",
+      "charcoal"
+    ],
+    "patterns": [
+      "stripes"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "grey",
+      "charcoal",
+      "stripes",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-36": {
+    "colors": [
+      "grey",
+      "white"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "white",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-37": {
+    "colors": [
+      "grey",
+      "white"
+    ],
+    "patterns": [
+      "stripes"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "white",
+      "stripes",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-38": {
+    "colors": [
+      "grey",
+      "white"
+    ],
+    "patterns": [
+      "stripes"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "white",
+      "stripes",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-39": {
+    "colors": [
+      "grey",
+      "beige",
+      "cream"
+    ],
+    "patterns": [
+      "checks"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "beige",
+      "cream",
+      "checks",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-41": {
+    "colors": [
+      "grey",
+      "white",
+      "beige"
+    ],
+    "patterns": [
+      "checks"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "white",
+      "beige",
+      "checks",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-42": {
+    "colors": [
+      "grey",
+      "charcoal",
+      "white"
+    ],
+    "patterns": [
+      "checks"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "grey",
+      "charcoal",
+      "white",
+      "checks",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-51": {
+    "colors": [
+      "navy",
+      "grey",
+      "white"
+    ],
+    "patterns": [
+      "stripes"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "navy",
+      "grey",
+      "white",
+      "stripes",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-52": {
+    "colors": [
+      "grey",
+      "charcoal",
+      "white"
+    ],
+    "patterns": [
+      "checks"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "grey",
+      "charcoal",
+      "white",
+      "checks",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-54": {
+    "colors": [
+      "blue",
+      "grey"
+    ],
+    "patterns": [
+      "texture"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "casual",
+      "light"
+    ],
+    "tags": [
+      "blue",
+      "grey",
+      "texture",
+      "shirt",
+      "casual",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-56": {
+    "colors": [
+      "black",
+      "navy",
+      "grey"
+    ],
+    "patterns": [
+      "checks"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "black",
+      "navy",
+      "grey",
+      "checks",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-61": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-65": {
+    "colors": [
+      "blue",
+      "grey"
+    ],
+    "patterns": [
+      "stripes"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "blue",
+      "grey",
+      "stripes",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-66": {
+    "colors": [
+      "blue",
+      "grey"
+    ],
+    "patterns": [
+      "checks"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "blue",
+      "grey",
+      "checks",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-67": {
+    "colors": [
+      "grey",
+      "blue"
+    ],
+    "patterns": [
+      "stripes"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "blue",
+      "stripes",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-68": {
+    "colors": [
+      "blue",
+      "grey"
+    ],
+    "patterns": [
+      "checks"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "blue",
+      "grey",
+      "checks",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-69": {
+    "colors": [
+      "grey",
+      "blue"
+    ],
+    "patterns": [
+      "stripes"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "blue",
+      "stripes",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-70": {
+    "colors": [
+      "grey",
+      "blue",
+      "white"
+    ],
+    "patterns": [
+      "stripes"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "blue",
+      "white",
+      "stripes",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-71": {
+    "colors": [
+      "blue",
+      "grey",
+      "navy"
+    ],
+    "patterns": [
+      "checks"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "blue",
+      "grey",
+      "navy",
+      "checks",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-72": {
+    "colors": [
+      "blue",
+      "grey",
+      "navy"
+    ],
+    "patterns": [
+      "checks"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "blue",
+      "grey",
+      "navy",
+      "checks",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-73": {
+    "colors": [
+      "grey",
+      "charcoal"
+    ],
+    "patterns": [
+      "checks"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "grey",
+      "charcoal",
+      "checks",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-74": {
+    "colors": [
+      "grey",
+      "blue"
+    ],
+    "patterns": [
+      "stripes"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "blue",
+      "stripes",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-75": {
+    "colors": [
+      "grey",
+      "blue"
+    ],
+    "patterns": [
+      "stripes"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "blue",
+      "stripes",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-79": {
+    "colors": [
+      "grey",
+      "blue",
+      "navy"
+    ],
+    "patterns": [
+      "stripes"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "grey",
+      "blue",
+      "navy",
+      "stripes",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-82": {
+    "colors": [
+      "grey",
+      "blue"
+    ],
+    "patterns": [
+      "stripes"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "blue",
+      "stripes",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-83": {
+    "colors": [
+      "grey",
+      "navy",
+      "blue"
+    ],
+    "patterns": [
+      "stripes"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "grey",
+      "navy",
+      "blue",
+      "stripes",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-84": {
+    "colors": [
+      "grey",
+      "blue"
+    ],
+    "patterns": [
+      "stripes"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "blue",
+      "stripes",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-86": {
+    "colors": [
+      "grey",
+      "blue",
+      "navy"
+    ],
+    "patterns": [
+      "stripes"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "grey",
+      "blue",
+      "navy",
+      "stripes",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-87": {
+    "colors": [
+      "maroon"
+    ],
+    "patterns": [
+      "stripes"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "dark"
+    ],
+    "tags": [
+      "maroon",
+      "stripes",
+      "shirt",
+      "formal",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-88": {
+    "colors": [
+      "navy",
+      "black"
+    ],
+    "patterns": [
+      "checks"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "dark"
+    ],
+    "tags": [
+      "navy",
+      "black",
+      "checks",
+      "shirt",
+      "formal",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-96": {
+    "colors": [
+      "red",
+      "grey"
+    ],
+    "patterns": [
+      "texture"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "casual",
+      "light"
+    ],
+    "tags": [
+      "red",
+      "grey",
+      "texture",
+      "shirt",
+      "casual",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-101": {
+    "colors": [
+      "red",
+      "beige",
+      "grey"
+    ],
+    "patterns": [
+      "checks"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "red",
+      "beige",
+      "grey",
+      "checks",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-102": {
+    "colors": [
+      "brown",
+      "black",
+      "charcoal"
+    ],
+    "patterns": [
+      "checks"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "dark"
+    ],
+    "tags": [
+      "brown",
+      "black",
+      "charcoal",
+      "checks",
+      "shirt",
+      "formal",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-103": {
+    "colors": [
+      "black",
+      "maroon",
+      "brown"
+    ],
+    "patterns": [
+      "checks"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "dark"
+    ],
+    "tags": [
+      "black",
+      "maroon",
+      "brown",
+      "checks",
+      "shirt",
+      "formal",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-104": {
+    "colors": [
+      "grey",
+      "blue",
+      "white"
+    ],
+    "patterns": [
+      "checks"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "blue",
+      "white",
+      "checks",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-105": {
+    "colors": [
+      "grey",
+      "white",
+      "charcoal"
+    ],
+    "patterns": [
+      "checks"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "grey",
+      "white",
+      "charcoal",
+      "checks",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-107": {
+    "colors": [
+      "maroon",
+      "grey"
+    ],
+    "patterns": [
+      "stripes"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "maroon",
+      "grey",
+      "stripes",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-112": {
+    "colors": [
+      "purple",
+      "grey"
+    ],
+    "patterns": [
+      "texture"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "casual",
+      "light"
+    ],
+    "tags": [
+      "purple",
+      "grey",
+      "texture",
+      "shirt",
+      "casual",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-115": {
+    "colors": [
+      "maroon",
+      "grey"
+    ],
+    "patterns": [
+      "stripes"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "maroon",
+      "grey",
+      "stripes",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-119": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-127": {
+    "colors": [
+      "grey",
+      "blue"
+    ],
+    "patterns": [
+      "texture"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "casual",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "blue",
+      "texture",
+      "shirt",
+      "casual",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-129": {
+    "colors": [
+      "charcoal",
+      "grey",
+      "black"
+    ],
+    "patterns": [
+      "checks"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "charcoal",
+      "grey",
+      "black",
+      "checks",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-131": {
+    "colors": [
+      "navy",
+      "grey",
+      "blue"
+    ],
+    "patterns": [
+      "checks"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "navy",
+      "grey",
+      "blue",
+      "checks",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-133": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "stripes"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "stripes",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-135": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-138": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-144": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-145": {
+    "colors": [
+      "grey",
+      "blue"
+    ],
+    "patterns": [
+      "stripes"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "blue",
+      "stripes",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-147": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "stripes"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "stripes",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-153": {
+    "colors": [
+      "grey",
+      "blue"
+    ],
+    "patterns": [
+      "stripes"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "blue",
+      "stripes",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-155": {
+    "colors": [
+      "blue",
+      "grey"
+    ],
+    "patterns": [
+      "checks"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "blue",
+      "grey",
+      "checks",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-156": {
+    "colors": [
+      "grey",
+      "blue",
+      "navy"
+    ],
+    "patterns": [
+      "checks"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "grey",
+      "blue",
+      "navy",
+      "checks",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-157": {
+    "colors": [
+      "grey",
+      "blue",
+      "white"
+    ],
+    "patterns": [
+      "checks"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "blue",
+      "white",
+      "checks",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-158": {
+    "colors": [
+      "grey",
+      "blue",
+      "beige"
+    ],
+    "patterns": [
+      "checks"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "blue",
+      "beige",
+      "checks",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-159": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "texture"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "casual",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "texture",
+      "shirt",
+      "casual",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-160": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-162": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-164": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-165": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-168": {
+    "colors": [
+      "blue",
+      "grey",
+      "purple"
+    ],
+    "patterns": [
+      "checks"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "blue",
+      "grey",
+      "purple",
+      "checks",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-169": {
+    "colors": [
+      "blue",
+      "teal"
+    ],
+    "patterns": [
+      "checks"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal"
+    ],
+    "tags": [
+      "blue",
+      "teal",
+      "checks",
+      "shirt",
+      "formal"
+    ],
+    "source": "auto"
+  },
+  "I-175": {
+    "colors": [
+      "grey",
+      "white"
+    ],
+    "patterns": [
+      "stripes"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "white",
+      "stripes",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-176": {
+    "colors": [
+      "grey",
+      "white"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "white",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-177": {
+    "colors": [
+      "grey",
+      "white"
+    ],
+    "patterns": [
+      "checks"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "white",
+      "checks",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-178": {
+    "colors": [
+      "grey",
+      "white"
+    ],
+    "patterns": [
+      "checks"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "white",
+      "checks",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-180": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-182": {
+    "colors": [
+      "grey",
+      "charcoal",
+      "white"
+    ],
+    "patterns": [
+      "checks"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "grey",
+      "charcoal",
+      "white",
+      "checks",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-183": {
+    "colors": [
+      "navy",
+      "black",
+      "blue"
+    ],
+    "patterns": [
+      "checks"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "dark"
+    ],
+    "tags": [
+      "navy",
+      "black",
+      "blue",
+      "checks",
+      "shirt",
+      "formal",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-184": {
+    "colors": [
+      "grey",
+      "white",
+      "teal"
+    ],
+    "patterns": [
+      "checks"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "white",
+      "teal",
+      "checks",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-185": {
+    "colors": [
+      "grey",
+      "teal"
+    ],
+    "patterns": [
+      "stripes"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "teal",
+      "stripes",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-186": {
+    "colors": [
+      "grey",
+      "charcoal"
+    ],
+    "patterns": [
+      "checks"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "grey",
+      "charcoal",
+      "checks",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-194": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-196": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-198": {
+    "colors": [
+      "blue",
+      "grey"
+    ],
+    "patterns": [
+      "checks"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "blue",
+      "grey",
+      "checks",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-203": {
+    "colors": [
+      "grey",
+      "blue"
+    ],
+    "patterns": [
+      "stripes"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "blue",
+      "stripes",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-207": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-210": {
+    "colors": [
+      "blue",
+      "grey"
+    ],
+    "patterns": [
+      "texture"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "casual",
+      "light"
+    ],
+    "tags": [
+      "blue",
+      "grey",
+      "texture",
+      "shirt",
+      "casual",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-211": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-212": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-214": {
+    "colors": [
+      "charcoal",
+      "grey"
+    ],
+    "patterns": [
+      "texture"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "casual",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "charcoal",
+      "grey",
+      "texture",
+      "shirt",
+      "casual",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-215": {
+    "colors": [
+      "red",
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "red",
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-217": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-219": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-220": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-222": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-223": {
+    "colors": [
+      "blue",
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "blue",
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-224": {
+    "colors": [
+      "teal",
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "teal",
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-225": {
+    "colors": [
+      "grey",
+      "teal"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "teal",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-227": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-232": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-234": {
+    "colors": [
+      "blue",
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "blue",
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-235": {
+    "colors": [
+      "blue",
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "blue",
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-236": {
+    "colors": [
+      "grey",
+      "blue"
+    ],
+    "patterns": [
+      "stripes"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "blue",
+      "stripes",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-237": {
+    "colors": [
+      "blue",
+      "grey",
+      "navy"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "blue",
+      "grey",
+      "navy",
+      "solid",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-239": {
+    "colors": [
+      "charcoal",
+      "grey"
+    ],
+    "patterns": [
+      "texture"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "casual",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "charcoal",
+      "grey",
+      "texture",
+      "shirt",
+      "casual",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-241": {
+    "colors": [
+      "grey",
+      "charcoal"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "grey",
+      "charcoal",
+      "solid",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-242": {
+    "colors": [
+      "navy",
+      "grey",
+      "charcoal"
+    ],
+    "patterns": [
+      "texture"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "casual",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "navy",
+      "grey",
+      "charcoal",
+      "texture",
+      "shirt",
+      "casual",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-247": {
+    "colors": [
+      "grey",
+      "charcoal"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "grey",
+      "charcoal",
+      "solid",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-248": {
+    "colors": [
+      "black",
+      "grey",
+      "charcoal"
+    ],
+    "patterns": [
+      "checks"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "black",
+      "grey",
+      "charcoal",
+      "checks",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-249": {
+    "colors": [
+      "grey",
+      "charcoal"
+    ],
+    "patterns": [
+      "checks"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "grey",
+      "charcoal",
+      "checks",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-251": {
+    "colors": [
+      "grey",
+      "red",
+      "maroon"
+    ],
+    "patterns": [
+      "stripes"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "grey",
+      "red",
+      "maroon",
+      "stripes",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-252": {
+    "colors": [
+      "charcoal",
+      "grey"
+    ],
+    "patterns": [
+      "checks"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "charcoal",
+      "grey",
+      "checks",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-254": {
+    "colors": [
+      "grey",
+      "charcoal"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "grey",
+      "charcoal",
+      "solid",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-255": {
+    "colors": [
+      "blue",
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "blue",
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-256": {
+    "colors": [
+      "navy",
+      "grey",
+      "blue"
+    ],
+    "patterns": [
+      "stripes"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "navy",
+      "grey",
+      "blue",
+      "stripes",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-259": {
+    "colors": [
+      "grey",
+      "blue"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "blue",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-261": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-263": {
+    "colors": [
+      "grey",
+      "navy"
+    ],
+    "patterns": [
+      "texture"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "casual",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "grey",
+      "navy",
+      "texture",
+      "shirt",
+      "casual",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-265": {
+    "colors": [
+      "grey",
+      "blue"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "blue",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-266": {
+    "colors": [
+      "black",
+      "grey"
+    ],
+    "patterns": [
+      "texture"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "casual",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "black",
+      "grey",
+      "texture",
+      "shirt",
+      "casual",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-267": {
+    "colors": [
+      "black",
+      "grey",
+      "purple"
+    ],
+    "patterns": [
+      "texture"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "casual",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "black",
+      "grey",
+      "purple",
+      "texture",
+      "shirt",
+      "casual",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-268": {
+    "colors": [
+      "green",
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "green",
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-269": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-273": {
+    "colors": [
+      "pink",
+      "grey",
+      "purple"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "pink",
+      "grey",
+      "purple",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-274": {
+    "colors": [
+      "green",
+      "grey",
+      "charcoal"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "green",
+      "grey",
+      "charcoal",
+      "solid",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-277": {
+    "colors": [
+      "blue",
+      "teal",
+      "grey"
+    ],
+    "patterns": [
+      "stripes"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "blue",
+      "teal",
+      "grey",
+      "stripes",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-278": {
+    "colors": [
+      "grey",
+      "blue",
+      "green"
+    ],
+    "patterns": [
+      "stripes"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "blue",
+      "green",
+      "stripes",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-279": {
+    "colors": [
+      "grey",
+      "blue",
+      "pink"
+    ],
+    "patterns": [
+      "stripes"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "blue",
+      "pink",
+      "stripes",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-280": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-281": {
+    "colors": [
+      "grey",
+      "charcoal"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "grey",
+      "charcoal",
+      "solid",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-282": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-283": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-284": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-285": {
+    "colors": [
+      "grey",
+      "charcoal"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "grey",
+      "charcoal",
+      "solid",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-286": {
+    "colors": [
+      "grey",
+      "charcoal"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "grey",
+      "charcoal",
+      "solid",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-287": {
+    "colors": [
+      "grey",
+      "charcoal"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "grey",
+      "charcoal",
+      "solid",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-288": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-291": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-292": {
+    "colors": [
+      "purple",
+      "grey",
+      "charcoal"
+    ],
+    "patterns": [
+      "texture"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "casual",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "purple",
+      "grey",
+      "charcoal",
+      "texture",
+      "shirt",
+      "casual",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-293": {
+    "colors": [
+      "black",
+      "grey"
+    ],
+    "patterns": [
+      "texture"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "casual",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "black",
+      "grey",
+      "texture",
+      "shirt",
+      "casual",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-294": {
+    "colors": [
+      "grey",
+      "blue"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "blue",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-295": {
+    "colors": [
+      "green",
+      "grey"
+    ],
+    "patterns": [
+      "texture"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "casual",
+      "light"
+    ],
+    "tags": [
+      "green",
+      "grey",
+      "texture",
+      "shirt",
+      "casual",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-296": {
+    "colors": [
+      "blue",
+      "purple",
+      "grey"
+    ],
+    "patterns": [
+      "texture"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "casual",
+      "light"
+    ],
+    "tags": [
+      "blue",
+      "purple",
+      "grey",
+      "texture",
+      "shirt",
+      "casual",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-297": {
+    "colors": [
+      "blue",
+      "grey"
+    ],
+    "patterns": [
+      "texture"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "casual",
+      "light"
+    ],
+    "tags": [
+      "blue",
+      "grey",
+      "texture",
+      "shirt",
+      "casual",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-298": {
+    "colors": [
+      "grey",
+      "green",
+      "charcoal"
+    ],
+    "patterns": [
+      "checks"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "grey",
+      "green",
+      "charcoal",
+      "checks",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-299": {
+    "colors": [
+      "black",
+      "grey"
+    ],
+    "patterns": [
+      "texture"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "casual",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "black",
+      "grey",
+      "texture",
+      "shirt",
+      "casual",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-300": {
+    "colors": [
+      "brown",
+      "grey",
+      "beige"
+    ],
+    "patterns": [
+      "checks"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "brown",
+      "grey",
+      "beige",
+      "checks",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-301": {
+    "colors": [
+      "navy",
+      "grey",
+      "blue"
+    ],
+    "patterns": [
+      "checks"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "navy",
+      "grey",
+      "blue",
+      "checks",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-302": {
+    "colors": [
+      "red",
+      "grey"
+    ],
+    "patterns": [
+      "checks"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "red",
+      "grey",
+      "checks",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-303": {
+    "colors": [
+      "navy",
+      "black",
+      "grey"
+    ],
+    "patterns": [
+      "texture"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "casual",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "navy",
+      "black",
+      "grey",
+      "texture",
+      "shirt",
+      "casual",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-306": {
+    "colors": [
+      "red",
+      "grey",
+      "orange"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "red",
+      "grey",
+      "orange",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-309": {
+    "colors": [
+      "charcoal",
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "charcoal",
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-310": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-311": {
+    "colors": [
+      "grey",
+      "charcoal"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "grey",
+      "charcoal",
+      "solid",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-313": {
+    "colors": [
+      "charcoal",
+      "grey",
+      "green"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "charcoal",
+      "grey",
+      "green",
+      "solid",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-314": {
+    "colors": [
+      "grey",
+      "charcoal"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "grey",
+      "charcoal",
+      "solid",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-315": {
+    "colors": [
+      "grey",
+      "charcoal"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "grey",
+      "charcoal",
+      "solid",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-316": {
+    "colors": [
+      "grey",
+      "green",
+      "charcoal"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "grey",
+      "green",
+      "charcoal",
+      "solid",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-317": {
+    "colors": [
+      "grey",
+      "charcoal"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "grey",
+      "charcoal",
+      "solid",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-318": {
+    "colors": [
+      "grey",
+      "charcoal"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "grey",
+      "charcoal",
+      "solid",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-320": {
+    "colors": [
+      "grey",
+      "charcoal"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "grey",
+      "charcoal",
+      "solid",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-321": {
+    "colors": [
+      "grey",
+      "charcoal"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "grey",
+      "charcoal",
+      "solid",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-322": {
+    "colors": [
+      "grey",
+      "charcoal",
+      "cream"
+    ],
+    "patterns": [
+      "stripes"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "grey",
+      "charcoal",
+      "cream",
+      "stripes",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-323": {
+    "colors": [
+      "purple",
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "purple",
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-324": {
+    "colors": [
+      "blue",
+      "grey"
+    ],
+    "patterns": [
+      "texture"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "casual",
+      "light"
+    ],
+    "tags": [
+      "blue",
+      "grey",
+      "texture",
+      "shirt",
+      "casual",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-325": {
+    "colors": [
+      "blue",
+      "grey"
+    ],
+    "patterns": [
+      "texture"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "casual",
+      "light"
+    ],
+    "tags": [
+      "blue",
+      "grey",
+      "texture",
+      "shirt",
+      "casual",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-326": {
+    "colors": [
+      "grey",
+      "blue"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "blue",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-329": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-333": {
+    "colors": [
+      "blue",
+      "grey"
+    ],
+    "patterns": [
+      "texture"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "casual",
+      "light"
+    ],
+    "tags": [
+      "blue",
+      "grey",
+      "texture",
+      "shirt",
+      "casual",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-334": {
+    "colors": [
+      "black",
+      "grey"
+    ],
+    "patterns": [
+      "texture"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "casual",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "black",
+      "grey",
+      "texture",
+      "shirt",
+      "casual",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-336": {
+    "colors": [
+      "grey",
+      "charcoal",
+      "black"
+    ],
+    "patterns": [
+      "checks"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "grey",
+      "charcoal",
+      "black",
+      "checks",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-337": {
+    "colors": [
+      "teal",
+      "grey",
+      "navy"
+    ],
+    "patterns": [
+      "stripes"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "teal",
+      "grey",
+      "navy",
+      "stripes",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-338": {
+    "colors": [
+      "grey",
+      "green",
+      "charcoal"
+    ],
+    "patterns": [
+      "checks"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "grey",
+      "green",
+      "charcoal",
+      "checks",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-339": {
+    "colors": [
+      "blue",
+      "grey",
+      "teal"
+    ],
+    "patterns": [
+      "stripes"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "blue",
+      "grey",
+      "teal",
+      "stripes",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-340": {
+    "colors": [
+      "black",
+      "grey",
+      "navy"
+    ],
+    "patterns": [
+      "stripes"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "black",
+      "grey",
+      "navy",
+      "stripes",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-341": {
+    "colors": [
+      "grey",
+      "blue"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "blue",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-342": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-343": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-346": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-353": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-354": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-355": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-356": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-357": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-358": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-359": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-360": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-361": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-362": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-363": {
+    "colors": [
+      "grey",
+      "white"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "white",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-364": {
+    "colors": [
+      "blue",
+      "white"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "blue",
+      "white",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-365": {
+    "colors": [
+      "charcoal",
+      "blue"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "dark"
+    ],
+    "tags": [
+      "charcoal",
+      "blue",
+      "solid",
+      "shirt",
+      "formal",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-366": {
+    "colors": [
+      "charcoal",
+      "grey",
+      "white"
+    ],
+    "patterns": [
+      "texture"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "casual",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "charcoal",
+      "grey",
+      "white",
+      "texture",
+      "shirt",
+      "casual",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-367": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-368": {
+    "colors": [
+      "grey",
+      "white"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "white",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-369": {
+    "colors": [
+      "grey",
+      "white"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "white",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-370": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-371": {
+    "colors": [
+      "grey",
+      "white"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "white",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-372": {
+    "colors": [
+      "grey",
+      "white"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "white",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-373": {
+    "colors": [
+      "grey",
+      "white"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "white",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-374": {
+    "colors": [
+      "grey",
+      "white"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "white",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-375": {
+    "colors": [
+      "grey",
+      "cream",
+      "white"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "cream",
+      "white",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-376": {
+    "colors": [
+      "grey",
+      "cream",
+      "white"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "cream",
+      "white",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-377": {
+    "colors": [
+      "grey",
+      "white"
+    ],
+    "patterns": [
+      "checks"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "white",
+      "checks",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-378": {
+    "colors": [
+      "grey",
+      "charcoal",
+      "white"
+    ],
+    "patterns": [
+      "checks"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "grey",
+      "charcoal",
+      "white",
+      "checks",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-379": {
+    "colors": [
+      "grey",
+      "white"
+    ],
+    "patterns": [
+      "stripes"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "white",
+      "stripes",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-380": {
+    "colors": [
+      "grey",
+      "white"
+    ],
+    "patterns": [
+      "stripes"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "white",
+      "stripes",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-381": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-382": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-383": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-384": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-385": {
+    "colors": [
+      "grey",
+      "white"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "white",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-386": {
+    "colors": [
+      "grey",
+      "white"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "white",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-387": {
+    "colors": [
+      "grey",
+      "white"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "white",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-388": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-389": {
+    "colors": [
+      "white",
+      "grey",
+      "blue"
+    ],
+    "patterns": [
+      "checks"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "white",
+      "grey",
+      "blue",
+      "checks",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-390": {
+    "colors": [
+      "grey",
+      "white",
+      "charcoal"
+    ],
+    "patterns": [
+      "checks"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "grey",
+      "white",
+      "charcoal",
+      "checks",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-391": {
+    "colors": [
+      "grey",
+      "white"
+    ],
+    "patterns": [
+      "stripes"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "white",
+      "stripes",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-392": {
+    "colors": [
+      "grey",
+      "charcoal",
+      "white"
+    ],
+    "patterns": [
+      "stripes"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "grey",
+      "charcoal",
+      "white",
+      "stripes",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-393": {
+    "colors": [
+      "blue",
+      "grey",
+      "white"
+    ],
+    "patterns": [
+      "checks"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "blue",
+      "grey",
+      "white",
+      "checks",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-394": {
+    "colors": [
+      "grey",
+      "beige",
+      "white"
+    ],
+    "patterns": [
+      "checks"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "beige",
+      "white",
+      "checks",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-395": {
+    "colors": [
+      "white",
+      "grey"
+    ],
+    "patterns": [
+      "stripes"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "white",
+      "grey",
+      "stripes",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-396": {
+    "colors": [
+      "grey",
+      "beige",
+      "white"
+    ],
+    "patterns": [
+      "stripes"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "beige",
+      "white",
+      "stripes",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-397": {
+    "colors": [
+      "blue"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal"
+    ],
+    "tags": [
+      "blue",
+      "solid",
+      "shirt",
+      "formal"
+    ],
+    "source": "auto"
+  },
+  "I-398": {
+    "colors": [
+      "grey",
+      "blue"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "blue",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-399": {
+    "colors": [
+      "grey",
+      "beige",
+      "charcoal"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "grey",
+      "beige",
+      "charcoal",
+      "solid",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-400": {
+    "colors": [
+      "grey",
+      "charcoal",
+      "blue"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "grey",
+      "charcoal",
+      "blue",
+      "solid",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-401": {
+    "colors": [
+      "grey",
+      "beige",
+      "cream"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "beige",
+      "cream",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-402": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-403": {
+    "colors": [
+      "grey",
+      "blue",
+      "teal"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "blue",
+      "teal",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-404": {
+    "colors": [
+      "grey",
+      "beige",
+      "cream"
+    ],
+    "patterns": [
+      "checks"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "beige",
+      "cream",
+      "checks",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-405": {
+    "colors": [
+      "grey",
+      "blue"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "blue",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-406": {
+    "colors": [
+      "grey",
+      "beige"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "beige",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-407": {
+    "colors": [
+      "charcoal",
+      "grey"
+    ],
+    "patterns": [
+      "checks"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "charcoal",
+      "grey",
+      "checks",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-408": {
+    "colors": [
+      "grey",
+      "charcoal"
+    ],
+    "patterns": [
+      "stripes"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "grey",
+      "charcoal",
+      "stripes",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-409": {
+    "colors": [
+      "blue",
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "blue",
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-410": {
+    "colors": [
+      "charcoal",
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "charcoal",
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-411": {
+    "colors": [
+      "blue",
+      "grey",
+      "teal"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "blue",
+      "grey",
+      "teal",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-412": {
+    "colors": [
+      "grey",
+      "charcoal"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "grey",
+      "charcoal",
+      "solid",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-413": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-414": {
+    "colors": [
+      "charcoal",
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "charcoal",
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-415": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-416": {
+    "colors": [
+      "blue",
+      "teal"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal"
+    ],
+    "tags": [
+      "blue",
+      "teal",
+      "solid",
+      "shirt",
+      "formal"
+    ],
+    "source": "auto"
+  },
+  "I-417": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-418": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-419": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-420": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-421": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-422": {
+    "colors": [
+      "charcoal",
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "charcoal",
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-423": {
+    "colors": [
+      "blue"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal"
+    ],
+    "tags": [
+      "blue",
+      "solid",
+      "shirt",
+      "formal"
+    ],
+    "source": "auto"
+  },
+  "I-424": {
+    "colors": [
+      "blue",
+      "teal"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal"
+    ],
+    "tags": [
+      "blue",
+      "teal",
+      "solid",
+      "shirt",
+      "formal"
+    ],
+    "source": "auto"
+  },
+  "I-425": {
+    "colors": [
+      "grey",
+      "cream"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "cream",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-426": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-427": {
+    "colors": [
+      "charcoal",
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "charcoal",
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-428": {
+    "colors": [
+      "blue",
+      "navy",
+      "charcoal"
+    ],
+    "patterns": [
+      "texture"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "casual",
+      "dark"
+    ],
+    "tags": [
+      "blue",
+      "navy",
+      "charcoal",
+      "texture",
+      "shirt",
+      "casual",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-429": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-430": {
+    "colors": [
+      "beige",
+      "grey",
+      "charcoal"
+    ],
+    "patterns": [
+      "stripes"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "beige",
+      "grey",
+      "charcoal",
+      "stripes",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-431": {
+    "colors": [
+      "charcoal",
+      "grey"
+    ],
+    "patterns": [
+      "stripes"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "charcoal",
+      "grey",
+      "stripes",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-432": {
+    "colors": [
+      "blue",
+      "grey"
+    ],
+    "patterns": [
+      "checks"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "blue",
+      "grey",
+      "checks",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-433": {
+    "colors": [
+      "grey",
+      "charcoal"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "grey",
+      "charcoal",
+      "solid",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-434": {
+    "colors": [
+      "grey",
+      "charcoal"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "grey",
+      "charcoal",
+      "solid",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-435": {
+    "colors": [
+      "blue",
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "blue",
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-436": {
+    "colors": [
+      "grey",
+      "beige",
+      "charcoal"
+    ],
+    "patterns": [
+      "checks"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "grey",
+      "beige",
+      "charcoal",
+      "checks",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-437": {
+    "colors": [
+      "charcoal",
+      "grey"
+    ],
+    "patterns": [
+      "checks"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "charcoal",
+      "grey",
+      "checks",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-438": {
+    "colors": [
+      "grey",
+      "charcoal"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "grey",
+      "charcoal",
+      "solid",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-439": {
+    "colors": [
+      "grey",
+      "charcoal"
+    ],
+    "patterns": [
+      "stripes"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "grey",
+      "charcoal",
+      "stripes",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-440": {
+    "colors": [
+      "grey",
+      "charcoal"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "grey",
+      "charcoal",
+      "solid",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-441": {
+    "colors": [
+      "grey",
+      "charcoal"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "grey",
+      "charcoal",
+      "solid",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-442": {
+    "colors": [
+      "grey",
+      "charcoal"
+    ],
+    "patterns": [
+      "printed"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "casual",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "grey",
+      "charcoal",
+      "printed",
+      "shirt",
+      "casual",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-443": {
+    "colors": [
+      "grey",
+      "charcoal"
+    ],
+    "patterns": [
+      "printed"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "casual",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "grey",
+      "charcoal",
+      "printed",
+      "shirt",
+      "casual",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-444": {
+    "colors": [
+      "black"
+    ],
+    "patterns": [
+      "texture"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "casual",
+      "dark"
+    ],
+    "tags": [
+      "black",
+      "texture",
+      "shirt",
+      "casual",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-445": {
+    "colors": [
+      "black"
+    ],
+    "patterns": [
+      "texture"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "casual",
+      "dark"
+    ],
+    "tags": [
+      "black",
+      "texture",
+      "shirt",
+      "casual",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-446": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-447": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-448": {
+    "colors": [
+      "grey",
+      "blue",
+      "yellow"
+    ],
+    "patterns": [
+      "stripes"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "blue",
+      "yellow",
+      "stripes",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-449": {
+    "colors": [
+      "charcoal",
+      "grey",
+      "cream"
+    ],
+    "patterns": [
+      "checks"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "charcoal",
+      "grey",
+      "cream",
+      "checks",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-450": {
+    "colors": [
+      "charcoal",
+      "grey",
+      "blue"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "charcoal",
+      "grey",
+      "blue",
+      "solid",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-451": {
+    "colors": [
+      "grey",
+      "green"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "green",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-452": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "texture"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "casual",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "texture",
+      "shirt",
+      "casual",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-453": {
+    "colors": [
+      "grey",
+      "charcoal"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "grey",
+      "charcoal",
+      "solid",
+      "shirt",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-454": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "stripes"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "stripes",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-455": {
+    "colors": [
+      "black",
+      "grey"
+    ],
+    "patterns": [
+      "texture"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "casual",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "black",
+      "grey",
+      "texture",
+      "shirt",
+      "casual",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-456": {
+    "colors": [
+      "black",
+      "grey"
+    ],
+    "patterns": [
+      "texture"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "casual",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "black",
+      "grey",
+      "texture",
+      "shirt",
+      "casual",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-457": {
+    "colors": [
+      "grey",
+      "teal"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "teal",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-458": {
+    "colors": [
+      "grey",
+      "pink"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "pink",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-459": {
+    "colors": [
+      "blue",
+      "grey"
+    ],
+    "patterns": [
+      "texture"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "casual",
+      "light"
+    ],
+    "tags": [
+      "blue",
+      "grey",
+      "texture",
+      "shirt",
+      "casual",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-460": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-461": {
+    "colors": [
+      "blue",
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "blue",
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-462": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "PI-502": {
+    "colors": [
+      "cream",
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "premium",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "cream",
+      "grey",
+      "solid",
+      "shirt",
+      "premium",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "PI-503": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "premium",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "premium",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "PI-504": {
+    "colors": [
+      "grey",
+      "charcoal"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "premium",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "grey",
+      "charcoal",
+      "solid",
+      "shirt",
+      "premium",
+      "formal",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "PI-506": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "premium",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "premium",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "PI-509": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "premium",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "premium",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "PI-514": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "premium",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "premium",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "PI-515": {
+    "colors": [
+      "grey",
+      "navy"
+    ],
+    "patterns": [
+      "texture"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "premium",
+      "casual",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "grey",
+      "navy",
+      "texture",
+      "shirt",
+      "premium",
+      "casual",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "PI-517": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "premium",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "premium",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "PI-522": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "premium",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "premium",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "PI-524": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "premium",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "premium",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "PI-526": {
+    "colors": [
+      "blue",
+      "grey"
+    ],
+    "patterns": [
+      "texture"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "premium",
+      "casual",
+      "light"
+    ],
+    "tags": [
+      "blue",
+      "grey",
+      "texture",
+      "shirt",
+      "premium",
+      "casual",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "PI-528": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "premium",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "premium",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "PI-529": {
+    "colors": [
+      "blue",
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "premium",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "blue",
+      "grey",
+      "solid",
+      "shirt",
+      "premium",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "PI-530": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "premium",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "premium",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "PI-531": {
+    "colors": [
+      "grey"
+    ],
+    "patterns": [
+      "stripes"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "premium",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "stripes",
+      "shirt",
+      "premium",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  }
+}

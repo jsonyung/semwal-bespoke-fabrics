@@ -1,0 +1,3412 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Semwal Fabric Tag Review</title>
+    <style>
+      body { margin: 0; background: #f6f7fb; color: #1b1e28; font-family: Inter, system-ui, sans-serif; }
+      header { position: sticky; top: 0; z-index: 1; border-bottom: 1px solid #d8dce8; background: #fff; }
+      .wrap { width: min(1280px, calc(100% - 32px)); margin: 0 auto; }
+      .mast { padding: 18px 0; }
+      h1 { margin: 0; font-size: 30px; }
+      p { color: #5a6072; }
+      .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 14px; padding: 20px 0 44px; }
+      .card { overflow: hidden; border: 1px solid #d8dce8; border-radius: 8px; background: #fff; box-shadow: 0 14px 34px rgba(27, 30, 40, 0.08); }
+      img { display: block; width: 100%; aspect-ratio: 1; object-fit: cover; background: #edeff6; }
+      .meta { display: grid; gap: 6px; padding: 12px; }
+      h2 { margin: 0; font-size: 18px; }
+      .meta p { margin: 0; font-size: 13px; }
+      strong { display: inline-block; min-width: 56px; color: #1b1e28; }
+      code { display: block; overflow-x: auto; border-radius: 6px; padding: 8px; background: #edeff6; color: #1b1e28; font-size: 11px; white-space: nowrap; }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="wrap mast">
+        <h1>Fabric Tag Review</h1>
+        <p>Check every fabric visually. Copy the command on any card, edit tags if needed, then run it in Terminal.</p>
+      </div>
+    </header>
+    <main class="wrap grid">
+      
+            <article class="card">
+              <a href="images/I-18.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-18.jpg" alt="I-18"></a>
+              <div class="meta">
+                <h2>I-18</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-18 colors=grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-19.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-19.jpg" alt="I-19"></a>
+              <div class="meta">
+                <h2>I-19</h2>
+                <p><strong>Color</strong> grey, white</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-19 colors=grey,white patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-21.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-21.jpg" alt="I-21"></a>
+              <div class="meta">
+                <h2>I-21</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-21 colors=grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-24.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-24.jpg" alt="I-24"></a>
+              <div class="meta">
+                <h2>I-24</h2>
+                <p><strong>Color</strong> navy, teal, black</p>
+                <p><strong>Pattern</strong> checks</p>
+                <p><strong>Style</strong> shirt, formal, dark</p>
+                <code>./tag-fabric.sh I-24 colors=navy,teal,black patterns=checks styles=shirt,formal,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-25.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-25.jpg" alt="I-25"></a>
+              <div class="meta">
+                <h2>I-25</h2>
+                <p><strong>Color</strong> black, charcoal, grey</p>
+                <p><strong>Pattern</strong> checks</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-25 colors=black,charcoal,grey patterns=checks styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-27.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-27.jpg" alt="I-27"></a>
+              <div class="meta">
+                <h2>I-27</h2>
+                <p><strong>Color</strong> grey, white</p>
+                <p><strong>Pattern</strong> checks</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-27 colors=grey,white patterns=checks styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-28.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-28.jpg" alt="I-28"></a>
+              <div class="meta">
+                <h2>I-28</h2>
+                <p><strong>Color</strong> grey, white, charcoal</p>
+                <p><strong>Pattern</strong> checks</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-28 colors=grey,white,charcoal patterns=checks styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-29.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-29.jpg" alt="I-29"></a>
+              <div class="meta">
+                <h2>I-29</h2>
+                <p><strong>Color</strong> grey, white, charcoal</p>
+                <p><strong>Pattern</strong> checks</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-29 colors=grey,white,charcoal patterns=checks styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-30.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-30.jpg" alt="I-30"></a>
+              <div class="meta">
+                <h2>I-30</h2>
+                <p><strong>Color</strong> grey, white, charcoal</p>
+                <p><strong>Pattern</strong> checks</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-30 colors=grey,white,charcoal patterns=checks styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-31.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-31.jpg" alt="I-31"></a>
+              <div class="meta">
+                <h2>I-31</h2>
+                <p><strong>Color</strong> grey, white</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-31 colors=grey,white patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-32.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-32.jpg" alt="I-32"></a>
+              <div class="meta">
+                <h2>I-32</h2>
+                <p><strong>Color</strong> grey, white, charcoal</p>
+                <p><strong>Pattern</strong> checks</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-32 colors=grey,white,charcoal patterns=checks styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-33.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-33.jpg" alt="I-33"></a>
+              <div class="meta">
+                <h2>I-33</h2>
+                <p><strong>Color</strong> grey, white</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-33 colors=grey,white patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-34.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-34.jpg" alt="I-34"></a>
+              <div class="meta">
+                <h2>I-34</h2>
+                <p><strong>Color</strong> grey, white, charcoal</p>
+                <p><strong>Pattern</strong> checks</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-34 colors=grey,white,charcoal patterns=checks styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-35.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-35.jpg" alt="I-35"></a>
+              <div class="meta">
+                <h2>I-35</h2>
+                <p><strong>Color</strong> grey, charcoal</p>
+                <p><strong>Pattern</strong> stripes</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-35 colors=grey,charcoal patterns=stripes styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-36.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-36.jpg" alt="I-36"></a>
+              <div class="meta">
+                <h2>I-36</h2>
+                <p><strong>Color</strong> grey, white</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-36 colors=grey,white patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-37.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-37.jpg" alt="I-37"></a>
+              <div class="meta">
+                <h2>I-37</h2>
+                <p><strong>Color</strong> grey, white</p>
+                <p><strong>Pattern</strong> stripes</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-37 colors=grey,white patterns=stripes styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-38.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-38.jpg" alt="I-38"></a>
+              <div class="meta">
+                <h2>I-38</h2>
+                <p><strong>Color</strong> grey, white</p>
+                <p><strong>Pattern</strong> stripes</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-38 colors=grey,white patterns=stripes styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-39.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-39.jpg" alt="I-39"></a>
+              <div class="meta">
+                <h2>I-39</h2>
+                <p><strong>Color</strong> grey, beige, cream</p>
+                <p><strong>Pattern</strong> checks</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-39 colors=grey,beige,cream patterns=checks styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-41.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-41.jpg" alt="I-41"></a>
+              <div class="meta">
+                <h2>I-41</h2>
+                <p><strong>Color</strong> grey, white, beige</p>
+                <p><strong>Pattern</strong> checks</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-41 colors=grey,white,beige patterns=checks styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-42.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-42.jpg" alt="I-42"></a>
+              <div class="meta">
+                <h2>I-42</h2>
+                <p><strong>Color</strong> grey, charcoal, white</p>
+                <p><strong>Pattern</strong> checks</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-42 colors=grey,charcoal,white patterns=checks styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-51.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-51.jpg" alt="I-51"></a>
+              <div class="meta">
+                <h2>I-51</h2>
+                <p><strong>Color</strong> navy, grey, white</p>
+                <p><strong>Pattern</strong> stripes</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-51 colors=navy,grey,white patterns=stripes styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-52.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-52.jpg" alt="I-52"></a>
+              <div class="meta">
+                <h2>I-52</h2>
+                <p><strong>Color</strong> grey, charcoal, white</p>
+                <p><strong>Pattern</strong> checks</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-52 colors=grey,charcoal,white patterns=checks styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-54.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-54.jpg" alt="I-54"></a>
+              <div class="meta">
+                <h2>I-54</h2>
+                <p><strong>Color</strong> blue, grey</p>
+                <p><strong>Pattern</strong> texture</p>
+                <p><strong>Style</strong> shirt, casual, light</p>
+                <code>./tag-fabric.sh I-54 colors=blue,grey patterns=texture styles=shirt,casual,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-56.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-56.jpg" alt="I-56"></a>
+              <div class="meta">
+                <h2>I-56</h2>
+                <p><strong>Color</strong> black, navy, grey</p>
+                <p><strong>Pattern</strong> checks</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-56 colors=black,navy,grey patterns=checks styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-61.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-61.jpg" alt="I-61"></a>
+              <div class="meta">
+                <h2>I-61</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-61 colors=grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-65.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-65.jpg" alt="I-65"></a>
+              <div class="meta">
+                <h2>I-65</h2>
+                <p><strong>Color</strong> blue, grey</p>
+                <p><strong>Pattern</strong> stripes</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-65 colors=blue,grey patterns=stripes styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-66.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-66.jpg" alt="I-66"></a>
+              <div class="meta">
+                <h2>I-66</h2>
+                <p><strong>Color</strong> blue, grey</p>
+                <p><strong>Pattern</strong> checks</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-66 colors=blue,grey patterns=checks styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-67.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-67.jpg" alt="I-67"></a>
+              <div class="meta">
+                <h2>I-67</h2>
+                <p><strong>Color</strong> grey, blue</p>
+                <p><strong>Pattern</strong> stripes</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-67 colors=grey,blue patterns=stripes styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-68.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-68.jpg" alt="I-68"></a>
+              <div class="meta">
+                <h2>I-68</h2>
+                <p><strong>Color</strong> blue, grey</p>
+                <p><strong>Pattern</strong> checks</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-68 colors=blue,grey patterns=checks styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-69.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-69.jpg" alt="I-69"></a>
+              <div class="meta">
+                <h2>I-69</h2>
+                <p><strong>Color</strong> grey, blue</p>
+                <p><strong>Pattern</strong> stripes</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-69 colors=grey,blue patterns=stripes styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-70.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-70.jpg" alt="I-70"></a>
+              <div class="meta">
+                <h2>I-70</h2>
+                <p><strong>Color</strong> grey, blue, white</p>
+                <p><strong>Pattern</strong> stripes</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-70 colors=grey,blue,white patterns=stripes styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-71.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-71.jpg" alt="I-71"></a>
+              <div class="meta">
+                <h2>I-71</h2>
+                <p><strong>Color</strong> blue, grey, navy</p>
+                <p><strong>Pattern</strong> checks</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-71 colors=blue,grey,navy patterns=checks styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-72.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-72.jpg" alt="I-72"></a>
+              <div class="meta">
+                <h2>I-72</h2>
+                <p><strong>Color</strong> blue, grey, navy</p>
+                <p><strong>Pattern</strong> checks</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-72 colors=blue,grey,navy patterns=checks styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-73.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-73.jpg" alt="I-73"></a>
+              <div class="meta">
+                <h2>I-73</h2>
+                <p><strong>Color</strong> grey, charcoal</p>
+                <p><strong>Pattern</strong> checks</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-73 colors=grey,charcoal patterns=checks styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-74.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-74.jpg" alt="I-74"></a>
+              <div class="meta">
+                <h2>I-74</h2>
+                <p><strong>Color</strong> grey, blue</p>
+                <p><strong>Pattern</strong> stripes</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-74 colors=grey,blue patterns=stripes styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-75.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-75.jpg" alt="I-75"></a>
+              <div class="meta">
+                <h2>I-75</h2>
+                <p><strong>Color</strong> grey, blue</p>
+                <p><strong>Pattern</strong> stripes</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-75 colors=grey,blue patterns=stripes styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-79.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-79.jpg" alt="I-79"></a>
+              <div class="meta">
+                <h2>I-79</h2>
+                <p><strong>Color</strong> grey, blue, navy</p>
+                <p><strong>Pattern</strong> stripes</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-79 colors=grey,blue,navy patterns=stripes styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-82.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-82.jpg" alt="I-82"></a>
+              <div class="meta">
+                <h2>I-82</h2>
+                <p><strong>Color</strong> grey, blue</p>
+                <p><strong>Pattern</strong> stripes</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-82 colors=grey,blue patterns=stripes styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-83.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-83.jpg" alt="I-83"></a>
+              <div class="meta">
+                <h2>I-83</h2>
+                <p><strong>Color</strong> grey, navy, blue</p>
+                <p><strong>Pattern</strong> stripes</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-83 colors=grey,navy,blue patterns=stripes styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-84.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-84.jpg" alt="I-84"></a>
+              <div class="meta">
+                <h2>I-84</h2>
+                <p><strong>Color</strong> grey, blue</p>
+                <p><strong>Pattern</strong> stripes</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-84 colors=grey,blue patterns=stripes styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-86.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-86.jpg" alt="I-86"></a>
+              <div class="meta">
+                <h2>I-86</h2>
+                <p><strong>Color</strong> grey, blue, navy</p>
+                <p><strong>Pattern</strong> stripes</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-86 colors=grey,blue,navy patterns=stripes styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-87.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-87.jpg" alt="I-87"></a>
+              <div class="meta">
+                <h2>I-87</h2>
+                <p><strong>Color</strong> maroon</p>
+                <p><strong>Pattern</strong> stripes</p>
+                <p><strong>Style</strong> shirt, formal, dark</p>
+                <code>./tag-fabric.sh I-87 colors=maroon patterns=stripes styles=shirt,formal,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-88.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-88.jpg" alt="I-88"></a>
+              <div class="meta">
+                <h2>I-88</h2>
+                <p><strong>Color</strong> navy, black</p>
+                <p><strong>Pattern</strong> checks</p>
+                <p><strong>Style</strong> shirt, formal, dark</p>
+                <code>./tag-fabric.sh I-88 colors=navy,black patterns=checks styles=shirt,formal,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-96.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-96.jpg" alt="I-96"></a>
+              <div class="meta">
+                <h2>I-96</h2>
+                <p><strong>Color</strong> red, grey</p>
+                <p><strong>Pattern</strong> texture</p>
+                <p><strong>Style</strong> shirt, casual, light</p>
+                <code>./tag-fabric.sh I-96 colors=red,grey patterns=texture styles=shirt,casual,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-101.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-101.jpg" alt="I-101"></a>
+              <div class="meta">
+                <h2>I-101</h2>
+                <p><strong>Color</strong> red, beige, grey</p>
+                <p><strong>Pattern</strong> checks</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-101 colors=red,beige,grey patterns=checks styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-102.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-102.jpg" alt="I-102"></a>
+              <div class="meta">
+                <h2>I-102</h2>
+                <p><strong>Color</strong> brown, black, charcoal</p>
+                <p><strong>Pattern</strong> checks</p>
+                <p><strong>Style</strong> shirt, formal, dark</p>
+                <code>./tag-fabric.sh I-102 colors=brown,black,charcoal patterns=checks styles=shirt,formal,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-103.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-103.jpg" alt="I-103"></a>
+              <div class="meta">
+                <h2>I-103</h2>
+                <p><strong>Color</strong> black, maroon, brown</p>
+                <p><strong>Pattern</strong> checks</p>
+                <p><strong>Style</strong> shirt, formal, dark</p>
+                <code>./tag-fabric.sh I-103 colors=black,maroon,brown patterns=checks styles=shirt,formal,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-104.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-104.jpg" alt="I-104"></a>
+              <div class="meta">
+                <h2>I-104</h2>
+                <p><strong>Color</strong> grey, blue, white</p>
+                <p><strong>Pattern</strong> checks</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-104 colors=grey,blue,white patterns=checks styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-105.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-105.jpg" alt="I-105"></a>
+              <div class="meta">
+                <h2>I-105</h2>
+                <p><strong>Color</strong> grey, white, charcoal</p>
+                <p><strong>Pattern</strong> checks</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-105 colors=grey,white,charcoal patterns=checks styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-107.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-107.jpg" alt="I-107"></a>
+              <div class="meta">
+                <h2>I-107</h2>
+                <p><strong>Color</strong> maroon, grey</p>
+                <p><strong>Pattern</strong> stripes</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-107 colors=maroon,grey patterns=stripes styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-112.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-112.jpg" alt="I-112"></a>
+              <div class="meta">
+                <h2>I-112</h2>
+                <p><strong>Color</strong> purple, grey</p>
+                <p><strong>Pattern</strong> texture</p>
+                <p><strong>Style</strong> shirt, casual, light</p>
+                <code>./tag-fabric.sh I-112 colors=purple,grey patterns=texture styles=shirt,casual,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-115.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-115.jpg" alt="I-115"></a>
+              <div class="meta">
+                <h2>I-115</h2>
+                <p><strong>Color</strong> maroon, grey</p>
+                <p><strong>Pattern</strong> stripes</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-115 colors=maroon,grey patterns=stripes styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-119.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-119.jpg" alt="I-119"></a>
+              <div class="meta">
+                <h2>I-119</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-119 colors=grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-127.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-127.jpg" alt="I-127"></a>
+              <div class="meta">
+                <h2>I-127</h2>
+                <p><strong>Color</strong> grey, blue</p>
+                <p><strong>Pattern</strong> texture</p>
+                <p><strong>Style</strong> shirt, casual, light</p>
+                <code>./tag-fabric.sh I-127 colors=grey,blue patterns=texture styles=shirt,casual,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-129.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-129.jpg" alt="I-129"></a>
+              <div class="meta">
+                <h2>I-129</h2>
+                <p><strong>Color</strong> charcoal, grey, black</p>
+                <p><strong>Pattern</strong> checks</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-129 colors=charcoal,grey,black patterns=checks styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-131.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-131.jpg" alt="I-131"></a>
+              <div class="meta">
+                <h2>I-131</h2>
+                <p><strong>Color</strong> navy, grey, blue</p>
+                <p><strong>Pattern</strong> checks</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-131 colors=navy,grey,blue patterns=checks styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-133.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-133.jpg" alt="I-133"></a>
+              <div class="meta">
+                <h2>I-133</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> stripes</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-133 colors=grey patterns=stripes styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-135.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-135.jpg" alt="I-135"></a>
+              <div class="meta">
+                <h2>I-135</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-135 colors=grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-138.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-138.jpg" alt="I-138"></a>
+              <div class="meta">
+                <h2>I-138</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-138 colors=grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-144.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-144.jpg" alt="I-144"></a>
+              <div class="meta">
+                <h2>I-144</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-144 colors=grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-145.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-145.jpg" alt="I-145"></a>
+              <div class="meta">
+                <h2>I-145</h2>
+                <p><strong>Color</strong> grey, blue</p>
+                <p><strong>Pattern</strong> stripes</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-145 colors=grey,blue patterns=stripes styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-147.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-147.jpg" alt="I-147"></a>
+              <div class="meta">
+                <h2>I-147</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> stripes</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-147 colors=grey patterns=stripes styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-153.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-153.jpg" alt="I-153"></a>
+              <div class="meta">
+                <h2>I-153</h2>
+                <p><strong>Color</strong> grey, blue</p>
+                <p><strong>Pattern</strong> stripes</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-153 colors=grey,blue patterns=stripes styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-155.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-155.jpg" alt="I-155"></a>
+              <div class="meta">
+                <h2>I-155</h2>
+                <p><strong>Color</strong> blue, grey</p>
+                <p><strong>Pattern</strong> checks</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-155 colors=blue,grey patterns=checks styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-156.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-156.jpg" alt="I-156"></a>
+              <div class="meta">
+                <h2>I-156</h2>
+                <p><strong>Color</strong> grey, blue, navy</p>
+                <p><strong>Pattern</strong> checks</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-156 colors=grey,blue,navy patterns=checks styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-157.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-157.jpg" alt="I-157"></a>
+              <div class="meta">
+                <h2>I-157</h2>
+                <p><strong>Color</strong> grey, blue, white</p>
+                <p><strong>Pattern</strong> checks</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-157 colors=grey,blue,white patterns=checks styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-158.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-158.jpg" alt="I-158"></a>
+              <div class="meta">
+                <h2>I-158</h2>
+                <p><strong>Color</strong> grey, blue, beige</p>
+                <p><strong>Pattern</strong> checks</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-158 colors=grey,blue,beige patterns=checks styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-159.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-159.jpg" alt="I-159"></a>
+              <div class="meta">
+                <h2>I-159</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> texture</p>
+                <p><strong>Style</strong> shirt, casual, light</p>
+                <code>./tag-fabric.sh I-159 colors=grey patterns=texture styles=shirt,casual,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-160.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-160.jpg" alt="I-160"></a>
+              <div class="meta">
+                <h2>I-160</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-160 colors=grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-162.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-162.jpg" alt="I-162"></a>
+              <div class="meta">
+                <h2>I-162</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-162 colors=grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-164.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-164.jpg" alt="I-164"></a>
+              <div class="meta">
+                <h2>I-164</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-164 colors=grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-165.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-165.jpg" alt="I-165"></a>
+              <div class="meta">
+                <h2>I-165</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-165 colors=grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-168.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-168.jpg" alt="I-168"></a>
+              <div class="meta">
+                <h2>I-168</h2>
+                <p><strong>Color</strong> blue, grey, purple</p>
+                <p><strong>Pattern</strong> checks</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-168 colors=blue,grey,purple patterns=checks styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-169.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-169.jpg" alt="I-169"></a>
+              <div class="meta">
+                <h2>I-169</h2>
+                <p><strong>Color</strong> blue, teal</p>
+                <p><strong>Pattern</strong> checks</p>
+                <p><strong>Style</strong> shirt, formal</p>
+                <code>./tag-fabric.sh I-169 colors=blue,teal patterns=checks styles=shirt,formal</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-175.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-175.jpg" alt="I-175"></a>
+              <div class="meta">
+                <h2>I-175</h2>
+                <p><strong>Color</strong> grey, white</p>
+                <p><strong>Pattern</strong> stripes</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-175 colors=grey,white patterns=stripes styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-176.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-176.jpg" alt="I-176"></a>
+              <div class="meta">
+                <h2>I-176</h2>
+                <p><strong>Color</strong> grey, white</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-176 colors=grey,white patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-177.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-177.jpg" alt="I-177"></a>
+              <div class="meta">
+                <h2>I-177</h2>
+                <p><strong>Color</strong> grey, white</p>
+                <p><strong>Pattern</strong> checks</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-177 colors=grey,white patterns=checks styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-178.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-178.jpg" alt="I-178"></a>
+              <div class="meta">
+                <h2>I-178</h2>
+                <p><strong>Color</strong> grey, white</p>
+                <p><strong>Pattern</strong> checks</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-178 colors=grey,white patterns=checks styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-180.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-180.jpg" alt="I-180"></a>
+              <div class="meta">
+                <h2>I-180</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-180 colors=grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-182.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-182.jpg" alt="I-182"></a>
+              <div class="meta">
+                <h2>I-182</h2>
+                <p><strong>Color</strong> grey, charcoal, white</p>
+                <p><strong>Pattern</strong> checks</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-182 colors=grey,charcoal,white patterns=checks styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-183.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-183.jpg" alt="I-183"></a>
+              <div class="meta">
+                <h2>I-183</h2>
+                <p><strong>Color</strong> navy, black, blue</p>
+                <p><strong>Pattern</strong> checks</p>
+                <p><strong>Style</strong> shirt, formal, dark</p>
+                <code>./tag-fabric.sh I-183 colors=navy,black,blue patterns=checks styles=shirt,formal,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-184.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-184.jpg" alt="I-184"></a>
+              <div class="meta">
+                <h2>I-184</h2>
+                <p><strong>Color</strong> grey, white, teal</p>
+                <p><strong>Pattern</strong> checks</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-184 colors=grey,white,teal patterns=checks styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-185.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-185.jpg" alt="I-185"></a>
+              <div class="meta">
+                <h2>I-185</h2>
+                <p><strong>Color</strong> grey, teal</p>
+                <p><strong>Pattern</strong> stripes</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-185 colors=grey,teal patterns=stripes styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-186.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-186.jpg" alt="I-186"></a>
+              <div class="meta">
+                <h2>I-186</h2>
+                <p><strong>Color</strong> grey, charcoal</p>
+                <p><strong>Pattern</strong> checks</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-186 colors=grey,charcoal patterns=checks styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-194.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-194.jpg" alt="I-194"></a>
+              <div class="meta">
+                <h2>I-194</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-194 colors=grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-196.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-196.jpg" alt="I-196"></a>
+              <div class="meta">
+                <h2>I-196</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-196 colors=grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-198.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-198.jpg" alt="I-198"></a>
+              <div class="meta">
+                <h2>I-198</h2>
+                <p><strong>Color</strong> blue, grey</p>
+                <p><strong>Pattern</strong> checks</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-198 colors=blue,grey patterns=checks styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-203.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-203.jpg" alt="I-203"></a>
+              <div class="meta">
+                <h2>I-203</h2>
+                <p><strong>Color</strong> grey, blue</p>
+                <p><strong>Pattern</strong> stripes</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-203 colors=grey,blue patterns=stripes styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-207.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-207.jpg" alt="I-207"></a>
+              <div class="meta">
+                <h2>I-207</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-207 colors=grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-210.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-210.jpg" alt="I-210"></a>
+              <div class="meta">
+                <h2>I-210</h2>
+                <p><strong>Color</strong> blue, grey</p>
+                <p><strong>Pattern</strong> texture</p>
+                <p><strong>Style</strong> shirt, casual, light</p>
+                <code>./tag-fabric.sh I-210 colors=blue,grey patterns=texture styles=shirt,casual,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-211.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-211.jpg" alt="I-211"></a>
+              <div class="meta">
+                <h2>I-211</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-211 colors=grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-212.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-212.jpg" alt="I-212"></a>
+              <div class="meta">
+                <h2>I-212</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-212 colors=grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-214.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-214.jpg" alt="I-214"></a>
+              <div class="meta">
+                <h2>I-214</h2>
+                <p><strong>Color</strong> charcoal, grey</p>
+                <p><strong>Pattern</strong> texture</p>
+                <p><strong>Style</strong> shirt, casual, light, dark</p>
+                <code>./tag-fabric.sh I-214 colors=charcoal,grey patterns=texture styles=shirt,casual,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-215.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-215.jpg" alt="I-215"></a>
+              <div class="meta">
+                <h2>I-215</h2>
+                <p><strong>Color</strong> red, grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-215 colors=red,grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-217.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-217.jpg" alt="I-217"></a>
+              <div class="meta">
+                <h2>I-217</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-217 colors=grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-219.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-219.jpg" alt="I-219"></a>
+              <div class="meta">
+                <h2>I-219</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-219 colors=grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-220.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-220.jpg" alt="I-220"></a>
+              <div class="meta">
+                <h2>I-220</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-220 colors=grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-222.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-222.jpg" alt="I-222"></a>
+              <div class="meta">
+                <h2>I-222</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-222 colors=grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-223.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-223.jpg" alt="I-223"></a>
+              <div class="meta">
+                <h2>I-223</h2>
+                <p><strong>Color</strong> blue, grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-223 colors=blue,grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-224.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-224.jpg" alt="I-224"></a>
+              <div class="meta">
+                <h2>I-224</h2>
+                <p><strong>Color</strong> teal, grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-224 colors=teal,grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-225.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-225.jpg" alt="I-225"></a>
+              <div class="meta">
+                <h2>I-225</h2>
+                <p><strong>Color</strong> grey, teal</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-225 colors=grey,teal patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-227.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-227.jpg" alt="I-227"></a>
+              <div class="meta">
+                <h2>I-227</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-227 colors=grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-232.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-232.jpg" alt="I-232"></a>
+              <div class="meta">
+                <h2>I-232</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-232 colors=grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-234.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-234.jpg" alt="I-234"></a>
+              <div class="meta">
+                <h2>I-234</h2>
+                <p><strong>Color</strong> blue, grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-234 colors=blue,grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-235.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-235.jpg" alt="I-235"></a>
+              <div class="meta">
+                <h2>I-235</h2>
+                <p><strong>Color</strong> blue, grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-235 colors=blue,grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-236.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-236.jpg" alt="I-236"></a>
+              <div class="meta">
+                <h2>I-236</h2>
+                <p><strong>Color</strong> grey, blue</p>
+                <p><strong>Pattern</strong> stripes</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-236 colors=grey,blue patterns=stripes styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-237.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-237.jpg" alt="I-237"></a>
+              <div class="meta">
+                <h2>I-237</h2>
+                <p><strong>Color</strong> blue, grey, navy</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-237 colors=blue,grey,navy patterns=solid styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-239.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-239.jpg" alt="I-239"></a>
+              <div class="meta">
+                <h2>I-239</h2>
+                <p><strong>Color</strong> charcoal, grey</p>
+                <p><strong>Pattern</strong> texture</p>
+                <p><strong>Style</strong> shirt, casual, light, dark</p>
+                <code>./tag-fabric.sh I-239 colors=charcoal,grey patterns=texture styles=shirt,casual,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-241.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-241.jpg" alt="I-241"></a>
+              <div class="meta">
+                <h2>I-241</h2>
+                <p><strong>Color</strong> grey, charcoal</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-241 colors=grey,charcoal patterns=solid styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-242.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-242.jpg" alt="I-242"></a>
+              <div class="meta">
+                <h2>I-242</h2>
+                <p><strong>Color</strong> navy, grey, charcoal</p>
+                <p><strong>Pattern</strong> texture</p>
+                <p><strong>Style</strong> shirt, casual, light, dark</p>
+                <code>./tag-fabric.sh I-242 colors=navy,grey,charcoal patterns=texture styles=shirt,casual,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-247.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-247.jpg" alt="I-247"></a>
+              <div class="meta">
+                <h2>I-247</h2>
+                <p><strong>Color</strong> grey, charcoal</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-247 colors=grey,charcoal patterns=solid styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-248.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-248.jpg" alt="I-248"></a>
+              <div class="meta">
+                <h2>I-248</h2>
+                <p><strong>Color</strong> black, grey, charcoal</p>
+                <p><strong>Pattern</strong> checks</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-248 colors=black,grey,charcoal patterns=checks styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-249.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-249.jpg" alt="I-249"></a>
+              <div class="meta">
+                <h2>I-249</h2>
+                <p><strong>Color</strong> grey, charcoal</p>
+                <p><strong>Pattern</strong> checks</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-249 colors=grey,charcoal patterns=checks styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-251.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-251.jpg" alt="I-251"></a>
+              <div class="meta">
+                <h2>I-251</h2>
+                <p><strong>Color</strong> grey, red, maroon</p>
+                <p><strong>Pattern</strong> stripes</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-251 colors=grey,red,maroon patterns=stripes styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-252.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-252.jpg" alt="I-252"></a>
+              <div class="meta">
+                <h2>I-252</h2>
+                <p><strong>Color</strong> charcoal, grey</p>
+                <p><strong>Pattern</strong> checks</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-252 colors=charcoal,grey patterns=checks styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-254.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-254.jpg" alt="I-254"></a>
+              <div class="meta">
+                <h2>I-254</h2>
+                <p><strong>Color</strong> grey, charcoal</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-254 colors=grey,charcoal patterns=solid styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-255.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-255.jpg" alt="I-255"></a>
+              <div class="meta">
+                <h2>I-255</h2>
+                <p><strong>Color</strong> blue, grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-255 colors=blue,grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-256.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-256.jpg" alt="I-256"></a>
+              <div class="meta">
+                <h2>I-256</h2>
+                <p><strong>Color</strong> navy, grey, blue</p>
+                <p><strong>Pattern</strong> stripes</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-256 colors=navy,grey,blue patterns=stripes styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-259.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-259.jpg" alt="I-259"></a>
+              <div class="meta">
+                <h2>I-259</h2>
+                <p><strong>Color</strong> grey, blue</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-259 colors=grey,blue patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-261.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-261.jpg" alt="I-261"></a>
+              <div class="meta">
+                <h2>I-261</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-261 colors=grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-263.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-263.jpg" alt="I-263"></a>
+              <div class="meta">
+                <h2>I-263</h2>
+                <p><strong>Color</strong> grey, navy</p>
+                <p><strong>Pattern</strong> texture</p>
+                <p><strong>Style</strong> shirt, casual, light, dark</p>
+                <code>./tag-fabric.sh I-263 colors=grey,navy patterns=texture styles=shirt,casual,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-265.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-265.jpg" alt="I-265"></a>
+              <div class="meta">
+                <h2>I-265</h2>
+                <p><strong>Color</strong> grey, blue</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-265 colors=grey,blue patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-266.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-266.jpg" alt="I-266"></a>
+              <div class="meta">
+                <h2>I-266</h2>
+                <p><strong>Color</strong> black, grey</p>
+                <p><strong>Pattern</strong> texture</p>
+                <p><strong>Style</strong> shirt, casual, light, dark</p>
+                <code>./tag-fabric.sh I-266 colors=black,grey patterns=texture styles=shirt,casual,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-267.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-267.jpg" alt="I-267"></a>
+              <div class="meta">
+                <h2>I-267</h2>
+                <p><strong>Color</strong> black, grey, purple</p>
+                <p><strong>Pattern</strong> texture</p>
+                <p><strong>Style</strong> shirt, casual, light, dark</p>
+                <code>./tag-fabric.sh I-267 colors=black,grey,purple patterns=texture styles=shirt,casual,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-268.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-268.jpg" alt="I-268"></a>
+              <div class="meta">
+                <h2>I-268</h2>
+                <p><strong>Color</strong> green, grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-268 colors=green,grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-269.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-269.jpg" alt="I-269"></a>
+              <div class="meta">
+                <h2>I-269</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-269 colors=grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-273.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-273.jpg" alt="I-273"></a>
+              <div class="meta">
+                <h2>I-273</h2>
+                <p><strong>Color</strong> pink, grey, purple</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-273 colors=pink,grey,purple patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-274.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-274.jpg" alt="I-274"></a>
+              <div class="meta">
+                <h2>I-274</h2>
+                <p><strong>Color</strong> green, grey, charcoal</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-274 colors=green,grey,charcoal patterns=solid styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-277.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-277.jpg" alt="I-277"></a>
+              <div class="meta">
+                <h2>I-277</h2>
+                <p><strong>Color</strong> blue, teal, grey</p>
+                <p><strong>Pattern</strong> stripes</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-277 colors=blue,teal,grey patterns=stripes styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-278.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-278.jpg" alt="I-278"></a>
+              <div class="meta">
+                <h2>I-278</h2>
+                <p><strong>Color</strong> grey, blue, green</p>
+                <p><strong>Pattern</strong> stripes</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-278 colors=grey,blue,green patterns=stripes styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-279.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-279.jpg" alt="I-279"></a>
+              <div class="meta">
+                <h2>I-279</h2>
+                <p><strong>Color</strong> grey, blue, pink</p>
+                <p><strong>Pattern</strong> stripes</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-279 colors=grey,blue,pink patterns=stripes styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-280.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-280.jpg" alt="I-280"></a>
+              <div class="meta">
+                <h2>I-280</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-280 colors=grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-281.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-281.jpg" alt="I-281"></a>
+              <div class="meta">
+                <h2>I-281</h2>
+                <p><strong>Color</strong> grey, charcoal</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-281 colors=grey,charcoal patterns=solid styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-282.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-282.jpg" alt="I-282"></a>
+              <div class="meta">
+                <h2>I-282</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-282 colors=grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-283.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-283.jpg" alt="I-283"></a>
+              <div class="meta">
+                <h2>I-283</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-283 colors=grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-284.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-284.jpg" alt="I-284"></a>
+              <div class="meta">
+                <h2>I-284</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-284 colors=grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-285.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-285.jpg" alt="I-285"></a>
+              <div class="meta">
+                <h2>I-285</h2>
+                <p><strong>Color</strong> grey, charcoal</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-285 colors=grey,charcoal patterns=solid styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-286.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-286.jpg" alt="I-286"></a>
+              <div class="meta">
+                <h2>I-286</h2>
+                <p><strong>Color</strong> grey, charcoal</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-286 colors=grey,charcoal patterns=solid styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-287.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-287.jpg" alt="I-287"></a>
+              <div class="meta">
+                <h2>I-287</h2>
+                <p><strong>Color</strong> grey, charcoal</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-287 colors=grey,charcoal patterns=solid styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-288.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-288.jpg" alt="I-288"></a>
+              <div class="meta">
+                <h2>I-288</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-288 colors=grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-291.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-291.jpg" alt="I-291"></a>
+              <div class="meta">
+                <h2>I-291</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-291 colors=grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-292.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-292.jpg" alt="I-292"></a>
+              <div class="meta">
+                <h2>I-292</h2>
+                <p><strong>Color</strong> purple, grey, charcoal</p>
+                <p><strong>Pattern</strong> texture</p>
+                <p><strong>Style</strong> shirt, casual, light, dark</p>
+                <code>./tag-fabric.sh I-292 colors=purple,grey,charcoal patterns=texture styles=shirt,casual,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-293.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-293.jpg" alt="I-293"></a>
+              <div class="meta">
+                <h2>I-293</h2>
+                <p><strong>Color</strong> black, grey</p>
+                <p><strong>Pattern</strong> texture</p>
+                <p><strong>Style</strong> shirt, casual, light, dark</p>
+                <code>./tag-fabric.sh I-293 colors=black,grey patterns=texture styles=shirt,casual,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-294.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-294.jpg" alt="I-294"></a>
+              <div class="meta">
+                <h2>I-294</h2>
+                <p><strong>Color</strong> grey, blue</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-294 colors=grey,blue patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-295.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-295.jpg" alt="I-295"></a>
+              <div class="meta">
+                <h2>I-295</h2>
+                <p><strong>Color</strong> green, grey</p>
+                <p><strong>Pattern</strong> texture</p>
+                <p><strong>Style</strong> shirt, casual, light</p>
+                <code>./tag-fabric.sh I-295 colors=green,grey patterns=texture styles=shirt,casual,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-296.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-296.jpg" alt="I-296"></a>
+              <div class="meta">
+                <h2>I-296</h2>
+                <p><strong>Color</strong> blue, purple, grey</p>
+                <p><strong>Pattern</strong> texture</p>
+                <p><strong>Style</strong> shirt, casual, light</p>
+                <code>./tag-fabric.sh I-296 colors=blue,purple,grey patterns=texture styles=shirt,casual,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-297.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-297.jpg" alt="I-297"></a>
+              <div class="meta">
+                <h2>I-297</h2>
+                <p><strong>Color</strong> blue, grey</p>
+                <p><strong>Pattern</strong> texture</p>
+                <p><strong>Style</strong> shirt, casual, light</p>
+                <code>./tag-fabric.sh I-297 colors=blue,grey patterns=texture styles=shirt,casual,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-298.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-298.jpg" alt="I-298"></a>
+              <div class="meta">
+                <h2>I-298</h2>
+                <p><strong>Color</strong> grey, green, charcoal</p>
+                <p><strong>Pattern</strong> checks</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-298 colors=grey,green,charcoal patterns=checks styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-299.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-299.jpg" alt="I-299"></a>
+              <div class="meta">
+                <h2>I-299</h2>
+                <p><strong>Color</strong> black, grey</p>
+                <p><strong>Pattern</strong> texture</p>
+                <p><strong>Style</strong> shirt, casual, light, dark</p>
+                <code>./tag-fabric.sh I-299 colors=black,grey patterns=texture styles=shirt,casual,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-300.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-300.jpg" alt="I-300"></a>
+              <div class="meta">
+                <h2>I-300</h2>
+                <p><strong>Color</strong> brown, grey, beige</p>
+                <p><strong>Pattern</strong> checks</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-300 colors=brown,grey,beige patterns=checks styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-301.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-301.jpg" alt="I-301"></a>
+              <div class="meta">
+                <h2>I-301</h2>
+                <p><strong>Color</strong> navy, grey, blue</p>
+                <p><strong>Pattern</strong> checks</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-301 colors=navy,grey,blue patterns=checks styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-302.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-302.jpg" alt="I-302"></a>
+              <div class="meta">
+                <h2>I-302</h2>
+                <p><strong>Color</strong> red, grey</p>
+                <p><strong>Pattern</strong> checks</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-302 colors=red,grey patterns=checks styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-303.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-303.jpg" alt="I-303"></a>
+              <div class="meta">
+                <h2>I-303</h2>
+                <p><strong>Color</strong> navy, black, grey</p>
+                <p><strong>Pattern</strong> texture</p>
+                <p><strong>Style</strong> shirt, casual, light, dark</p>
+                <code>./tag-fabric.sh I-303 colors=navy,black,grey patterns=texture styles=shirt,casual,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-306.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-306.jpg" alt="I-306"></a>
+              <div class="meta">
+                <h2>I-306</h2>
+                <p><strong>Color</strong> red, grey, orange</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-306 colors=red,grey,orange patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-309.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-309.jpg" alt="I-309"></a>
+              <div class="meta">
+                <h2>I-309</h2>
+                <p><strong>Color</strong> charcoal, grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-309 colors=charcoal,grey patterns=solid styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-310.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-310.jpg" alt="I-310"></a>
+              <div class="meta">
+                <h2>I-310</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-310 colors=grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-311.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-311.jpg" alt="I-311"></a>
+              <div class="meta">
+                <h2>I-311</h2>
+                <p><strong>Color</strong> grey, charcoal</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-311 colors=grey,charcoal patterns=solid styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-313.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-313.jpg" alt="I-313"></a>
+              <div class="meta">
+                <h2>I-313</h2>
+                <p><strong>Color</strong> charcoal, grey, green</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-313 colors=charcoal,grey,green patterns=solid styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-314.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-314.jpg" alt="I-314"></a>
+              <div class="meta">
+                <h2>I-314</h2>
+                <p><strong>Color</strong> grey, charcoal</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-314 colors=grey,charcoal patterns=solid styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-315.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-315.jpg" alt="I-315"></a>
+              <div class="meta">
+                <h2>I-315</h2>
+                <p><strong>Color</strong> grey, charcoal</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-315 colors=grey,charcoal patterns=solid styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-316.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-316.jpg" alt="I-316"></a>
+              <div class="meta">
+                <h2>I-316</h2>
+                <p><strong>Color</strong> grey, green, charcoal</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-316 colors=grey,green,charcoal patterns=solid styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-317.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-317.jpg" alt="I-317"></a>
+              <div class="meta">
+                <h2>I-317</h2>
+                <p><strong>Color</strong> grey, charcoal</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-317 colors=grey,charcoal patterns=solid styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-318.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-318.jpg" alt="I-318"></a>
+              <div class="meta">
+                <h2>I-318</h2>
+                <p><strong>Color</strong> grey, charcoal</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-318 colors=grey,charcoal patterns=solid styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-320.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-320.jpg" alt="I-320"></a>
+              <div class="meta">
+                <h2>I-320</h2>
+                <p><strong>Color</strong> grey, charcoal</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-320 colors=grey,charcoal patterns=solid styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-321.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-321.jpg" alt="I-321"></a>
+              <div class="meta">
+                <h2>I-321</h2>
+                <p><strong>Color</strong> grey, charcoal</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-321 colors=grey,charcoal patterns=solid styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-322.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-322.jpg" alt="I-322"></a>
+              <div class="meta">
+                <h2>I-322</h2>
+                <p><strong>Color</strong> grey, charcoal, cream</p>
+                <p><strong>Pattern</strong> stripes</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-322 colors=grey,charcoal,cream patterns=stripes styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-323.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-323.jpg" alt="I-323"></a>
+              <div class="meta">
+                <h2>I-323</h2>
+                <p><strong>Color</strong> purple, grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-323 colors=purple,grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-324.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-324.jpg" alt="I-324"></a>
+              <div class="meta">
+                <h2>I-324</h2>
+                <p><strong>Color</strong> blue, grey</p>
+                <p><strong>Pattern</strong> texture</p>
+                <p><strong>Style</strong> shirt, casual, light</p>
+                <code>./tag-fabric.sh I-324 colors=blue,grey patterns=texture styles=shirt,casual,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-325.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-325.jpg" alt="I-325"></a>
+              <div class="meta">
+                <h2>I-325</h2>
+                <p><strong>Color</strong> blue, grey</p>
+                <p><strong>Pattern</strong> texture</p>
+                <p><strong>Style</strong> shirt, casual, light</p>
+                <code>./tag-fabric.sh I-325 colors=blue,grey patterns=texture styles=shirt,casual,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-326.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-326.jpg" alt="I-326"></a>
+              <div class="meta">
+                <h2>I-326</h2>
+                <p><strong>Color</strong> grey, blue</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-326 colors=grey,blue patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-329.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-329.jpg" alt="I-329"></a>
+              <div class="meta">
+                <h2>I-329</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-329 colors=grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-333.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-333.jpg" alt="I-333"></a>
+              <div class="meta">
+                <h2>I-333</h2>
+                <p><strong>Color</strong> blue, grey</p>
+                <p><strong>Pattern</strong> texture</p>
+                <p><strong>Style</strong> shirt, casual, light</p>
+                <code>./tag-fabric.sh I-333 colors=blue,grey patterns=texture styles=shirt,casual,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-334.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-334.jpg" alt="I-334"></a>
+              <div class="meta">
+                <h2>I-334</h2>
+                <p><strong>Color</strong> black, grey</p>
+                <p><strong>Pattern</strong> texture</p>
+                <p><strong>Style</strong> shirt, casual, light, dark</p>
+                <code>./tag-fabric.sh I-334 colors=black,grey patterns=texture styles=shirt,casual,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-336.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-336.jpg" alt="I-336"></a>
+              <div class="meta">
+                <h2>I-336</h2>
+                <p><strong>Color</strong> grey, charcoal, black</p>
+                <p><strong>Pattern</strong> checks</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-336 colors=grey,charcoal,black patterns=checks styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-337.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-337.jpg" alt="I-337"></a>
+              <div class="meta">
+                <h2>I-337</h2>
+                <p><strong>Color</strong> teal, grey, navy</p>
+                <p><strong>Pattern</strong> stripes</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-337 colors=teal,grey,navy patterns=stripes styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-338.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-338.jpg" alt="I-338"></a>
+              <div class="meta">
+                <h2>I-338</h2>
+                <p><strong>Color</strong> grey, green, charcoal</p>
+                <p><strong>Pattern</strong> checks</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-338 colors=grey,green,charcoal patterns=checks styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-339.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-339.jpg" alt="I-339"></a>
+              <div class="meta">
+                <h2>I-339</h2>
+                <p><strong>Color</strong> blue, grey, teal</p>
+                <p><strong>Pattern</strong> stripes</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-339 colors=blue,grey,teal patterns=stripes styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-340.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-340.jpg" alt="I-340"></a>
+              <div class="meta">
+                <h2>I-340</h2>
+                <p><strong>Color</strong> black, grey, navy</p>
+                <p><strong>Pattern</strong> stripes</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-340 colors=black,grey,navy patterns=stripes styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-341.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-341.jpg" alt="I-341"></a>
+              <div class="meta">
+                <h2>I-341</h2>
+                <p><strong>Color</strong> grey, blue</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-341 colors=grey,blue patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-342.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-342.jpg" alt="I-342"></a>
+              <div class="meta">
+                <h2>I-342</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-342 colors=grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-343.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-343.jpg" alt="I-343"></a>
+              <div class="meta">
+                <h2>I-343</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-343 colors=grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-346.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-346.jpg" alt="I-346"></a>
+              <div class="meta">
+                <h2>I-346</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-346 colors=grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-353.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-353.jpg" alt="I-353"></a>
+              <div class="meta">
+                <h2>I-353</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-353 colors=grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-354.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-354.jpg" alt="I-354"></a>
+              <div class="meta">
+                <h2>I-354</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-354 colors=grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-355.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-355.jpg" alt="I-355"></a>
+              <div class="meta">
+                <h2>I-355</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-355 colors=grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-356.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-356.jpg" alt="I-356"></a>
+              <div class="meta">
+                <h2>I-356</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-356 colors=grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-357.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-357.jpg" alt="I-357"></a>
+              <div class="meta">
+                <h2>I-357</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-357 colors=grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-358.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-358.jpg" alt="I-358"></a>
+              <div class="meta">
+                <h2>I-358</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-358 colors=grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-359.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-359.jpg" alt="I-359"></a>
+              <div class="meta">
+                <h2>I-359</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-359 colors=grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-360.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-360.jpg" alt="I-360"></a>
+              <div class="meta">
+                <h2>I-360</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-360 colors=grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-361.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-361.jpg" alt="I-361"></a>
+              <div class="meta">
+                <h2>I-361</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-361 colors=grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-362.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-362.jpg" alt="I-362"></a>
+              <div class="meta">
+                <h2>I-362</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-362 colors=grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-363.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-363.jpg" alt="I-363"></a>
+              <div class="meta">
+                <h2>I-363</h2>
+                <p><strong>Color</strong> grey, white</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-363 colors=grey,white patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-364.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-364.jpg" alt="I-364"></a>
+              <div class="meta">
+                <h2>I-364</h2>
+                <p><strong>Color</strong> blue, white</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-364 colors=blue,white patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-365.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-365.jpg" alt="I-365"></a>
+              <div class="meta">
+                <h2>I-365</h2>
+                <p><strong>Color</strong> charcoal, blue</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, dark</p>
+                <code>./tag-fabric.sh I-365 colors=charcoal,blue patterns=solid styles=shirt,formal,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-366.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-366.jpg" alt="I-366"></a>
+              <div class="meta">
+                <h2>I-366</h2>
+                <p><strong>Color</strong> charcoal, grey, white</p>
+                <p><strong>Pattern</strong> texture</p>
+                <p><strong>Style</strong> shirt, casual, light, dark</p>
+                <code>./tag-fabric.sh I-366 colors=charcoal,grey,white patterns=texture styles=shirt,casual,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-367.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-367.jpg" alt="I-367"></a>
+              <div class="meta">
+                <h2>I-367</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-367 colors=grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-368.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-368.jpg" alt="I-368"></a>
+              <div class="meta">
+                <h2>I-368</h2>
+                <p><strong>Color</strong> grey, white</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-368 colors=grey,white patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-369.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-369.jpg" alt="I-369"></a>
+              <div class="meta">
+                <h2>I-369</h2>
+                <p><strong>Color</strong> grey, white</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-369 colors=grey,white patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-370.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-370.jpg" alt="I-370"></a>
+              <div class="meta">
+                <h2>I-370</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-370 colors=grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-371.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-371.jpg" alt="I-371"></a>
+              <div class="meta">
+                <h2>I-371</h2>
+                <p><strong>Color</strong> grey, white</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-371 colors=grey,white patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-372.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-372.jpg" alt="I-372"></a>
+              <div class="meta">
+                <h2>I-372</h2>
+                <p><strong>Color</strong> grey, white</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-372 colors=grey,white patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-373.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-373.jpg" alt="I-373"></a>
+              <div class="meta">
+                <h2>I-373</h2>
+                <p><strong>Color</strong> grey, white</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-373 colors=grey,white patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-374.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-374.jpg" alt="I-374"></a>
+              <div class="meta">
+                <h2>I-374</h2>
+                <p><strong>Color</strong> grey, white</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-374 colors=grey,white patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-375.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-375.jpg" alt="I-375"></a>
+              <div class="meta">
+                <h2>I-375</h2>
+                <p><strong>Color</strong> grey, cream, white</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-375 colors=grey,cream,white patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-376.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-376.jpg" alt="I-376"></a>
+              <div class="meta">
+                <h2>I-376</h2>
+                <p><strong>Color</strong> grey, cream, white</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-376 colors=grey,cream,white patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-377.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-377.jpg" alt="I-377"></a>
+              <div class="meta">
+                <h2>I-377</h2>
+                <p><strong>Color</strong> grey, white</p>
+                <p><strong>Pattern</strong> checks</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-377 colors=grey,white patterns=checks styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-378.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-378.jpg" alt="I-378"></a>
+              <div class="meta">
+                <h2>I-378</h2>
+                <p><strong>Color</strong> grey, charcoal, white</p>
+                <p><strong>Pattern</strong> checks</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-378 colors=grey,charcoal,white patterns=checks styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-379.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-379.jpg" alt="I-379"></a>
+              <div class="meta">
+                <h2>I-379</h2>
+                <p><strong>Color</strong> grey, white</p>
+                <p><strong>Pattern</strong> stripes</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-379 colors=grey,white patterns=stripes styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-380.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-380.jpg" alt="I-380"></a>
+              <div class="meta">
+                <h2>I-380</h2>
+                <p><strong>Color</strong> grey, white</p>
+                <p><strong>Pattern</strong> stripes</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-380 colors=grey,white patterns=stripes styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-381.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-381.jpg" alt="I-381"></a>
+              <div class="meta">
+                <h2>I-381</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-381 colors=grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-382.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-382.jpg" alt="I-382"></a>
+              <div class="meta">
+                <h2>I-382</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-382 colors=grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-383.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-383.jpg" alt="I-383"></a>
+              <div class="meta">
+                <h2>I-383</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-383 colors=grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-384.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-384.jpg" alt="I-384"></a>
+              <div class="meta">
+                <h2>I-384</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-384 colors=grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-385.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-385.jpg" alt="I-385"></a>
+              <div class="meta">
+                <h2>I-385</h2>
+                <p><strong>Color</strong> grey, white</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-385 colors=grey,white patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-386.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-386.jpg" alt="I-386"></a>
+              <div class="meta">
+                <h2>I-386</h2>
+                <p><strong>Color</strong> grey, white</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-386 colors=grey,white patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-387.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-387.jpg" alt="I-387"></a>
+              <div class="meta">
+                <h2>I-387</h2>
+                <p><strong>Color</strong> grey, white</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-387 colors=grey,white patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-388.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-388.jpg" alt="I-388"></a>
+              <div class="meta">
+                <h2>I-388</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-388 colors=grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-389.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-389.jpg" alt="I-389"></a>
+              <div class="meta">
+                <h2>I-389</h2>
+                <p><strong>Color</strong> white, grey, blue</p>
+                <p><strong>Pattern</strong> checks</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-389 colors=white,grey,blue patterns=checks styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-390.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-390.jpg" alt="I-390"></a>
+              <div class="meta">
+                <h2>I-390</h2>
+                <p><strong>Color</strong> grey, white, charcoal</p>
+                <p><strong>Pattern</strong> checks</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-390 colors=grey,white,charcoal patterns=checks styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-391.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-391.jpg" alt="I-391"></a>
+              <div class="meta">
+                <h2>I-391</h2>
+                <p><strong>Color</strong> grey, white</p>
+                <p><strong>Pattern</strong> stripes</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-391 colors=grey,white patterns=stripes styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-392.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-392.jpg" alt="I-392"></a>
+              <div class="meta">
+                <h2>I-392</h2>
+                <p><strong>Color</strong> grey, charcoal, white</p>
+                <p><strong>Pattern</strong> stripes</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-392 colors=grey,charcoal,white patterns=stripes styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-393.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-393.jpg" alt="I-393"></a>
+              <div class="meta">
+                <h2>I-393</h2>
+                <p><strong>Color</strong> blue, grey, white</p>
+                <p><strong>Pattern</strong> checks</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-393 colors=blue,grey,white patterns=checks styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-394.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-394.jpg" alt="I-394"></a>
+              <div class="meta">
+                <h2>I-394</h2>
+                <p><strong>Color</strong> grey, beige, white</p>
+                <p><strong>Pattern</strong> checks</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-394 colors=grey,beige,white patterns=checks styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-395.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-395.jpg" alt="I-395"></a>
+              <div class="meta">
+                <h2>I-395</h2>
+                <p><strong>Color</strong> white, grey</p>
+                <p><strong>Pattern</strong> stripes</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-395 colors=white,grey patterns=stripes styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-396.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-396.jpg" alt="I-396"></a>
+              <div class="meta">
+                <h2>I-396</h2>
+                <p><strong>Color</strong> grey, beige, white</p>
+                <p><strong>Pattern</strong> stripes</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-396 colors=grey,beige,white patterns=stripes styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-397.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-397.jpg" alt="I-397"></a>
+              <div class="meta">
+                <h2>I-397</h2>
+                <p><strong>Color</strong> blue</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal</p>
+                <code>./tag-fabric.sh I-397 colors=blue patterns=solid styles=shirt,formal</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-398.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-398.jpg" alt="I-398"></a>
+              <div class="meta">
+                <h2>I-398</h2>
+                <p><strong>Color</strong> grey, blue</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-398 colors=grey,blue patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-399.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-399.jpg" alt="I-399"></a>
+              <div class="meta">
+                <h2>I-399</h2>
+                <p><strong>Color</strong> grey, beige, charcoal</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-399 colors=grey,beige,charcoal patterns=solid styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-400.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-400.jpg" alt="I-400"></a>
+              <div class="meta">
+                <h2>I-400</h2>
+                <p><strong>Color</strong> grey, charcoal, blue</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-400 colors=grey,charcoal,blue patterns=solid styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-401.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-401.jpg" alt="I-401"></a>
+              <div class="meta">
+                <h2>I-401</h2>
+                <p><strong>Color</strong> grey, beige, cream</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-401 colors=grey,beige,cream patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-402.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-402.jpg" alt="I-402"></a>
+              <div class="meta">
+                <h2>I-402</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-402 colors=grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-403.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-403.jpg" alt="I-403"></a>
+              <div class="meta">
+                <h2>I-403</h2>
+                <p><strong>Color</strong> grey, blue, teal</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-403 colors=grey,blue,teal patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-404.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-404.jpg" alt="I-404"></a>
+              <div class="meta">
+                <h2>I-404</h2>
+                <p><strong>Color</strong> grey, beige, cream</p>
+                <p><strong>Pattern</strong> checks</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-404 colors=grey,beige,cream patterns=checks styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-405.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-405.jpg" alt="I-405"></a>
+              <div class="meta">
+                <h2>I-405</h2>
+                <p><strong>Color</strong> grey, blue</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-405 colors=grey,blue patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-406.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-406.jpg" alt="I-406"></a>
+              <div class="meta">
+                <h2>I-406</h2>
+                <p><strong>Color</strong> grey, beige</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-406 colors=grey,beige patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-407.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-407.jpg" alt="I-407"></a>
+              <div class="meta">
+                <h2>I-407</h2>
+                <p><strong>Color</strong> charcoal, grey</p>
+                <p><strong>Pattern</strong> checks</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-407 colors=charcoal,grey patterns=checks styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-408.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-408.jpg" alt="I-408"></a>
+              <div class="meta">
+                <h2>I-408</h2>
+                <p><strong>Color</strong> grey, charcoal</p>
+                <p><strong>Pattern</strong> stripes</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-408 colors=grey,charcoal patterns=stripes styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-409.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-409.jpg" alt="I-409"></a>
+              <div class="meta">
+                <h2>I-409</h2>
+                <p><strong>Color</strong> blue, grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-409 colors=blue,grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-410.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-410.jpg" alt="I-410"></a>
+              <div class="meta">
+                <h2>I-410</h2>
+                <p><strong>Color</strong> charcoal, grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-410 colors=charcoal,grey patterns=solid styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-411.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-411.jpg" alt="I-411"></a>
+              <div class="meta">
+                <h2>I-411</h2>
+                <p><strong>Color</strong> blue, grey, teal</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-411 colors=blue,grey,teal patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-412.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-412.jpg" alt="I-412"></a>
+              <div class="meta">
+                <h2>I-412</h2>
+                <p><strong>Color</strong> grey, charcoal</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-412 colors=grey,charcoal patterns=solid styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-413.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-413.jpg" alt="I-413"></a>
+              <div class="meta">
+                <h2>I-413</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-413 colors=grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-414.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-414.jpg" alt="I-414"></a>
+              <div class="meta">
+                <h2>I-414</h2>
+                <p><strong>Color</strong> charcoal, grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-414 colors=charcoal,grey patterns=solid styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-415.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-415.jpg" alt="I-415"></a>
+              <div class="meta">
+                <h2>I-415</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-415 colors=grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-416.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-416.jpg" alt="I-416"></a>
+              <div class="meta">
+                <h2>I-416</h2>
+                <p><strong>Color</strong> blue, teal</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal</p>
+                <code>./tag-fabric.sh I-416 colors=blue,teal patterns=solid styles=shirt,formal</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-417.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-417.jpg" alt="I-417"></a>
+              <div class="meta">
+                <h2>I-417</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-417 colors=grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-418.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-418.jpg" alt="I-418"></a>
+              <div class="meta">
+                <h2>I-418</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-418 colors=grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-419.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-419.jpg" alt="I-419"></a>
+              <div class="meta">
+                <h2>I-419</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-419 colors=grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-420.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-420.jpg" alt="I-420"></a>
+              <div class="meta">
+                <h2>I-420</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-420 colors=grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-421.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-421.jpg" alt="I-421"></a>
+              <div class="meta">
+                <h2>I-421</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-421 colors=grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-422.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-422.jpg" alt="I-422"></a>
+              <div class="meta">
+                <h2>I-422</h2>
+                <p><strong>Color</strong> charcoal, grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-422 colors=charcoal,grey patterns=solid styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-423.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-423.jpg" alt="I-423"></a>
+              <div class="meta">
+                <h2>I-423</h2>
+                <p><strong>Color</strong> blue</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal</p>
+                <code>./tag-fabric.sh I-423 colors=blue patterns=solid styles=shirt,formal</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-424.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-424.jpg" alt="I-424"></a>
+              <div class="meta">
+                <h2>I-424</h2>
+                <p><strong>Color</strong> blue, teal</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal</p>
+                <code>./tag-fabric.sh I-424 colors=blue,teal patterns=solid styles=shirt,formal</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-425.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-425.jpg" alt="I-425"></a>
+              <div class="meta">
+                <h2>I-425</h2>
+                <p><strong>Color</strong> grey, cream</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-425 colors=grey,cream patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-426.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-426.jpg" alt="I-426"></a>
+              <div class="meta">
+                <h2>I-426</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-426 colors=grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-427.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-427.jpg" alt="I-427"></a>
+              <div class="meta">
+                <h2>I-427</h2>
+                <p><strong>Color</strong> charcoal, grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-427 colors=charcoal,grey patterns=solid styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-428.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-428.jpg" alt="I-428"></a>
+              <div class="meta">
+                <h2>I-428</h2>
+                <p><strong>Color</strong> blue, navy, charcoal</p>
+                <p><strong>Pattern</strong> texture</p>
+                <p><strong>Style</strong> shirt, casual, dark</p>
+                <code>./tag-fabric.sh I-428 colors=blue,navy,charcoal patterns=texture styles=shirt,casual,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-429.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-429.jpg" alt="I-429"></a>
+              <div class="meta">
+                <h2>I-429</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-429 colors=grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-430.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-430.jpg" alt="I-430"></a>
+              <div class="meta">
+                <h2>I-430</h2>
+                <p><strong>Color</strong> beige, grey, charcoal</p>
+                <p><strong>Pattern</strong> stripes</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-430 colors=beige,grey,charcoal patterns=stripes styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-431.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-431.jpg" alt="I-431"></a>
+              <div class="meta">
+                <h2>I-431</h2>
+                <p><strong>Color</strong> charcoal, grey</p>
+                <p><strong>Pattern</strong> stripes</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-431 colors=charcoal,grey patterns=stripes styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-432.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-432.jpg" alt="I-432"></a>
+              <div class="meta">
+                <h2>I-432</h2>
+                <p><strong>Color</strong> blue, grey</p>
+                <p><strong>Pattern</strong> checks</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-432 colors=blue,grey patterns=checks styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-433.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-433.jpg" alt="I-433"></a>
+              <div class="meta">
+                <h2>I-433</h2>
+                <p><strong>Color</strong> grey, charcoal</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-433 colors=grey,charcoal patterns=solid styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-434.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-434.jpg" alt="I-434"></a>
+              <div class="meta">
+                <h2>I-434</h2>
+                <p><strong>Color</strong> grey, charcoal</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-434 colors=grey,charcoal patterns=solid styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-435.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-435.jpg" alt="I-435"></a>
+              <div class="meta">
+                <h2>I-435</h2>
+                <p><strong>Color</strong> blue, grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-435 colors=blue,grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-436.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-436.jpg" alt="I-436"></a>
+              <div class="meta">
+                <h2>I-436</h2>
+                <p><strong>Color</strong> grey, beige, charcoal</p>
+                <p><strong>Pattern</strong> checks</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-436 colors=grey,beige,charcoal patterns=checks styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-437.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-437.jpg" alt="I-437"></a>
+              <div class="meta">
+                <h2>I-437</h2>
+                <p><strong>Color</strong> charcoal, grey</p>
+                <p><strong>Pattern</strong> checks</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-437 colors=charcoal,grey patterns=checks styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-438.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-438.jpg" alt="I-438"></a>
+              <div class="meta">
+                <h2>I-438</h2>
+                <p><strong>Color</strong> grey, charcoal</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-438 colors=grey,charcoal patterns=solid styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-439.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-439.jpg" alt="I-439"></a>
+              <div class="meta">
+                <h2>I-439</h2>
+                <p><strong>Color</strong> grey, charcoal</p>
+                <p><strong>Pattern</strong> stripes</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-439 colors=grey,charcoal patterns=stripes styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-440.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-440.jpg" alt="I-440"></a>
+              <div class="meta">
+                <h2>I-440</h2>
+                <p><strong>Color</strong> grey, charcoal</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-440 colors=grey,charcoal patterns=solid styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-441.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-441.jpg" alt="I-441"></a>
+              <div class="meta">
+                <h2>I-441</h2>
+                <p><strong>Color</strong> grey, charcoal</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-441 colors=grey,charcoal patterns=solid styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-442.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-442.jpg" alt="I-442"></a>
+              <div class="meta">
+                <h2>I-442</h2>
+                <p><strong>Color</strong> grey, charcoal</p>
+                <p><strong>Pattern</strong> printed</p>
+                <p><strong>Style</strong> shirt, casual, light, dark</p>
+                <code>./tag-fabric.sh I-442 colors=grey,charcoal patterns=printed styles=shirt,casual,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-443.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-443.jpg" alt="I-443"></a>
+              <div class="meta">
+                <h2>I-443</h2>
+                <p><strong>Color</strong> grey, charcoal</p>
+                <p><strong>Pattern</strong> printed</p>
+                <p><strong>Style</strong> shirt, casual, light, dark</p>
+                <code>./tag-fabric.sh I-443 colors=grey,charcoal patterns=printed styles=shirt,casual,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-444.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-444.jpg" alt="I-444"></a>
+              <div class="meta">
+                <h2>I-444</h2>
+                <p><strong>Color</strong> black</p>
+                <p><strong>Pattern</strong> texture</p>
+                <p><strong>Style</strong> shirt, casual, dark</p>
+                <code>./tag-fabric.sh I-444 colors=black patterns=texture styles=shirt,casual,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-445.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-445.jpg" alt="I-445"></a>
+              <div class="meta">
+                <h2>I-445</h2>
+                <p><strong>Color</strong> black</p>
+                <p><strong>Pattern</strong> texture</p>
+                <p><strong>Style</strong> shirt, casual, dark</p>
+                <code>./tag-fabric.sh I-445 colors=black patterns=texture styles=shirt,casual,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-446.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-446.jpg" alt="I-446"></a>
+              <div class="meta">
+                <h2>I-446</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-446 colors=grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-447.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-447.jpg" alt="I-447"></a>
+              <div class="meta">
+                <h2>I-447</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-447 colors=grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-448.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-448.jpg" alt="I-448"></a>
+              <div class="meta">
+                <h2>I-448</h2>
+                <p><strong>Color</strong> grey, blue, yellow</p>
+                <p><strong>Pattern</strong> stripes</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-448 colors=grey,blue,yellow patterns=stripes styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-449.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-449.jpg" alt="I-449"></a>
+              <div class="meta">
+                <h2>I-449</h2>
+                <p><strong>Color</strong> charcoal, grey, cream</p>
+                <p><strong>Pattern</strong> checks</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-449 colors=charcoal,grey,cream patterns=checks styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-450.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-450.jpg" alt="I-450"></a>
+              <div class="meta">
+                <h2>I-450</h2>
+                <p><strong>Color</strong> charcoal, grey, blue</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-450 colors=charcoal,grey,blue patterns=solid styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-451.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-451.jpg" alt="I-451"></a>
+              <div class="meta">
+                <h2>I-451</h2>
+                <p><strong>Color</strong> grey, green</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-451 colors=grey,green patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-452.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-452.jpg" alt="I-452"></a>
+              <div class="meta">
+                <h2>I-452</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> texture</p>
+                <p><strong>Style</strong> shirt, casual, light</p>
+                <code>./tag-fabric.sh I-452 colors=grey patterns=texture styles=shirt,casual,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-453.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-453.jpg" alt="I-453"></a>
+              <div class="meta">
+                <h2>I-453</h2>
+                <p><strong>Color</strong> grey, charcoal</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light, dark</p>
+                <code>./tag-fabric.sh I-453 colors=grey,charcoal patterns=solid styles=shirt,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-454.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-454.jpg" alt="I-454"></a>
+              <div class="meta">
+                <h2>I-454</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> stripes</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-454 colors=grey patterns=stripes styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-455.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-455.jpg" alt="I-455"></a>
+              <div class="meta">
+                <h2>I-455</h2>
+                <p><strong>Color</strong> black, grey</p>
+                <p><strong>Pattern</strong> texture</p>
+                <p><strong>Style</strong> shirt, casual, light, dark</p>
+                <code>./tag-fabric.sh I-455 colors=black,grey patterns=texture styles=shirt,casual,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-456.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-456.jpg" alt="I-456"></a>
+              <div class="meta">
+                <h2>I-456</h2>
+                <p><strong>Color</strong> black, grey</p>
+                <p><strong>Pattern</strong> texture</p>
+                <p><strong>Style</strong> shirt, casual, light, dark</p>
+                <code>./tag-fabric.sh I-456 colors=black,grey patterns=texture styles=shirt,casual,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-457.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-457.jpg" alt="I-457"></a>
+              <div class="meta">
+                <h2>I-457</h2>
+                <p><strong>Color</strong> grey, teal</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-457 colors=grey,teal patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-458.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-458.jpg" alt="I-458"></a>
+              <div class="meta">
+                <h2>I-458</h2>
+                <p><strong>Color</strong> grey, pink</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-458 colors=grey,pink patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-459.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-459.jpg" alt="I-459"></a>
+              <div class="meta">
+                <h2>I-459</h2>
+                <p><strong>Color</strong> blue, grey</p>
+                <p><strong>Pattern</strong> texture</p>
+                <p><strong>Style</strong> shirt, casual, light</p>
+                <code>./tag-fabric.sh I-459 colors=blue,grey patterns=texture styles=shirt,casual,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-460.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-460.jpg" alt="I-460"></a>
+              <div class="meta">
+                <h2>I-460</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-460 colors=grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-461.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-461.jpg" alt="I-461"></a>
+              <div class="meta">
+                <h2>I-461</h2>
+                <p><strong>Color</strong> blue, grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-461 colors=blue,grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/I-462.jpg" target="_blank" rel="noreferrer"><img src="thumbs/I-462.jpg" alt="I-462"></a>
+              <div class="meta">
+                <h2>I-462</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, formal, light</p>
+                <code>./tag-fabric.sh I-462 colors=grey patterns=solid styles=shirt,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/PI-502.jpg" target="_blank" rel="noreferrer"><img src="thumbs/PI-502.jpg" alt="PI-502"></a>
+              <div class="meta">
+                <h2>PI-502</h2>
+                <p><strong>Color</strong> cream, grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, premium, formal, light</p>
+                <code>./tag-fabric.sh PI-502 colors=cream,grey patterns=solid styles=shirt,premium,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/PI-503.jpg" target="_blank" rel="noreferrer"><img src="thumbs/PI-503.jpg" alt="PI-503"></a>
+              <div class="meta">
+                <h2>PI-503</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, premium, formal, light</p>
+                <code>./tag-fabric.sh PI-503 colors=grey patterns=solid styles=shirt,premium,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/PI-504.jpg" target="_blank" rel="noreferrer"><img src="thumbs/PI-504.jpg" alt="PI-504"></a>
+              <div class="meta">
+                <h2>PI-504</h2>
+                <p><strong>Color</strong> grey, charcoal</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, premium, formal, light, dark</p>
+                <code>./tag-fabric.sh PI-504 colors=grey,charcoal patterns=solid styles=shirt,premium,formal,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/PI-506.jpg" target="_blank" rel="noreferrer"><img src="thumbs/PI-506.jpg" alt="PI-506"></a>
+              <div class="meta">
+                <h2>PI-506</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, premium, formal, light</p>
+                <code>./tag-fabric.sh PI-506 colors=grey patterns=solid styles=shirt,premium,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/PI-509.jpg" target="_blank" rel="noreferrer"><img src="thumbs/PI-509.jpg" alt="PI-509"></a>
+              <div class="meta">
+                <h2>PI-509</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, premium, formal, light</p>
+                <code>./tag-fabric.sh PI-509 colors=grey patterns=solid styles=shirt,premium,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/PI-514.jpg" target="_blank" rel="noreferrer"><img src="thumbs/PI-514.jpg" alt="PI-514"></a>
+              <div class="meta">
+                <h2>PI-514</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, premium, formal, light</p>
+                <code>./tag-fabric.sh PI-514 colors=grey patterns=solid styles=shirt,premium,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/PI-515.jpg" target="_blank" rel="noreferrer"><img src="thumbs/PI-515.jpg" alt="PI-515"></a>
+              <div class="meta">
+                <h2>PI-515</h2>
+                <p><strong>Color</strong> grey, navy</p>
+                <p><strong>Pattern</strong> texture</p>
+                <p><strong>Style</strong> shirt, premium, casual, light, dark</p>
+                <code>./tag-fabric.sh PI-515 colors=grey,navy patterns=texture styles=shirt,premium,casual,light,dark</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/PI-517.jpg" target="_blank" rel="noreferrer"><img src="thumbs/PI-517.jpg" alt="PI-517"></a>
+              <div class="meta">
+                <h2>PI-517</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, premium, formal, light</p>
+                <code>./tag-fabric.sh PI-517 colors=grey patterns=solid styles=shirt,premium,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/PI-522.jpg" target="_blank" rel="noreferrer"><img src="thumbs/PI-522.jpg" alt="PI-522"></a>
+              <div class="meta">
+                <h2>PI-522</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, premium, formal, light</p>
+                <code>./tag-fabric.sh PI-522 colors=grey patterns=solid styles=shirt,premium,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/PI-524.jpg" target="_blank" rel="noreferrer"><img src="thumbs/PI-524.jpg" alt="PI-524"></a>
+              <div class="meta">
+                <h2>PI-524</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, premium, formal, light</p>
+                <code>./tag-fabric.sh PI-524 colors=grey patterns=solid styles=shirt,premium,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/PI-526.jpg" target="_blank" rel="noreferrer"><img src="thumbs/PI-526.jpg" alt="PI-526"></a>
+              <div class="meta">
+                <h2>PI-526</h2>
+                <p><strong>Color</strong> blue, grey</p>
+                <p><strong>Pattern</strong> texture</p>
+                <p><strong>Style</strong> shirt, premium, casual, light</p>
+                <code>./tag-fabric.sh PI-526 colors=blue,grey patterns=texture styles=shirt,premium,casual,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/PI-528.jpg" target="_blank" rel="noreferrer"><img src="thumbs/PI-528.jpg" alt="PI-528"></a>
+              <div class="meta">
+                <h2>PI-528</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, premium, formal, light</p>
+                <code>./tag-fabric.sh PI-528 colors=grey patterns=solid styles=shirt,premium,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/PI-529.jpg" target="_blank" rel="noreferrer"><img src="thumbs/PI-529.jpg" alt="PI-529"></a>
+              <div class="meta">
+                <h2>PI-529</h2>
+                <p><strong>Color</strong> blue, grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, premium, formal, light</p>
+                <code>./tag-fabric.sh PI-529 colors=blue,grey patterns=solid styles=shirt,premium,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/PI-530.jpg" target="_blank" rel="noreferrer"><img src="thumbs/PI-530.jpg" alt="PI-530"></a>
+              <div class="meta">
+                <h2>PI-530</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> solid</p>
+                <p><strong>Style</strong> shirt, premium, formal, light</p>
+                <code>./tag-fabric.sh PI-530 colors=grey patterns=solid styles=shirt,premium,formal,light</code>
+              </div>
+            </article>
+            
+            <article class="card">
+              <a href="images/PI-531.jpg" target="_blank" rel="noreferrer"><img src="thumbs/PI-531.jpg" alt="PI-531"></a>
+              <div class="meta">
+                <h2>PI-531</h2>
+                <p><strong>Color</strong> grey</p>
+                <p><strong>Pattern</strong> stripes</p>
+                <p><strong>Style</strong> shirt, premium, formal, light</p>
+                <code>./tag-fabric.sh PI-531 colors=grey patterns=stripes styles=shirt,premium,formal,light</code>
+              </div>
+            </article>
+            
+    </main>
+  </body>
+</html>

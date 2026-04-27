@@ -3,6 +3,12 @@ set -euo pipefail
 
 cd "$(dirname "$0")"
 
+PYTHON_BIN="${PYTHON_BIN:-python3}"
+LOCAL_BUNDLED_PYTHON="/Users/sbtailor/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3"
+if [ -x "$LOCAL_BUNDLED_PYTHON" ]; then
+  PYTHON_BIN="$LOCAL_BUNDLED_PYTHON"
+fi
+
 echo "Semwal Bespoke Fabrics catalog updater"
 echo
 
@@ -14,11 +20,14 @@ if [ -d "archive/out-of-stock" ]; then
 fi
 echo
 
+echo "Analyzing fabric colors and patterns..."
+"$PYTHON_BIN" scripts/analyze_fabric_tags.py
+
 echo "Regenerating searchable catalog files..."
-python3 scripts/generate_catalog.py
+"$PYTHON_BIN" scripts/generate_catalog.py
 
 echo "Regenerating PDF catalog..."
-python3 scripts/generate_pdf_catalog.py
+"$PYTHON_BIN" scripts/generate_pdf_catalog.py
 
 echo
 echo "Current changes:"

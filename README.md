@@ -7,7 +7,9 @@ A searchable fabric catalog for Semwal Bespoke.
 - Live searchable website: [https://jsonyung.github.io/semwal-bespoke-fabrics/](https://jsonyung.github.io/semwal-bespoke-fabrics/)
 - PDF catalog: [semwal-bespoke-fabrics-catalog.pdf](semwal-bespoke-fabrics-catalog.pdf)
 - GitHub searchable catalog: [CATALOG.md](CATALOG.md)
+- Complete office guide: [OFFICE_GUIDE.md](OFFICE_GUIDE.md)
 - Stock workflow guide: [STOCK_WORKFLOW.md](STOCK_WORKFLOW.md)
+- Fabric tagging guide: [FABRIC_TAGGING.md](FABRIC_TAGGING.md)
 
 ## What is inside
 
@@ -17,6 +19,9 @@ A searchable fabric catalog for Semwal Bespoke.
 - Browser search catalog: [index.html](index.html)
 - Machine-readable data: [catalog-data.json](catalog-data.json)
 - Web thumbnails: [thumbs/](thumbs/)
+- Editable fabric tags: [fabric-tags.json](fabric-tags.json)
+- Tag helper command: [tag-fabric.sh](tag-fabric.sh)
+- Fabric tag review board: [fabric-tag-review.html](fabric-tag-review.html)
 
 ## Code summary
 
@@ -26,8 +31,36 @@ A searchable fabric catalog for Semwal Bespoke.
 ## How to search
 
 - Best option: open the live website and type a fabric code like `I-440`.
+- Use website filter buttons for color, pattern, and style.
 - On GitHub, open `CATALOG.md` and use browser search with `Ctrl+F` or `Cmd+F`.
 - In the PDF, use PDF search with `Ctrl+F` or `Cmd+F`.
+
+## Website Filters
+
+The website supports filters for:
+
+- Series: `I`, `PI`
+- Pattern: `Solid`, `Checks`, `Stripes`, `Printed`, `Texture`
+- Color: `White`, `Blue`, `Black`, `Grey`, `Cream`, `Beige`, `Navy`, and more
+- Style: `Formal`, `Casual`, `Premium`, `Light`, `Dark`
+
+Filter data comes from `fabric-tags.json`. It is auto-generated first, then can be corrected by hand when someone reviews fabrics.
+
+To correct tags for one fabric, run:
+
+```bash
+./tag-fabric.sh I-440 colors=white,blue patterns=stripes styles=formal,light
+```
+
+Then run `./update-catalog.sh`. Manual tags are preserved by future auto-analysis. See [FABRIC_TAGGING.md](FABRIC_TAGGING.md).
+
+To review all fabrics visually, run:
+
+```bash
+python3 scripts/generate_tag_review.py
+```
+
+Then open `fabric-tag-review.html`.
 
 ## Easy Update For New Fabrics
 
@@ -66,6 +99,7 @@ The updater will:
 - Count archived out-of-stock images.
 - Update `CATALOG.md`.
 - Update `catalog-data.json`.
+- Merge tags from `fabric-tags.json` into the website.
 - Update website thumbnails in `thumbs/` and remove unused thumbnails.
 - Regenerate the PDF catalog.
 - Show what changed.
