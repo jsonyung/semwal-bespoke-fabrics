@@ -113,6 +113,16 @@
         align-items: center;
       }
 
+      .filter-panel {
+        display: grid;
+        grid-column: 1 / -1;
+        gap: 10px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 12px;
+        background: var(--paper);
+      }
+
       .actions {
         display: flex;
         gap: 8px;
@@ -141,6 +151,15 @@
         display: flex;
         gap: 8px;
         flex-wrap: wrap;
+        align-items: center;
+      }
+
+      .filter-label {
+        width: 68px;
+        color: var(--muted);
+        font-size: 12px;
+        font-weight: 750;
+        text-transform: uppercase;
       }
 
       button {
@@ -186,6 +205,12 @@
         border-color: var(--accent);
         background: var(--accent);
         color: #fff;
+      }
+
+      .filter-clear {
+        justify-self: start;
+        min-height: 34px;
+        color: var(--muted);
       }
 
       .icon-btn {
@@ -261,11 +286,16 @@
       }
 
       .meta {
+        display: grid;
+        gap: 8px;
+        padding: 11px 12px 12px;
+      }
+
+      .meta-line {
         display: flex;
         align-items: center;
         justify-content: space-between;
         gap: 10px;
-        padding: 11px 12px 12px;
       }
 
       .code {
@@ -277,6 +307,22 @@
         color: var(--muted);
         font-size: 12px;
         white-space: nowrap;
+      }
+
+      .tag-row {
+        display: flex;
+        gap: 5px;
+        flex-wrap: wrap;
+      }
+
+      .tag-chip {
+        min-width: 0;
+        border-radius: 999px;
+        padding: 3px 7px;
+        background: var(--panel-2);
+        color: var(--muted);
+        font-size: 11px;
+        line-height: 1.2;
       }
 
       .empty {
@@ -474,6 +520,10 @@
           grid-template-columns: 1fr;
         }
 
+        .filter-label {
+          width: 100%;
+        }
+
         .actions {
           width: 100%;
         }
@@ -538,14 +588,50 @@
         </div>
         <div class="tools">
           <input id="search" type="search" placeholder="Search fabric code, e.g. I-440 or PI-531" autocomplete="off" />
-          <div class="filters" aria-label="Catalog filters">
-            <button class="active" type="button" data-filter="all">All</button>
-            <button type="button" data-filter="I">I</button>
-            <button type="button" data-filter="PI">PI</button>
-          </div>
           <div class="actions">
             <button id="openGallery" class="action-button" type="button">Gallery View</button>
             <a class="action-link primary" href="semwal-bespoke-fabrics-catalog.pdf" download>Download PDF</a>
+          </div>
+          <div class="filter-panel" aria-label="Catalog filters">
+            <div class="filters">
+              <span class="filter-label">Series</span>
+              <button class="active" type="button" data-filter-group="series" data-filter-value="all">All</button>
+              <button type="button" data-filter-group="series" data-filter-value="I">I</button>
+              <button type="button" data-filter-group="series" data-filter-value="PI">PI</button>
+            </div>
+            <div class="filters">
+              <span class="filter-label">Pattern</span>
+              <button class="active" type="button" data-filter-group="pattern" data-filter-value="all">All</button>
+              <button type="button" data-filter-group="pattern" data-filter-value="solid">Solid</button>
+              <button type="button" data-filter-group="pattern" data-filter-value="checks">Checks</button>
+              <button type="button" data-filter-group="pattern" data-filter-value="stripes">Stripes</button>
+              <button type="button" data-filter-group="pattern" data-filter-value="printed">Printed</button>
+              <button type="button" data-filter-group="pattern" data-filter-value="texture">Texture</button>
+            </div>
+            <div class="filters">
+              <span class="filter-label">Color</span>
+              <button class="active" type="button" data-filter-group="color" data-filter-value="all">All</button>
+              <button type="button" data-filter-group="color" data-filter-value="white">White</button>
+              <button type="button" data-filter-group="color" data-filter-value="cream">Cream</button>
+              <button type="button" data-filter-group="color" data-filter-value="blue">Blue</button>
+              <button type="button" data-filter-group="color" data-filter-value="navy">Navy</button>
+              <button type="button" data-filter-group="color" data-filter-value="black">Black</button>
+              <button type="button" data-filter-group="color" data-filter-value="grey">Grey</button>
+              <button type="button" data-filter-group="color" data-filter-value="beige">Beige</button>
+              <button type="button" data-filter-group="color" data-filter-value="maroon">Maroon</button>
+              <button type="button" data-filter-group="color" data-filter-value="green">Green</button>
+            </div>
+            <div class="filters">
+              <span class="filter-label">Style</span>
+              <button class="active" type="button" data-filter-group="style" data-filter-value="all">All</button>
+              <button type="button" data-filter-group="style" data-filter-value="shirt">Shirt</button>
+              <button type="button" data-filter-group="style" data-filter-value="formal">Formal</button>
+              <button type="button" data-filter-group="style" data-filter-value="casual">Casual</button>
+              <button type="button" data-filter-group="style" data-filter-value="premium">Premium</button>
+              <button type="button" data-filter-group="style" data-filter-value="light">Light</button>
+              <button type="button" data-filter-group="style" data-filter-value="dark">Dark</button>
+            </div>
+            <button id="clearFilters" class="filter-clear" type="button">Clear filters</button>
           </div>
         </div>
       </div>
@@ -592,7 +678,8 @@
       const search = document.querySelector("#search");
       const resultCount = document.querySelector("#resultCount");
       const totalFabrics = document.querySelector("#totalFabrics");
-      const filterButtons = Array.from(document.querySelectorAll("[data-filter]"));
+      const filterButtons = Array.from(document.querySelectorAll("[data-filter-group]"));
+      const clearFilters = document.querySelector("#clearFilters");
       const viewer = document.querySelector("#viewer");
       const viewerCode = document.querySelector("#viewerCode");
       const viewerDetail = document.querySelector("#viewerDetail");
@@ -606,18 +693,51 @@
       const openGallery = document.querySelector("#openGallery");
       let fabrics = [];
       let visibleFabrics = [];
-      let activeFilter = "all";
+      let activeFilters = {
+        series: "all",
+        pattern: "all",
+        color: "all",
+        style: "all",
+      };
       let activeIndex = 0;
       let imageRequestId = 0;
+      const DATA_VERSION = "tags-v1";
+
+      function titleCase(value) {
+        return String(value || "")
+          .split(/[-\s]+/)
+          .filter(Boolean)
+          .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
+          .join(" ");
+      }
+
+      function tagList(item, key) {
+        return Array.isArray(item[key]) ? item[key] : [];
+      }
+
+      function displayTags(item, limit = 4) {
+        return [...new Set([...tagList(item, "colors"), ...tagList(item, "patterns"), ...tagList(item, "styles")])]
+          .slice(0, limit)
+          .map(titleCase);
+      }
 
       function matchesFilter(item) {
-        if (activeFilter === "all") return true;
-        return item.code.startsWith(`${activeFilter}-`);
+        if (activeFilters.series !== "all" && !item.code.startsWith(`${activeFilters.series}-`)) return false;
+        if (activeFilters.pattern !== "all" && !tagList(item, "patterns").includes(activeFilters.pattern)) return false;
+        if (activeFilters.color !== "all" && !tagList(item, "colors").includes(activeFilters.color)) return false;
+        if (
+          activeFilters.style !== "all" &&
+          !tagList(item, "styles").includes(activeFilters.style) &&
+          !tagList(item, "uses").includes(activeFilters.style)
+        ) {
+          return false;
+        }
+        return true;
       }
 
       function matchesQuery(item, query) {
         if (!query) return true;
-        const haystack = `${item.code} ${item.type} ${item.filename}`.toLowerCase();
+        const haystack = `${item.code} ${item.type} ${item.filename} ${tagList(item, "tags").join(" ")}`.toLowerCase();
         return haystack.includes(query.toLowerCase());
       }
 
@@ -632,8 +752,15 @@
                   <img src="${item.thumb || item.image}" alt="${item.code}" loading="lazy" decoding="async" />
                 </a>
                 <div class="meta">
-                  <span class="code">${item.code}</span>
-                  <span class="type">${item.type}</span>
+                  <div class="meta-line">
+                    <span class="code">${item.code}</span>
+                    <span class="type">${item.type}</span>
+                  </div>
+                  <div class="tag-row" aria-label="${item.code} tags">
+                    ${displayTags(item, 3)
+                      .map((tag) => `<span class="tag-chip">${tag}</span>`)
+                      .join("")}
+                  </div>
                 </div>
               </article>
             `
@@ -666,8 +793,9 @@
         activeIndex = (index + visibleFabrics.length) % visibleFabrics.length;
         const item = visibleFabrics[activeIndex];
         const requestId = ++imageRequestId;
+        const detailTags = displayTags(item, 7).join(" · ");
         viewerCode.textContent = item.code;
-        viewerDetail.textContent = `${item.filename} · ${item.type}`;
+        viewerDetail.textContent = `${item.filename} · ${item.type}${detailTags ? ` · ${detailTags}` : ""}`;
         viewerImage.src = item.thumb || item.image;
         viewerImage.alt = item.code;
         viewerImage.classList.add("loading");
@@ -745,12 +873,32 @@
         if (event.key === "ArrowRight") moveViewer(1);
       });
 
+      function syncFilterButtons() {
+        filterButtons.forEach((button) => {
+          const group = button.dataset.filterGroup;
+          button.classList.toggle("active", activeFilters[group] === button.dataset.filterValue);
+        });
+      }
+
       filterButtons.forEach((button) => {
         button.addEventListener("click", () => {
-          activeFilter = button.dataset.filter;
-          filterButtons.forEach((item) => item.classList.toggle("active", item === button));
+          const group = button.dataset.filterGroup;
+          activeFilters[group] = button.dataset.filterValue;
+          syncFilterButtons();
           render();
         });
+      });
+
+      clearFilters.addEventListener("click", () => {
+        activeFilters = {
+          series: "all",
+          pattern: "all",
+          color: "all",
+          style: "all",
+        };
+        search.value = "";
+        syncFilterButtons();
+        render();
       });
 
       search.addEventListener("input", render);
@@ -759,7 +907,7 @@
         navigator.serviceWorker.register("sw.js").catch(() => {});
       }
 
-      fetch("catalog-data.json", { cache: "force-cache" })
+      fetch(`catalog-data.json?v=${DATA_VERSION}`, { cache: "no-cache" })
         .then((response) => response.json())
         .then((data) => {
           fabrics = data;

@@ -31,8 +31,21 @@ PAPER = colors.HexColor("#F6F7FB")
 PANEL = colors.white
 
 
-def load_records() -> list[dict[str, str]]:
+def load_records() -> list[dict[str, object]]:
     return json.loads(DATA_FILE.read_text(encoding="utf-8"))
+
+
+def title_tag(value: object) -> str:
+    return str(value).replace("-", " ").title()
+
+
+def record_tags(record: dict[str, object], limit: int = 3) -> str:
+    tags = []
+    for key in ("colors", "patterns", "styles"):
+        values = record.get(key, [])
+        if isinstance(values, list):
+            tags.extend(title_tag(value) for value in values)
+    return " / ".join(list(dict.fromkeys(tags))[:limit])
 
 
 def draw_page_background(pdf: canvas.Canvas) -> None:
@@ -40,7 +53,7 @@ def draw_page_background(pdf: canvas.Canvas) -> None:
     pdf.rect(0, 0, PAGE_WIDTH, PAGE_HEIGHT, stroke=0, fill=1)
 
 
-def draw_cover(pdf: canvas.Canvas, records: list[dict[str, str]], temp_dir: Path) -> None:
+def draw_cover(pdf: canvas.Canvas, records: list[dict[str, object]], temp_dir: Path) -> None:
     draw_page_background(pdf)
     pdf.setFillColor(ACCENT)
     pdf.rect(0, PAGE_HEIGHT - 90 * mm, PAGE_WIDTH, 90 * mm, stroke=0, fill=1)
@@ -170,7 +183,7 @@ def draw_image_box(
     )
 
 
-def draw_catalog_pages(pdf: canvas.Canvas, records: list[dict[str, str]], temp_dir: Path) -> None:
+def draw_catalog_pages(pdf: canvas.Canvas, records: list[dict[str, object]], temp_dir: Path) -> None:
     columns = 3
     rows = 3
     gap_x = 7 * mm
@@ -200,10 +213,15 @@ def draw_catalog_pages(pdf: canvas.Canvas, records: list[dict[str, str]], temp_d
             pdf.setFillColor(MUTED)
             pdf.setFont("Helvetica", 7)
             pdf.drawRightString(x + card_w, y + 5.4 * mm, record["type"])
+            tags = record_tags(record)
+            if tags:
+                pdf.setFillColor(MUTED)
+                pdf.setFont("Helvetica", 6.5)
+                pdf.drawString(x, y + 1.8 * mm, tags[:42])
         pdf.showPage()
 
 
-def draw_index(pdf: canvas.Canvas, records: list[dict[str, str]]) -> None:
+def draw_index(pdf: canvas.Canvas, records: list[dict[str, object]]) -> None:
     draw_page_background(pdf)
     draw_header(pdf, "Fabric Code Index", "Search reference")
     pdf.setFillColor(MUTED)
