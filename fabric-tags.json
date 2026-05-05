@@ -5023,30 +5023,6 @@
     ],
     "source": "auto"
   },
-  "I-358": {
-    "colors": [
-      "grey"
-    ],
-    "patterns": [
-      "solid"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "grey",
-      "solid",
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "source": "auto"
-  },
   "I-359": {
     "colors": [
       "grey"
@@ -5218,60 +5194,6 @@
       "shirt",
       "formal",
       "dark"
-    ],
-    "source": "auto"
-  },
-  "I-366": {
-    "colors": [
-      "charcoal",
-      "grey",
-      "white"
-    ],
-    "patterns": [
-      "texture"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "casual",
-      "light",
-      "dark"
-    ],
-    "tags": [
-      "charcoal",
-      "grey",
-      "white",
-      "texture",
-      "shirt",
-      "casual",
-      "light",
-      "dark"
-    ],
-    "source": "auto"
-  },
-  "I-367": {
-    "colors": [
-      "grey"
-    ],
-    "patterns": [
-      "solid"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "grey",
-      "solid",
-      "shirt",
-      "formal",
-      "light"
     ],
     "source": "auto"
   },
@@ -5842,36 +5764,6 @@
       "shirt",
       "formal",
       "light"
-    ],
-    "source": "auto"
-  },
-  "I-390": {
-    "colors": [
-      "grey",
-      "white",
-      "charcoal"
-    ],
-    "patterns": [
-      "checks"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light",
-      "dark"
-    ],
-    "tags": [
-      "grey",
-      "white",
-      "charcoal",
-      "checks",
-      "shirt",
-      "formal",
-      "light",
-      "dark"
     ],
     "source": "auto"
   },
@@ -6896,36 +6788,6 @@
       "shirt",
       "formal",
       "light"
-    ],
-    "source": "auto"
-  },
-  "I-430": {
-    "colors": [
-      "beige",
-      "grey",
-      "charcoal"
-    ],
-    "patterns": [
-      "stripes"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light",
-      "dark"
-    ],
-    "tags": [
-      "beige",
-      "grey",
-      "charcoal",
-      "stripes",
-      "shirt",
-      "formal",
-      "light",
-      "dark"
     ],
     "source": "auto"
   },

@@ -5,6 +5,7 @@ A searchable fabric catalog for Semwal Bespoke.
 ## Open Catalog
 
 - Live searchable website: [https://jsonyung.github.io/semwal-bespoke-fabrics/](https://jsonyung.github.io/semwal-bespoke-fabrics/)
+- Website stock guide: [stock-guide.html](stock-guide.html)
 - PDF catalog: [semwal-bespoke-fabrics-catalog.pdf](semwal-bespoke-fabrics-catalog.pdf)
 - GitHub searchable catalog: [CATALOG.md](CATALOG.md)
 - Complete office guide: [OFFICE_GUIDE.md](OFFICE_GUIDE.md)
@@ -13,10 +14,11 @@ A searchable fabric catalog for Semwal Bespoke.
 
 ## What is inside
 
-- Total fabric images: **307**
+- Total fabric images: **302**
 - PDF catalog: [semwal-bespoke-fabrics-catalog.pdf](semwal-bespoke-fabrics-catalog.pdf)
 - Searchable Markdown catalog: [CATALOG.md](CATALOG.md)
 - Browser search catalog: [index.html](index.html)
+- Website stock guide: [stock-guide.html](stock-guide.html)
 - Machine-readable data: [catalog-data.json](catalog-data.json)
 - Web thumbnails: [thumbs/](thumbs/)
 - Editable fabric tags: [fabric-tags.json](fabric-tags.json)
@@ -25,7 +27,7 @@ A searchable fabric catalog for Semwal Bespoke.
 
 ## Code summary
 
-- `I` series: 292 fabrics, from `I-18` to `I-462`
+- `I` series: 287 fabrics, from `I-18` to `I-462`
 - `PI` series: 15 fabrics, from `PI-502` to `PI-531`
 
 ## How to search

@@ -5772,34 +5772,6 @@
     ]
   },
   {
-    "code": "I-358",
-    "type": "Fabric",
-    "image": "images/I-358.jpg",
-    "thumb": "thumbs/I-358.jpg",
-    "filename": "I-358.jpg",
-    "colors": [
-      "grey"
-    ],
-    "patterns": [
-      "solid"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "grey",
-      "solid",
-      "shirt",
-      "formal",
-      "light"
-    ]
-  },
-  {
     "code": "I-359",
     "type": "Fabric",
     "image": "images/I-359.jpg",
@@ -5999,68 +5971,6 @@
       "shirt",
       "formal",
       "dark"
-    ]
-  },
-  {
-    "code": "I-366",
-    "type": "Fabric",
-    "image": "images/I-366.jpg",
-    "thumb": "thumbs/I-366.jpg",
-    "filename": "I-366.jpg",
-    "colors": [
-      "charcoal",
-      "grey",
-      "white"
-    ],
-    "patterns": [
-      "texture"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "casual",
-      "light",
-      "dark"
-    ],
-    "tags": [
-      "charcoal",
-      "grey",
-      "white",
-      "texture",
-      "shirt",
-      "casual",
-      "light",
-      "dark"
-    ]
-  },
-  {
-    "code": "I-367",
-    "type": "Fabric",
-    "image": "images/I-367.jpg",
-    "thumb": "thumbs/I-367.jpg",
-    "filename": "I-367.jpg",
-    "colors": [
-      "grey"
-    ],
-    "patterns": [
-      "solid"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "grey",
-      "solid",
-      "shirt",
-      "formal",
-      "light"
     ]
   },
   {
@@ -6719,40 +6629,6 @@
       "shirt",
       "formal",
       "light"
-    ]
-  },
-  {
-    "code": "I-390",
-    "type": "Fabric",
-    "image": "images/I-390.jpg",
-    "thumb": "thumbs/I-390.jpg",
-    "filename": "I-390.jpg",
-    "colors": [
-      "grey",
-      "white",
-      "charcoal"
-    ],
-    "patterns": [
-      "checks"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light",
-      "dark"
-    ],
-    "tags": [
-      "grey",
-      "white",
-      "charcoal",
-      "checks",
-      "shirt",
-      "formal",
-      "light",
-      "dark"
     ]
   },
   {
@@ -7933,40 +7809,6 @@
       "shirt",
       "formal",
       "light"
-    ]
-  },
-  {
-    "code": "I-430",
-    "type": "Fabric",
-    "image": "images/I-430.jpg",
-    "thumb": "thumbs/I-430.jpg",
-    "filename": "I-430.jpg",
-    "colors": [
-      "beige",
-      "grey",
-      "charcoal"
-    ],
-    "patterns": [
-      "stripes"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light",
-      "dark"
-    ],
-    "tags": [
-      "beige",
-      "grey",
-      "charcoal",
-      "stripes",
-      "shirt",
-      "formal",
-      "light",
-      "dark"
     ]
   },
   {

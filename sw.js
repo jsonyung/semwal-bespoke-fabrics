@@ -1,7 +1,8 @@
-const CACHE_NAME = "semwal-bespoke-fabrics-v13";
+const CACHE_NAME = "semwal-bespoke-fabrics-v14";
 const CORE_ASSETS = [
   "./",
   "./index.html",
+  "./stock-guide.html",
   "./catalog-data.json",
   "./fabric-tags.json",
   "./sw.js",
