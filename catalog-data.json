@@ -1552,11 +1552,12 @@
     "thumb": "thumbs/I-107.jpg",
     "filename": "I-107.jpg",
     "colors": [
+      "red",
       "maroon",
-      "grey"
+      "white"
     ],
     "patterns": [
-      "stripes"
+      "checks"
     ],
     "uses": [
       "shirt"
@@ -1568,9 +1569,10 @@
       "dark"
     ],
     "tags": [
+      "red",
       "maroon",
-      "grey",
-      "stripes",
+      "white",
+      "checks",
       "shirt",
       "formal",
       "light",
@@ -8788,6 +8790,186 @@
       "light"
     ],
     "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ]
+  },
+  {
+    "code": "I-463",
+    "type": "Fabric",
+    "image": "images/I-463.jpg",
+    "thumb": "thumbs/I-463.jpg",
+    "filename": "I-463.jpg",
+    "colors": [
+      "grey",
+      "white"
+    ],
+    "patterns": [
+      "texture"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "casual",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "white",
+      "texture",
+      "shirt",
+      "casual",
+      "light"
+    ]
+  },
+  {
+    "code": "I-464",
+    "type": "Fabric",
+    "image": "images/I-464.jpg",
+    "thumb": "thumbs/I-464.jpg",
+    "filename": "I-464.jpg",
+    "colors": [
+      "charcoal",
+      "white",
+      "black"
+    ],
+    "patterns": [
+      "texture"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "casual",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "charcoal",
+      "white",
+      "black",
+      "texture",
+      "shirt",
+      "casual",
+      "light",
+      "dark"
+    ]
+  },
+  {
+    "code": "I-465",
+    "type": "Fabric",
+    "image": "images/I-465.jpg",
+    "thumb": "thumbs/I-465.jpg",
+    "filename": "I-465.jpg",
+    "colors": [
+      "grey",
+      "white"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "white",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ]
+  },
+  {
+    "code": "I-466",
+    "type": "Fabric",
+    "image": "images/I-466.jpg",
+    "thumb": "thumbs/I-466.jpg",
+    "filename": "I-466.jpg",
+    "colors": [
+      "grey",
+      "blue"
+    ],
+    "patterns": [
+      "texture"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "casual",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "blue",
+      "texture",
+      "shirt",
+      "casual",
+      "light"
+    ]
+  },
+  {
+    "code": "I-467",
+    "type": "Fabric",
+    "image": "images/I-467.jpg",
+    "thumb": "thumbs/I-467.jpg",
+    "filename": "I-467.jpg",
+    "colors": [
+      "blue"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal"
+    ],
+    "tags": [
+      "blue",
+      "solid",
+      "shirt",
+      "formal"
+    ]
+  },
+  {
+    "code": "I-468",
+    "type": "Fabric",
+    "image": "images/I-468.jpg",
+    "thumb": "thumbs/I-468.jpg",
+    "filename": "I-468.jpg",
+    "colors": [
+      "white",
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "white",
       "grey",
       "solid",
       "shirt",

@@ -1351,11 +1351,12 @@
   },
   "I-107": {
     "colors": [
+      "red",
       "maroon",
-      "grey"
+      "white"
     ],
     "patterns": [
-      "stripes"
+      "checks"
     ],
     "uses": [
       "shirt"
@@ -1367,9 +1368,10 @@
       "dark"
     ],
     "tags": [
+      "red",
       "maroon",
-      "grey",
-      "stripes",
+      "white",
+      "checks",
       "shirt",
       "formal",
       "light",
@@ -7639,6 +7641,162 @@
       "light"
     ],
     "tags": [
+      "grey",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-463": {
+    "colors": [
+      "grey",
+      "white"
+    ],
+    "patterns": [
+      "texture"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "casual",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "white",
+      "texture",
+      "shirt",
+      "casual",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-464": {
+    "colors": [
+      "charcoal",
+      "white",
+      "black"
+    ],
+    "patterns": [
+      "texture"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "casual",
+      "light",
+      "dark"
+    ],
+    "tags": [
+      "charcoal",
+      "white",
+      "black",
+      "texture",
+      "shirt",
+      "casual",
+      "light",
+      "dark"
+    ],
+    "source": "auto"
+  },
+  "I-465": {
+    "colors": [
+      "grey",
+      "white"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "white",
+      "solid",
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-466": {
+    "colors": [
+      "grey",
+      "blue"
+    ],
+    "patterns": [
+      "texture"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "casual",
+      "light"
+    ],
+    "tags": [
+      "grey",
+      "blue",
+      "texture",
+      "shirt",
+      "casual",
+      "light"
+    ],
+    "source": "auto"
+  },
+  "I-467": {
+    "colors": [
+      "blue"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal"
+    ],
+    "tags": [
+      "blue",
+      "solid",
+      "shirt",
+      "formal"
+    ],
+    "source": "auto"
+  },
+  "I-468": {
+    "colors": [
+      "white",
+      "grey"
+    ],
+    "patterns": [
+      "solid"
+    ],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "light"
+    ],
+    "tags": [
+      "white",
       "grey",
       "solid",
       "shirt",
