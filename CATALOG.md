@@ -1,6 +1,6 @@
 # Semwal Bespoke Fabrics Catalog
 
-Total fabrics: **308**
+Total fabrics: **278**
 
 Use `Cmd+F` / `Ctrl+F` to search a fabric code like `I-440` or `PI-531`.
 
@@ -42,10 +42,7 @@ Use `Cmd+F` / `Ctrl+F` to search a fabric code like `I-440` or `PI-531`.
 | `I-73` | Fabric | Grey, Charcoal, Checks, Shirt, Formal, Light | [![I-73](thumbs/I-73.jpg)](images/I-73.jpg) | [I-73.jpg](images/I-73.jpg) |
 | `I-74` | Fabric | Grey, Blue, Stripes, Shirt, Formal, Light | [![I-74](thumbs/I-74.jpg)](images/I-74.jpg) | [I-74.jpg](images/I-74.jpg) |
 | `I-75` | Fabric | Grey, Blue, Stripes, Shirt, Formal, Light | [![I-75](thumbs/I-75.jpg)](images/I-75.jpg) | [I-75.jpg](images/I-75.jpg) |
-| `I-79` | Fabric | Grey, Blue, Navy, Stripes, Shirt, Formal, Light | [![I-79](thumbs/I-79.jpg)](images/I-79.jpg) | [I-79.jpg](images/I-79.jpg) |
 | `I-82` | Fabric | Grey, Blue, Stripes, Shirt, Formal, Light | [![I-82](thumbs/I-82.jpg)](images/I-82.jpg) | [I-82.jpg](images/I-82.jpg) |
-| `I-83` | Fabric | Grey, Navy, Blue, Stripes, Shirt, Formal, Light | [![I-83](thumbs/I-83.jpg)](images/I-83.jpg) | [I-83.jpg](images/I-83.jpg) |
-| `I-84` | Fabric | Grey, Blue, Stripes, Shirt, Formal, Light | [![I-84](thumbs/I-84.jpg)](images/I-84.jpg) | [I-84.jpg](images/I-84.jpg) |
 | `I-86` | Fabric | Grey, Blue, Navy, Stripes, Shirt, Formal, Light | [![I-86](thumbs/I-86.jpg)](images/I-86.jpg) | [I-86.jpg](images/I-86.jpg) |
 | `I-87` | Fabric | Maroon, Stripes, Shirt, Formal, Dark | [![I-87](thumbs/I-87.jpg)](images/I-87.jpg) | [I-87.jpg](images/I-87.jpg) |
 | `I-88` | Fabric | Navy, Black, Checks, Shirt, Formal, Dark | [![I-88](thumbs/I-88.jpg)](images/I-88.jpg) | [I-88.jpg](images/I-88.jpg) |
@@ -59,7 +56,6 @@ Use `Cmd+F` / `Ctrl+F` to search a fabric code like `I-440` or `PI-531`.
 | `I-112` | Fabric | Purple, Grey, Texture, Shirt, Casual, Light | [![I-112](thumbs/I-112.jpg)](images/I-112.jpg) | [I-112.jpg](images/I-112.jpg) |
 | `I-115` | Fabric | Maroon, Grey, Stripes, Shirt, Formal, Light | [![I-115](thumbs/I-115.jpg)](images/I-115.jpg) | [I-115.jpg](images/I-115.jpg) |
 | `I-119` | Fabric | Grey, Solid, Shirt, Formal, Light | [![I-119](thumbs/I-119.jpg)](images/I-119.jpg) | [I-119.jpg](images/I-119.jpg) |
-| `I-127` | Fabric | Grey, Blue, Texture, Shirt, Casual, Light | [![I-127](thumbs/I-127.jpg)](images/I-127.jpg) | [I-127.jpg](images/I-127.jpg) |
 | `I-129` | Fabric | Charcoal, Grey, Black, Checks, Shirt, Formal, Light | [![I-129](thumbs/I-129.jpg)](images/I-129.jpg) | [I-129.jpg](images/I-129.jpg) |
 | `I-131` | Fabric | Navy, Grey, Blue, Checks, Shirt, Formal, Light | [![I-131](thumbs/I-131.jpg)](images/I-131.jpg) | [I-131.jpg](images/I-131.jpg) |
 | `I-133` | Fabric | Grey, Stripes, Shirt, Formal, Light | [![I-133](thumbs/I-133.jpg)](images/I-133.jpg) | [I-133.jpg](images/I-133.jpg) |
@@ -68,10 +64,8 @@ Use `Cmd+F` / `Ctrl+F` to search a fabric code like `I-440` or `PI-531`.
 | `I-144` | Fabric | Grey, Solid, Shirt, Formal, Light | [![I-144](thumbs/I-144.jpg)](images/I-144.jpg) | [I-144.jpg](images/I-144.jpg) |
 | `I-145` | Fabric | Grey, Blue, Stripes, Shirt, Formal, Light | [![I-145](thumbs/I-145.jpg)](images/I-145.jpg) | [I-145.jpg](images/I-145.jpg) |
 | `I-147` | Fabric | Grey, Stripes, Shirt, Formal, Light | [![I-147](thumbs/I-147.jpg)](images/I-147.jpg) | [I-147.jpg](images/I-147.jpg) |
-| `I-153` | Fabric | Grey, Blue, Stripes, Shirt, Formal, Light | [![I-153](thumbs/I-153.jpg)](images/I-153.jpg) | [I-153.jpg](images/I-153.jpg) |
 | `I-155` | Fabric | Blue, Grey, Checks, Shirt, Formal, Light | [![I-155](thumbs/I-155.jpg)](images/I-155.jpg) | [I-155.jpg](images/I-155.jpg) |
 | `I-156` | Fabric | Grey, Blue, Navy, Checks, Shirt, Formal, Light | [![I-156](thumbs/I-156.jpg)](images/I-156.jpg) | [I-156.jpg](images/I-156.jpg) |
-| `I-157` | Fabric | Grey, Blue, White, Checks, Shirt, Formal, Light | [![I-157](thumbs/I-157.jpg)](images/I-157.jpg) | [I-157.jpg](images/I-157.jpg) |
 | `I-158` | Fabric | Grey, Blue, Beige, Checks, Shirt, Formal, Light | [![I-158](thumbs/I-158.jpg)](images/I-158.jpg) | [I-158.jpg](images/I-158.jpg) |
 | `I-159` | Fabric | Grey, Texture, Shirt, Casual, Light | [![I-159](thumbs/I-159.jpg)](images/I-159.jpg) | [I-159.jpg](images/I-159.jpg) |
 | `I-160` | Fabric | Grey, Solid, Shirt, Formal, Light | [![I-160](thumbs/I-160.jpg)](images/I-160.jpg) | [I-160.jpg](images/I-160.jpg) |
@@ -84,8 +78,6 @@ Use `Cmd+F` / `Ctrl+F` to search a fabric code like `I-440` or `PI-531`.
 | `I-176` | Fabric | Grey, White, Solid, Shirt, Formal, Light | [![I-176](thumbs/I-176.jpg)](images/I-176.jpg) | [I-176.jpg](images/I-176.jpg) |
 | `I-177` | Fabric | Grey, White, Checks, Shirt, Formal, Light | [![I-177](thumbs/I-177.jpg)](images/I-177.jpg) | [I-177.jpg](images/I-177.jpg) |
 | `I-178` | Fabric | Grey, White, Checks, Shirt, Formal, Light | [![I-178](thumbs/I-178.jpg)](images/I-178.jpg) | [I-178.jpg](images/I-178.jpg) |
-| `I-180` | Fabric | Grey, Solid, Shirt, Formal, Light | [![I-180](thumbs/I-180.jpg)](images/I-180.jpg) | [I-180.jpg](images/I-180.jpg) |
-| `I-182` | Fabric | Grey, Charcoal, White, Checks, Shirt, Formal, Light | [![I-182](thumbs/I-182.jpg)](images/I-182.jpg) | [I-182.jpg](images/I-182.jpg) |
 | `I-183` | Fabric | Navy, Black, Blue, Checks, Shirt, Formal, Dark | [![I-183](thumbs/I-183.jpg)](images/I-183.jpg) | [I-183.jpg](images/I-183.jpg) |
 | `I-184` | Fabric | Grey, White, Teal, Checks, Shirt, Formal, Light | [![I-184](thumbs/I-184.jpg)](images/I-184.jpg) | [I-184.jpg](images/I-184.jpg) |
 | `I-185` | Fabric | Grey, Teal, Stripes, Shirt, Formal, Light | [![I-185](thumbs/I-185.jpg)](images/I-185.jpg) | [I-185.jpg](images/I-185.jpg) |
@@ -94,8 +86,6 @@ Use `Cmd+F` / `Ctrl+F` to search a fabric code like `I-440` or `PI-531`.
 | `I-196` | Fabric | Grey, Solid, Shirt, Formal, Light | [![I-196](thumbs/I-196.jpg)](images/I-196.jpg) | [I-196.jpg](images/I-196.jpg) |
 | `I-198` | Fabric | Blue, Grey, Checks, Shirt, Formal, Light | [![I-198](thumbs/I-198.jpg)](images/I-198.jpg) | [I-198.jpg](images/I-198.jpg) |
 | `I-203` | Fabric | Grey, Blue, Stripes, Shirt, Formal, Light | [![I-203](thumbs/I-203.jpg)](images/I-203.jpg) | [I-203.jpg](images/I-203.jpg) |
-| `I-207` | Fabric | Grey, Solid, Shirt, Formal, Light | [![I-207](thumbs/I-207.jpg)](images/I-207.jpg) | [I-207.jpg](images/I-207.jpg) |
-| `I-210` | Fabric | Blue, Grey, Texture, Shirt, Casual, Light | [![I-210](thumbs/I-210.jpg)](images/I-210.jpg) | [I-210.jpg](images/I-210.jpg) |
 | `I-211` | Fabric | Grey, Solid, Shirt, Formal, Light | [![I-211](thumbs/I-211.jpg)](images/I-211.jpg) | [I-211.jpg](images/I-211.jpg) |
 | `I-212` | Fabric | Grey, Solid, Shirt, Formal, Light | [![I-212](thumbs/I-212.jpg)](images/I-212.jpg) | [I-212.jpg](images/I-212.jpg) |
 | `I-214` | Fabric | Charcoal, Grey, Texture, Shirt, Casual, Light | [![I-214](thumbs/I-214.jpg)](images/I-214.jpg) | [I-214.jpg](images/I-214.jpg) |
@@ -104,21 +94,17 @@ Use `Cmd+F` / `Ctrl+F` to search a fabric code like `I-440` or `PI-531`.
 | `I-219` | Fabric | Grey, Solid, Shirt, Formal, Light | [![I-219](thumbs/I-219.jpg)](images/I-219.jpg) | [I-219.jpg](images/I-219.jpg) |
 | `I-220` | Fabric | Grey, Solid, Shirt, Formal, Light | [![I-220](thumbs/I-220.jpg)](images/I-220.jpg) | [I-220.jpg](images/I-220.jpg) |
 | `I-222` | Fabric | Grey, Solid, Shirt, Formal, Light | [![I-222](thumbs/I-222.jpg)](images/I-222.jpg) | [I-222.jpg](images/I-222.jpg) |
-| `I-223` | Fabric | Blue, Grey, Solid, Shirt, Formal, Light | [![I-223](thumbs/I-223.jpg)](images/I-223.jpg) | [I-223.jpg](images/I-223.jpg) |
 | `I-224` | Fabric | Teal, Grey, Solid, Shirt, Formal, Light | [![I-224](thumbs/I-224.jpg)](images/I-224.jpg) | [I-224.jpg](images/I-224.jpg) |
 | `I-225` | Fabric | Grey, Teal, Solid, Shirt, Formal, Light | [![I-225](thumbs/I-225.jpg)](images/I-225.jpg) | [I-225.jpg](images/I-225.jpg) |
 | `I-227` | Fabric | Grey, Solid, Shirt, Formal, Light | [![I-227](thumbs/I-227.jpg)](images/I-227.jpg) | [I-227.jpg](images/I-227.jpg) |
 | `I-232` | Fabric | Grey, Solid, Shirt, Formal, Light | [![I-232](thumbs/I-232.jpg)](images/I-232.jpg) | [I-232.jpg](images/I-232.jpg) |
 | `I-234` | Fabric | Blue, Grey, Solid, Shirt, Formal, Light | [![I-234](thumbs/I-234.jpg)](images/I-234.jpg) | [I-234.jpg](images/I-234.jpg) |
-| `I-235` | Fabric | Blue, Grey, Solid, Shirt, Formal, Light | [![I-235](thumbs/I-235.jpg)](images/I-235.jpg) | [I-235.jpg](images/I-235.jpg) |
 | `I-236` | Fabric | Grey, Blue, Stripes, Shirt, Formal, Light | [![I-236](thumbs/I-236.jpg)](images/I-236.jpg) | [I-236.jpg](images/I-236.jpg) |
 | `I-237` | Fabric | Blue, Grey, Navy, Solid, Shirt, Formal, Light | [![I-237](thumbs/I-237.jpg)](images/I-237.jpg) | [I-237.jpg](images/I-237.jpg) |
 | `I-239` | Fabric | Charcoal, Grey, Texture, Shirt, Casual, Light | [![I-239](thumbs/I-239.jpg)](images/I-239.jpg) | [I-239.jpg](images/I-239.jpg) |
 | `I-241` | Fabric | Grey, Charcoal, Solid, Shirt, Formal, Light | [![I-241](thumbs/I-241.jpg)](images/I-241.jpg) | [I-241.jpg](images/I-241.jpg) |
-| `I-242` | Fabric | Navy, Grey, Charcoal, Texture, Shirt, Casual, Light | [![I-242](thumbs/I-242.jpg)](images/I-242.jpg) | [I-242.jpg](images/I-242.jpg) |
 | `I-247` | Fabric | Grey, Charcoal, Solid, Shirt, Formal, Light | [![I-247](thumbs/I-247.jpg)](images/I-247.jpg) | [I-247.jpg](images/I-247.jpg) |
 | `I-248` | Fabric | Black, Grey, Charcoal, Checks, Shirt, Formal, Light | [![I-248](thumbs/I-248.jpg)](images/I-248.jpg) | [I-248.jpg](images/I-248.jpg) |
-| `I-249` | Fabric | Grey, Charcoal, Checks, Shirt, Formal, Light | [![I-249](thumbs/I-249.jpg)](images/I-249.jpg) | [I-249.jpg](images/I-249.jpg) |
 | `I-251` | Fabric | Grey, Red, Maroon, Stripes, Shirt, Formal, Light | [![I-251](thumbs/I-251.jpg)](images/I-251.jpg) | [I-251.jpg](images/I-251.jpg) |
 | `I-252` | Fabric | Charcoal, Grey, Checks, Shirt, Formal, Light | [![I-252](thumbs/I-252.jpg)](images/I-252.jpg) | [I-252.jpg](images/I-252.jpg) |
 | `I-254` | Fabric | Grey, Charcoal, Solid, Shirt, Formal, Light | [![I-254](thumbs/I-254.jpg)](images/I-254.jpg) | [I-254.jpg](images/I-254.jpg) |
@@ -145,10 +131,7 @@ Use `Cmd+F` / `Ctrl+F` to search a fabric code like `I-440` or `PI-531`.
 | `I-285` | Fabric | Grey, Charcoal, Solid, Shirt, Formal, Light | [![I-285](thumbs/I-285.jpg)](images/I-285.jpg) | [I-285.jpg](images/I-285.jpg) |
 | `I-286` | Fabric | Grey, Charcoal, Solid, Shirt, Formal, Light | [![I-286](thumbs/I-286.jpg)](images/I-286.jpg) | [I-286.jpg](images/I-286.jpg) |
 | `I-287` | Fabric | Grey, Charcoal, Solid, Shirt, Formal, Light | [![I-287](thumbs/I-287.jpg)](images/I-287.jpg) | [I-287.jpg](images/I-287.jpg) |
-| `I-288` | Fabric | Grey, Solid, Shirt, Formal, Light | [![I-288](thumbs/I-288.jpg)](images/I-288.jpg) | [I-288.jpg](images/I-288.jpg) |
-| `I-291` | Fabric | Grey, Solid, Shirt, Formal, Light | [![I-291](thumbs/I-291.jpg)](images/I-291.jpg) | [I-291.jpg](images/I-291.jpg) |
 | `I-292` | Fabric | Purple, Grey, Charcoal, Texture, Shirt, Casual, Light | [![I-292](thumbs/I-292.jpg)](images/I-292.jpg) | [I-292.jpg](images/I-292.jpg) |
-| `I-293` | Fabric | Black, Grey, Texture, Shirt, Casual, Light | [![I-293](thumbs/I-293.jpg)](images/I-293.jpg) | [I-293.jpg](images/I-293.jpg) |
 | `I-294` | Fabric | Grey, Blue, Solid, Shirt, Formal, Light | [![I-294](thumbs/I-294.jpg)](images/I-294.jpg) | [I-294.jpg](images/I-294.jpg) |
 | `I-295` | Fabric | Green, Grey, Texture, Shirt, Casual, Light | [![I-295](thumbs/I-295.jpg)](images/I-295.jpg) | [I-295.jpg](images/I-295.jpg) |
 | `I-296` | Fabric | Blue, Purple, Grey, Texture, Shirt, Casual, Light | [![I-296](thumbs/I-296.jpg)](images/I-296.jpg) | [I-296.jpg](images/I-296.jpg) |
@@ -156,15 +139,9 @@ Use `Cmd+F` / `Ctrl+F` to search a fabric code like `I-440` or `PI-531`.
 | `I-298` | Fabric | Grey, Green, Charcoal, Checks, Shirt, Formal, Light | [![I-298](thumbs/I-298.jpg)](images/I-298.jpg) | [I-298.jpg](images/I-298.jpg) |
 | `I-299` | Fabric | Black, Grey, Texture, Shirt, Casual, Light | [![I-299](thumbs/I-299.jpg)](images/I-299.jpg) | [I-299.jpg](images/I-299.jpg) |
 | `I-300` | Fabric | Brown, Grey, Beige, Checks, Shirt, Formal, Light | [![I-300](thumbs/I-300.jpg)](images/I-300.jpg) | [I-300.jpg](images/I-300.jpg) |
-| `I-301` | Fabric | Navy, Grey, Blue, Checks, Shirt, Formal, Light | [![I-301](thumbs/I-301.jpg)](images/I-301.jpg) | [I-301.jpg](images/I-301.jpg) |
 | `I-302` | Fabric | Red, Grey, Checks, Shirt, Formal, Light | [![I-302](thumbs/I-302.jpg)](images/I-302.jpg) | [I-302.jpg](images/I-302.jpg) |
-| `I-303` | Fabric | Navy, Black, Grey, Texture, Shirt, Casual, Light | [![I-303](thumbs/I-303.jpg)](images/I-303.jpg) | [I-303.jpg](images/I-303.jpg) |
 | `I-306` | Fabric | Red, Grey, Orange, Solid, Shirt, Formal, Light | [![I-306](thumbs/I-306.jpg)](images/I-306.jpg) | [I-306.jpg](images/I-306.jpg) |
-| `I-309` | Fabric | Charcoal, Grey, Solid, Shirt, Formal, Light | [![I-309](thumbs/I-309.jpg)](images/I-309.jpg) | [I-309.jpg](images/I-309.jpg) |
-| `I-310` | Fabric | Grey, Solid, Shirt, Formal, Light | [![I-310](thumbs/I-310.jpg)](images/I-310.jpg) | [I-310.jpg](images/I-310.jpg) |
 | `I-311` | Fabric | Grey, Charcoal, Solid, Shirt, Formal, Light | [![I-311](thumbs/I-311.jpg)](images/I-311.jpg) | [I-311.jpg](images/I-311.jpg) |
-| `I-313` | Fabric | Charcoal, Grey, Green, Solid, Shirt, Formal, Light | [![I-313](thumbs/I-313.jpg)](images/I-313.jpg) | [I-313.jpg](images/I-313.jpg) |
-| `I-314` | Fabric | Grey, Charcoal, Solid, Shirt, Formal, Light | [![I-314](thumbs/I-314.jpg)](images/I-314.jpg) | [I-314.jpg](images/I-314.jpg) |
 | `I-315` | Fabric | Grey, Charcoal, Solid, Shirt, Formal, Light | [![I-315](thumbs/I-315.jpg)](images/I-315.jpg) | [I-315.jpg](images/I-315.jpg) |
 | `I-316` | Fabric | Grey, Green, Charcoal, Solid, Shirt, Formal, Light | [![I-316](thumbs/I-316.jpg)](images/I-316.jpg) | [I-316.jpg](images/I-316.jpg) |
 | `I-317` | Fabric | Grey, Charcoal, Solid, Shirt, Formal, Light | [![I-317](thumbs/I-317.jpg)](images/I-317.jpg) | [I-317.jpg](images/I-317.jpg) |
@@ -172,7 +149,6 @@ Use `Cmd+F` / `Ctrl+F` to search a fabric code like `I-440` or `PI-531`.
 | `I-320` | Fabric | Grey, Charcoal, Solid, Shirt, Formal, Light | [![I-320](thumbs/I-320.jpg)](images/I-320.jpg) | [I-320.jpg](images/I-320.jpg) |
 | `I-321` | Fabric | Grey, Charcoal, Solid, Shirt, Formal, Light | [![I-321](thumbs/I-321.jpg)](images/I-321.jpg) | [I-321.jpg](images/I-321.jpg) |
 | `I-322` | Fabric | Grey, Charcoal, Cream, Stripes, Shirt, Formal, Light | [![I-322](thumbs/I-322.jpg)](images/I-322.jpg) | [I-322.jpg](images/I-322.jpg) |
-| `I-323` | Fabric | Purple, Grey, Solid, Shirt, Formal, Light | [![I-323](thumbs/I-323.jpg)](images/I-323.jpg) | [I-323.jpg](images/I-323.jpg) |
 | `I-324` | Fabric | Blue, Grey, Texture, Shirt, Casual, Light | [![I-324](thumbs/I-324.jpg)](images/I-324.jpg) | [I-324.jpg](images/I-324.jpg) |
 | `I-325` | Fabric | Blue, Grey, Texture, Shirt, Casual, Light | [![I-325](thumbs/I-325.jpg)](images/I-325.jpg) | [I-325.jpg](images/I-325.jpg) |
 | `I-326` | Fabric | Grey, Blue, Solid, Shirt, Formal, Light | [![I-326](thumbs/I-326.jpg)](images/I-326.jpg) | [I-326.jpg](images/I-326.jpg) |
@@ -189,8 +165,6 @@ Use `Cmd+F` / `Ctrl+F` to search a fabric code like `I-440` or `PI-531`.
 | `I-343` | Fabric | Grey, Solid, Shirt, Formal, Light | [![I-343](thumbs/I-343.jpg)](images/I-343.jpg) | [I-343.jpg](images/I-343.jpg) |
 | `I-346` | Fabric | Grey, Solid, Shirt, Formal, Light | [![I-346](thumbs/I-346.jpg)](images/I-346.jpg) | [I-346.jpg](images/I-346.jpg) |
 | `I-353` | Fabric | Grey, Solid, Shirt, Formal, Light | [![I-353](thumbs/I-353.jpg)](images/I-353.jpg) | [I-353.jpg](images/I-353.jpg) |
-| `I-354` | Fabric | Grey, Solid, Shirt, Formal, Light | [![I-354](thumbs/I-354.jpg)](images/I-354.jpg) | [I-354.jpg](images/I-354.jpg) |
-| `I-355` | Fabric | Grey, Solid, Shirt, Formal, Light | [![I-355](thumbs/I-355.jpg)](images/I-355.jpg) | [I-355.jpg](images/I-355.jpg) |
 | `I-356` | Fabric | Grey, Solid, Shirt, Formal, Light | [![I-356](thumbs/I-356.jpg)](images/I-356.jpg) | [I-356.jpg](images/I-356.jpg) |
 | `I-357` | Fabric | Grey, Solid, Shirt, Formal, Light | [![I-357](thumbs/I-357.jpg)](images/I-357.jpg) | [I-357.jpg](images/I-357.jpg) |
 | `I-359` | Fabric | Grey, Solid, Shirt, Formal, Light | [![I-359](thumbs/I-359.jpg)](images/I-359.jpg) | [I-359.jpg](images/I-359.jpg) |
@@ -302,15 +276,11 @@ Use `Cmd+F` / `Ctrl+F` to search a fabric code like `I-440` or `PI-531`.
 | `PI-502` | Premium / PI | Cream, Grey, Solid, Shirt, Premium, Formal | [![PI-502](thumbs/PI-502.jpg)](images/PI-502.jpg) | [PI-502.jpg](images/PI-502.jpg) |
 | `PI-503` | Premium / PI | Grey, Solid, Shirt, Premium, Formal | [![PI-503](thumbs/PI-503.jpg)](images/PI-503.jpg) | [PI-503.jpg](images/PI-503.jpg) |
 | `PI-504` | Premium / PI | Grey, Charcoal, Solid, Shirt, Premium, Formal | [![PI-504](thumbs/PI-504.jpg)](images/PI-504.jpg) | [PI-504.jpg](images/PI-504.jpg) |
-| `PI-506` | Premium / PI | Grey, Solid, Shirt, Premium, Formal | [![PI-506](thumbs/PI-506.jpg)](images/PI-506.jpg) | [PI-506.jpg](images/PI-506.jpg) |
 | `PI-509` | Premium / PI | Grey, Solid, Shirt, Premium, Formal | [![PI-509](thumbs/PI-509.jpg)](images/PI-509.jpg) | [PI-509.jpg](images/PI-509.jpg) |
 | `PI-514` | Premium / PI | Grey, Solid, Shirt, Premium, Formal | [![PI-514](thumbs/PI-514.jpg)](images/PI-514.jpg) | [PI-514.jpg](images/PI-514.jpg) |
-| `PI-515` | Premium / PI | Grey, Navy, Texture, Shirt, Premium, Casual | [![PI-515](thumbs/PI-515.jpg)](images/PI-515.jpg) | [PI-515.jpg](images/PI-515.jpg) |
 | `PI-517` | Premium / PI | Grey, Solid, Shirt, Premium, Formal | [![PI-517](thumbs/PI-517.jpg)](images/PI-517.jpg) | [PI-517.jpg](images/PI-517.jpg) |
-| `PI-522` | Premium / PI | Grey, Solid, Shirt, Premium, Formal | [![PI-522](thumbs/PI-522.jpg)](images/PI-522.jpg) | [PI-522.jpg](images/PI-522.jpg) |
 | `PI-524` | Premium / PI | Grey, Solid, Shirt, Premium, Formal | [![PI-524](thumbs/PI-524.jpg)](images/PI-524.jpg) | [PI-524.jpg](images/PI-524.jpg) |
 | `PI-526` | Premium / PI | Blue, Grey, Texture, Shirt, Premium, Casual | [![PI-526](thumbs/PI-526.jpg)](images/PI-526.jpg) | [PI-526.jpg](images/PI-526.jpg) |
 | `PI-528` | Premium / PI | Grey, Solid, Shirt, Premium, Formal | [![PI-528](thumbs/PI-528.jpg)](images/PI-528.jpg) | [PI-528.jpg](images/PI-528.jpg) |
 | `PI-529` | Premium / PI | Blue, Grey, Solid, Shirt, Premium, Formal | [![PI-529](thumbs/PI-529.jpg)](images/PI-529.jpg) | [PI-529.jpg](images/PI-529.jpg) |
-| `PI-530` | Premium / PI | Grey, Solid, Shirt, Premium, Formal | [![PI-530](thumbs/PI-530.jpg)](images/PI-530.jpg) | [PI-530.jpg](images/PI-530.jpg) |
 | `PI-531` | Premium / PI | Grey, Stripes, Shirt, Premium, Formal | [![PI-531](thumbs/PI-531.jpg)](images/PI-531.jpg) | [PI-531.jpg](images/PI-531.jpg) |

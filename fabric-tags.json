@@ -989,93 +989,7 @@
     ],
     "source": "auto"
   },
-  "I-79": {
-    "colors": [
-      "grey",
-      "blue",
-      "navy"
-    ],
-    "patterns": [
-      "stripes"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light",
-      "dark"
-    ],
-    "tags": [
-      "grey",
-      "blue",
-      "navy",
-      "stripes",
-      "shirt",
-      "formal",
-      "light",
-      "dark"
-    ],
-    "source": "auto"
-  },
   "I-82": {
-    "colors": [
-      "grey",
-      "blue"
-    ],
-    "patterns": [
-      "stripes"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "grey",
-      "blue",
-      "stripes",
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "source": "auto"
-  },
-  "I-83": {
-    "colors": [
-      "grey",
-      "navy",
-      "blue"
-    ],
-    "patterns": [
-      "stripes"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light",
-      "dark"
-    ],
-    "tags": [
-      "grey",
-      "navy",
-      "blue",
-      "stripes",
-      "shirt",
-      "formal",
-      "light",
-      "dark"
-    ],
-    "source": "auto"
-  },
-  "I-84": {
     "colors": [
       "grey",
       "blue"
@@ -1457,32 +1371,6 @@
     ],
     "source": "auto"
   },
-  "I-127": {
-    "colors": [
-      "grey",
-      "blue"
-    ],
-    "patterns": [
-      "texture"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "casual",
-      "light"
-    ],
-    "tags": [
-      "grey",
-      "blue",
-      "texture",
-      "shirt",
-      "casual",
-      "light"
-    ],
-    "source": "auto"
-  },
   "I-129": {
     "colors": [
       "charcoal",
@@ -1689,32 +1577,6 @@
     ],
     "source": "auto"
   },
-  "I-153": {
-    "colors": [
-      "grey",
-      "blue"
-    ],
-    "patterns": [
-      "stripes"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "grey",
-      "blue",
-      "stripes",
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "source": "auto"
-  },
   "I-155": {
     "colors": [
       "blue",
@@ -1768,34 +1630,6 @@
       "formal",
       "light",
       "dark"
-    ],
-    "source": "auto"
-  },
-  "I-157": {
-    "colors": [
-      "grey",
-      "blue",
-      "white"
-    ],
-    "patterns": [
-      "checks"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "grey",
-      "blue",
-      "white",
-      "checks",
-      "shirt",
-      "formal",
-      "light"
     ],
     "source": "auto"
   },
@@ -2103,60 +1937,6 @@
     ],
     "source": "auto"
   },
-  "I-180": {
-    "colors": [
-      "grey"
-    ],
-    "patterns": [
-      "solid"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "grey",
-      "solid",
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "source": "auto"
-  },
-  "I-182": {
-    "colors": [
-      "grey",
-      "charcoal",
-      "white"
-    ],
-    "patterns": [
-      "checks"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light",
-      "dark"
-    ],
-    "tags": [
-      "grey",
-      "charcoal",
-      "white",
-      "checks",
-      "shirt",
-      "formal",
-      "light",
-      "dark"
-    ],
-    "source": "auto"
-  },
   "I-183": {
     "colors": [
       "navy",
@@ -2367,56 +2147,6 @@
     ],
     "source": "auto"
   },
-  "I-207": {
-    "colors": [
-      "grey"
-    ],
-    "patterns": [
-      "solid"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "grey",
-      "solid",
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "source": "auto"
-  },
-  "I-210": {
-    "colors": [
-      "blue",
-      "grey"
-    ],
-    "patterns": [
-      "texture"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "casual",
-      "light"
-    ],
-    "tags": [
-      "blue",
-      "grey",
-      "texture",
-      "shirt",
-      "casual",
-      "light"
-    ],
-    "source": "auto"
-  },
   "I-211": {
     "colors": [
       "grey"
@@ -2615,32 +2345,6 @@
     ],
     "source": "auto"
   },
-  "I-223": {
-    "colors": [
-      "blue",
-      "grey"
-    ],
-    "patterns": [
-      "solid"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "blue",
-      "grey",
-      "solid",
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "source": "auto"
-  },
   "I-224": {
     "colors": [
       "teal",
@@ -2742,32 +2446,6 @@
     "source": "auto"
   },
   "I-234": {
-    "colors": [
-      "blue",
-      "grey"
-    ],
-    "patterns": [
-      "solid"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "blue",
-      "grey",
-      "solid",
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "source": "auto"
-  },
-  "I-235": {
     "colors": [
       "blue",
       "grey"
@@ -2905,36 +2583,6 @@
     ],
     "source": "auto"
   },
-  "I-242": {
-    "colors": [
-      "navy",
-      "grey",
-      "charcoal"
-    ],
-    "patterns": [
-      "texture"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "casual",
-      "light",
-      "dark"
-    ],
-    "tags": [
-      "navy",
-      "grey",
-      "charcoal",
-      "texture",
-      "shirt",
-      "casual",
-      "light",
-      "dark"
-    ],
-    "source": "auto"
-  },
   "I-247": {
     "colors": [
       "grey",
@@ -2983,34 +2631,6 @@
     ],
     "tags": [
       "black",
-      "grey",
-      "charcoal",
-      "checks",
-      "shirt",
-      "formal",
-      "light",
-      "dark"
-    ],
-    "source": "auto"
-  },
-  "I-249": {
-    "colors": [
-      "grey",
-      "charcoal"
-    ],
-    "patterns": [
-      "checks"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light",
-      "dark"
-    ],
-    "tags": [
       "grey",
       "charcoal",
       "checks",
@@ -3725,54 +3345,6 @@
     ],
     "source": "auto"
   },
-  "I-288": {
-    "colors": [
-      "grey"
-    ],
-    "patterns": [
-      "solid"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "grey",
-      "solid",
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "source": "auto"
-  },
-  "I-291": {
-    "colors": [
-      "grey"
-    ],
-    "patterns": [
-      "solid"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "grey",
-      "solid",
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "source": "auto"
-  },
   "I-292": {
     "colors": [
       "purple",
@@ -3795,34 +3367,6 @@
       "purple",
       "grey",
       "charcoal",
-      "texture",
-      "shirt",
-      "casual",
-      "light",
-      "dark"
-    ],
-    "source": "auto"
-  },
-  "I-293": {
-    "colors": [
-      "black",
-      "grey"
-    ],
-    "patterns": [
-      "texture"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "casual",
-      "light",
-      "dark"
-    ],
-    "tags": [
-      "black",
-      "grey",
       "texture",
       "shirt",
       "casual",
@@ -4025,36 +3569,6 @@
     ],
     "source": "auto"
   },
-  "I-301": {
-    "colors": [
-      "navy",
-      "grey",
-      "blue"
-    ],
-    "patterns": [
-      "checks"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light",
-      "dark"
-    ],
-    "tags": [
-      "navy",
-      "grey",
-      "blue",
-      "checks",
-      "shirt",
-      "formal",
-      "light",
-      "dark"
-    ],
-    "source": "auto"
-  },
   "I-302": {
     "colors": [
       "red",
@@ -4078,36 +3592,6 @@
       "shirt",
       "formal",
       "light"
-    ],
-    "source": "auto"
-  },
-  "I-303": {
-    "colors": [
-      "navy",
-      "black",
-      "grey"
-    ],
-    "patterns": [
-      "texture"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "casual",
-      "light",
-      "dark"
-    ],
-    "tags": [
-      "navy",
-      "black",
-      "grey",
-      "texture",
-      "shirt",
-      "casual",
-      "light",
-      "dark"
     ],
     "source": "auto"
   },
@@ -4139,117 +3623,7 @@
     ],
     "source": "auto"
   },
-  "I-309": {
-    "colors": [
-      "charcoal",
-      "grey"
-    ],
-    "patterns": [
-      "solid"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light",
-      "dark"
-    ],
-    "tags": [
-      "charcoal",
-      "grey",
-      "solid",
-      "shirt",
-      "formal",
-      "light",
-      "dark"
-    ],
-    "source": "auto"
-  },
-  "I-310": {
-    "colors": [
-      "grey"
-    ],
-    "patterns": [
-      "solid"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "grey",
-      "solid",
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "source": "auto"
-  },
   "I-311": {
-    "colors": [
-      "grey",
-      "charcoal"
-    ],
-    "patterns": [
-      "solid"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light",
-      "dark"
-    ],
-    "tags": [
-      "grey",
-      "charcoal",
-      "solid",
-      "shirt",
-      "formal",
-      "light",
-      "dark"
-    ],
-    "source": "auto"
-  },
-  "I-313": {
-    "colors": [
-      "charcoal",
-      "grey",
-      "green"
-    ],
-    "patterns": [
-      "solid"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light",
-      "dark"
-    ],
-    "tags": [
-      "charcoal",
-      "grey",
-      "green",
-      "solid",
-      "shirt",
-      "formal",
-      "light",
-      "dark"
-    ],
-    "source": "auto"
-  },
-  "I-314": {
     "colors": [
       "grey",
       "charcoal"
@@ -4474,32 +3848,6 @@
       "formal",
       "light",
       "dark"
-    ],
-    "source": "auto"
-  },
-  "I-323": {
-    "colors": [
-      "purple",
-      "grey"
-    ],
-    "patterns": [
-      "solid"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "purple",
-      "grey",
-      "solid",
-      "shirt",
-      "formal",
-      "light"
     ],
     "source": "auto"
   },
@@ -4906,54 +4254,6 @@
     "source": "auto"
   },
   "I-353": {
-    "colors": [
-      "grey"
-    ],
-    "patterns": [
-      "solid"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "grey",
-      "solid",
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "source": "auto"
-  },
-  "I-354": {
-    "colors": [
-      "grey"
-    ],
-    "patterns": [
-      "solid"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "grey",
-      "solid",
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "source": "auto"
-  },
-  "I-355": {
     "colors": [
       "grey"
     ],
@@ -7889,32 +7189,6 @@
     ],
     "source": "auto"
   },
-  "PI-506": {
-    "colors": [
-      "grey"
-    ],
-    "patterns": [
-      "solid"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "premium",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "grey",
-      "solid",
-      "shirt",
-      "premium",
-      "formal",
-      "light"
-    ],
-    "source": "auto"
-  },
   "PI-509": {
     "colors": [
       "grey"
@@ -7967,63 +7241,7 @@
     ],
     "source": "auto"
   },
-  "PI-515": {
-    "colors": [
-      "grey",
-      "navy"
-    ],
-    "patterns": [
-      "texture"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "premium",
-      "casual",
-      "light",
-      "dark"
-    ],
-    "tags": [
-      "grey",
-      "navy",
-      "texture",
-      "shirt",
-      "premium",
-      "casual",
-      "light",
-      "dark"
-    ],
-    "source": "auto"
-  },
   "PI-517": {
-    "colors": [
-      "grey"
-    ],
-    "patterns": [
-      "solid"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "premium",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "grey",
-      "solid",
-      "shirt",
-      "premium",
-      "formal",
-      "light"
-    ],
-    "source": "auto"
-  },
-  "PI-522": {
     "colors": [
       "grey"
     ],
@@ -8148,32 +7366,6 @@
     ],
     "tags": [
       "blue",
-      "grey",
-      "solid",
-      "shirt",
-      "premium",
-      "formal",
-      "light"
-    ],
-    "source": "auto"
-  },
-  "PI-530": {
-    "colors": [
-      "grey"
-    ],
-    "patterns": [
-      "solid"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "premium",
-      "formal",
-      "light"
-    ],
-    "tags": [
       "grey",
       "solid",
       "shirt",

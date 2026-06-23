@@ -1134,109 +1134,11 @@
     ]
   },
   {
-    "code": "I-79",
-    "type": "Fabric",
-    "image": "images/I-79.jpg",
-    "thumb": "thumbs/I-79.jpg",
-    "filename": "I-79.jpg",
-    "colors": [
-      "grey",
-      "blue",
-      "navy"
-    ],
-    "patterns": [
-      "stripes"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light",
-      "dark"
-    ],
-    "tags": [
-      "grey",
-      "blue",
-      "navy",
-      "stripes",
-      "shirt",
-      "formal",
-      "light",
-      "dark"
-    ]
-  },
-  {
     "code": "I-82",
     "type": "Fabric",
     "image": "images/I-82.jpg",
     "thumb": "thumbs/I-82.jpg",
     "filename": "I-82.jpg",
-    "colors": [
-      "grey",
-      "blue"
-    ],
-    "patterns": [
-      "stripes"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "grey",
-      "blue",
-      "stripes",
-      "shirt",
-      "formal",
-      "light"
-    ]
-  },
-  {
-    "code": "I-83",
-    "type": "Fabric",
-    "image": "images/I-83.jpg",
-    "thumb": "thumbs/I-83.jpg",
-    "filename": "I-83.jpg",
-    "colors": [
-      "grey",
-      "navy",
-      "blue"
-    ],
-    "patterns": [
-      "stripes"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light",
-      "dark"
-    ],
-    "tags": [
-      "grey",
-      "navy",
-      "blue",
-      "stripes",
-      "shirt",
-      "formal",
-      "light",
-      "dark"
-    ]
-  },
-  {
-    "code": "I-84",
-    "type": "Fabric",
-    "image": "images/I-84.jpg",
-    "thumb": "thumbs/I-84.jpg",
-    "filename": "I-84.jpg",
     "colors": [
       "grey",
       "blue"
@@ -1670,36 +1572,6 @@
     ]
   },
   {
-    "code": "I-127",
-    "type": "Fabric",
-    "image": "images/I-127.jpg",
-    "thumb": "thumbs/I-127.jpg",
-    "filename": "I-127.jpg",
-    "colors": [
-      "grey",
-      "blue"
-    ],
-    "patterns": [
-      "texture"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "casual",
-      "light"
-    ],
-    "tags": [
-      "grey",
-      "blue",
-      "texture",
-      "shirt",
-      "casual",
-      "light"
-    ]
-  },
-  {
     "code": "I-129",
     "type": "Fabric",
     "image": "images/I-129.jpg",
@@ -1938,36 +1810,6 @@
     ]
   },
   {
-    "code": "I-153",
-    "type": "Fabric",
-    "image": "images/I-153.jpg",
-    "thumb": "thumbs/I-153.jpg",
-    "filename": "I-153.jpg",
-    "colors": [
-      "grey",
-      "blue"
-    ],
-    "patterns": [
-      "stripes"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "grey",
-      "blue",
-      "stripes",
-      "shirt",
-      "formal",
-      "light"
-    ]
-  },
-  {
     "code": "I-155",
     "type": "Fabric",
     "image": "images/I-155.jpg",
@@ -2029,38 +1871,6 @@
       "formal",
       "light",
       "dark"
-    ]
-  },
-  {
-    "code": "I-157",
-    "type": "Fabric",
-    "image": "images/I-157.jpg",
-    "thumb": "thumbs/I-157.jpg",
-    "filename": "I-157.jpg",
-    "colors": [
-      "grey",
-      "blue",
-      "white"
-    ],
-    "patterns": [
-      "checks"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "grey",
-      "blue",
-      "white",
-      "checks",
-      "shirt",
-      "formal",
-      "light"
     ]
   },
   {
@@ -2416,68 +2226,6 @@
     ]
   },
   {
-    "code": "I-180",
-    "type": "Fabric",
-    "image": "images/I-180.jpg",
-    "thumb": "thumbs/I-180.jpg",
-    "filename": "I-180.jpg",
-    "colors": [
-      "grey"
-    ],
-    "patterns": [
-      "solid"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "grey",
-      "solid",
-      "shirt",
-      "formal",
-      "light"
-    ]
-  },
-  {
-    "code": "I-182",
-    "type": "Fabric",
-    "image": "images/I-182.jpg",
-    "thumb": "thumbs/I-182.jpg",
-    "filename": "I-182.jpg",
-    "colors": [
-      "grey",
-      "charcoal",
-      "white"
-    ],
-    "patterns": [
-      "checks"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light",
-      "dark"
-    ],
-    "tags": [
-      "grey",
-      "charcoal",
-      "white",
-      "checks",
-      "shirt",
-      "formal",
-      "light",
-      "dark"
-    ]
-  },
-  {
     "code": "I-183",
     "type": "Fabric",
     "image": "images/I-183.jpg",
@@ -2720,64 +2468,6 @@
     ]
   },
   {
-    "code": "I-207",
-    "type": "Fabric",
-    "image": "images/I-207.jpg",
-    "thumb": "thumbs/I-207.jpg",
-    "filename": "I-207.jpg",
-    "colors": [
-      "grey"
-    ],
-    "patterns": [
-      "solid"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "grey",
-      "solid",
-      "shirt",
-      "formal",
-      "light"
-    ]
-  },
-  {
-    "code": "I-210",
-    "type": "Fabric",
-    "image": "images/I-210.jpg",
-    "thumb": "thumbs/I-210.jpg",
-    "filename": "I-210.jpg",
-    "colors": [
-      "blue",
-      "grey"
-    ],
-    "patterns": [
-      "texture"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "casual",
-      "light"
-    ],
-    "tags": [
-      "blue",
-      "grey",
-      "texture",
-      "shirt",
-      "casual",
-      "light"
-    ]
-  },
-  {
     "code": "I-211",
     "type": "Fabric",
     "image": "images/I-211.jpg",
@@ -3008,36 +2698,6 @@
     ]
   },
   {
-    "code": "I-223",
-    "type": "Fabric",
-    "image": "images/I-223.jpg",
-    "thumb": "thumbs/I-223.jpg",
-    "filename": "I-223.jpg",
-    "colors": [
-      "blue",
-      "grey"
-    ],
-    "patterns": [
-      "solid"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "blue",
-      "grey",
-      "solid",
-      "shirt",
-      "formal",
-      "light"
-    ]
-  },
-  {
     "code": "I-224",
     "type": "Fabric",
     "image": "images/I-224.jpg",
@@ -3159,36 +2819,6 @@
     "image": "images/I-234.jpg",
     "thumb": "thumbs/I-234.jpg",
     "filename": "I-234.jpg",
-    "colors": [
-      "blue",
-      "grey"
-    ],
-    "patterns": [
-      "solid"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "blue",
-      "grey",
-      "solid",
-      "shirt",
-      "formal",
-      "light"
-    ]
-  },
-  {
-    "code": "I-235",
-    "type": "Fabric",
-    "image": "images/I-235.jpg",
-    "thumb": "thumbs/I-235.jpg",
-    "filename": "I-235.jpg",
     "colors": [
       "blue",
       "grey"
@@ -3342,40 +2972,6 @@
     ]
   },
   {
-    "code": "I-242",
-    "type": "Fabric",
-    "image": "images/I-242.jpg",
-    "thumb": "thumbs/I-242.jpg",
-    "filename": "I-242.jpg",
-    "colors": [
-      "navy",
-      "grey",
-      "charcoal"
-    ],
-    "patterns": [
-      "texture"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "casual",
-      "light",
-      "dark"
-    ],
-    "tags": [
-      "navy",
-      "grey",
-      "charcoal",
-      "texture",
-      "shirt",
-      "casual",
-      "light",
-      "dark"
-    ]
-  },
-  {
     "code": "I-247",
     "type": "Fabric",
     "image": "images/I-247.jpg",
@@ -3432,38 +3028,6 @@
     ],
     "tags": [
       "black",
-      "grey",
-      "charcoal",
-      "checks",
-      "shirt",
-      "formal",
-      "light",
-      "dark"
-    ]
-  },
-  {
-    "code": "I-249",
-    "type": "Fabric",
-    "image": "images/I-249.jpg",
-    "thumb": "thumbs/I-249.jpg",
-    "filename": "I-249.jpg",
-    "colors": [
-      "grey",
-      "charcoal"
-    ],
-    "patterns": [
-      "checks"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light",
-      "dark"
-    ],
-    "tags": [
       "grey",
       "charcoal",
       "checks",
@@ -4282,62 +3846,6 @@
     ]
   },
   {
-    "code": "I-288",
-    "type": "Fabric",
-    "image": "images/I-288.jpg",
-    "thumb": "thumbs/I-288.jpg",
-    "filename": "I-288.jpg",
-    "colors": [
-      "grey"
-    ],
-    "patterns": [
-      "solid"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "grey",
-      "solid",
-      "shirt",
-      "formal",
-      "light"
-    ]
-  },
-  {
-    "code": "I-291",
-    "type": "Fabric",
-    "image": "images/I-291.jpg",
-    "thumb": "thumbs/I-291.jpg",
-    "filename": "I-291.jpg",
-    "colors": [
-      "grey"
-    ],
-    "patterns": [
-      "solid"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "grey",
-      "solid",
-      "shirt",
-      "formal",
-      "light"
-    ]
-  },
-  {
     "code": "I-292",
     "type": "Fabric",
     "image": "images/I-292.jpg",
@@ -4364,38 +3872,6 @@
       "purple",
       "grey",
       "charcoal",
-      "texture",
-      "shirt",
-      "casual",
-      "light",
-      "dark"
-    ]
-  },
-  {
-    "code": "I-293",
-    "type": "Fabric",
-    "image": "images/I-293.jpg",
-    "thumb": "thumbs/I-293.jpg",
-    "filename": "I-293.jpg",
-    "colors": [
-      "black",
-      "grey"
-    ],
-    "patterns": [
-      "texture"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "casual",
-      "light",
-      "dark"
-    ],
-    "tags": [
-      "black",
-      "grey",
       "texture",
       "shirt",
       "casual",
@@ -4626,40 +4102,6 @@
     ]
   },
   {
-    "code": "I-301",
-    "type": "Fabric",
-    "image": "images/I-301.jpg",
-    "thumb": "thumbs/I-301.jpg",
-    "filename": "I-301.jpg",
-    "colors": [
-      "navy",
-      "grey",
-      "blue"
-    ],
-    "patterns": [
-      "checks"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light",
-      "dark"
-    ],
-    "tags": [
-      "navy",
-      "grey",
-      "blue",
-      "checks",
-      "shirt",
-      "formal",
-      "light",
-      "dark"
-    ]
-  },
-  {
     "code": "I-302",
     "type": "Fabric",
     "image": "images/I-302.jpg",
@@ -4687,40 +4129,6 @@
       "shirt",
       "formal",
       "light"
-    ]
-  },
-  {
-    "code": "I-303",
-    "type": "Fabric",
-    "image": "images/I-303.jpg",
-    "thumb": "thumbs/I-303.jpg",
-    "filename": "I-303.jpg",
-    "colors": [
-      "navy",
-      "black",
-      "grey"
-    ],
-    "patterns": [
-      "texture"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "casual",
-      "light",
-      "dark"
-    ],
-    "tags": [
-      "navy",
-      "black",
-      "grey",
-      "texture",
-      "shirt",
-      "casual",
-      "light",
-      "dark"
     ]
   },
   {
@@ -4756,137 +4164,11 @@
     ]
   },
   {
-    "code": "I-309",
-    "type": "Fabric",
-    "image": "images/I-309.jpg",
-    "thumb": "thumbs/I-309.jpg",
-    "filename": "I-309.jpg",
-    "colors": [
-      "charcoal",
-      "grey"
-    ],
-    "patterns": [
-      "solid"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light",
-      "dark"
-    ],
-    "tags": [
-      "charcoal",
-      "grey",
-      "solid",
-      "shirt",
-      "formal",
-      "light",
-      "dark"
-    ]
-  },
-  {
-    "code": "I-310",
-    "type": "Fabric",
-    "image": "images/I-310.jpg",
-    "thumb": "thumbs/I-310.jpg",
-    "filename": "I-310.jpg",
-    "colors": [
-      "grey"
-    ],
-    "patterns": [
-      "solid"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "grey",
-      "solid",
-      "shirt",
-      "formal",
-      "light"
-    ]
-  },
-  {
     "code": "I-311",
     "type": "Fabric",
     "image": "images/I-311.jpg",
     "thumb": "thumbs/I-311.jpg",
     "filename": "I-311.jpg",
-    "colors": [
-      "grey",
-      "charcoal"
-    ],
-    "patterns": [
-      "solid"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light",
-      "dark"
-    ],
-    "tags": [
-      "grey",
-      "charcoal",
-      "solid",
-      "shirt",
-      "formal",
-      "light",
-      "dark"
-    ]
-  },
-  {
-    "code": "I-313",
-    "type": "Fabric",
-    "image": "images/I-313.jpg",
-    "thumb": "thumbs/I-313.jpg",
-    "filename": "I-313.jpg",
-    "colors": [
-      "charcoal",
-      "grey",
-      "green"
-    ],
-    "patterns": [
-      "solid"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light",
-      "dark"
-    ],
-    "tags": [
-      "charcoal",
-      "grey",
-      "green",
-      "solid",
-      "shirt",
-      "formal",
-      "light",
-      "dark"
-    ]
-  },
-  {
-    "code": "I-314",
-    "type": "Fabric",
-    "image": "images/I-314.jpg",
-    "thumb": "thumbs/I-314.jpg",
-    "filename": "I-314.jpg",
     "colors": [
       "grey",
       "charcoal"
@@ -5139,36 +4421,6 @@
       "formal",
       "light",
       "dark"
-    ]
-  },
-  {
-    "code": "I-323",
-    "type": "Fabric",
-    "image": "images/I-323.jpg",
-    "thumb": "thumbs/I-323.jpg",
-    "filename": "I-323.jpg",
-    "colors": [
-      "purple",
-      "grey"
-    ],
-    "patterns": [
-      "solid"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "purple",
-      "grey",
-      "solid",
-      "shirt",
-      "formal",
-      "light"
     ]
   },
   {
@@ -5639,62 +4891,6 @@
     "image": "images/I-353.jpg",
     "thumb": "thumbs/I-353.jpg",
     "filename": "I-353.jpg",
-    "colors": [
-      "grey"
-    ],
-    "patterns": [
-      "solid"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "grey",
-      "solid",
-      "shirt",
-      "formal",
-      "light"
-    ]
-  },
-  {
-    "code": "I-354",
-    "type": "Fabric",
-    "image": "images/I-354.jpg",
-    "thumb": "thumbs/I-354.jpg",
-    "filename": "I-354.jpg",
-    "colors": [
-      "grey"
-    ],
-    "patterns": [
-      "solid"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "grey",
-      "solid",
-      "shirt",
-      "formal",
-      "light"
-    ]
-  },
-  {
-    "code": "I-355",
-    "type": "Fabric",
-    "image": "images/I-355.jpg",
-    "thumb": "thumbs/I-355.jpg",
-    "filename": "I-355.jpg",
     "colors": [
       "grey"
     ],
@@ -9074,36 +8270,6 @@
     ]
   },
   {
-    "code": "PI-506",
-    "type": "Premium / PI",
-    "image": "images/PI-506.jpg",
-    "thumb": "thumbs/PI-506.jpg",
-    "filename": "PI-506.jpg",
-    "colors": [
-      "grey"
-    ],
-    "patterns": [
-      "solid"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "premium",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "grey",
-      "solid",
-      "shirt",
-      "premium",
-      "formal",
-      "light"
-    ]
-  },
-  {
     "code": "PI-509",
     "type": "Premium / PI",
     "image": "images/PI-509.jpg",
@@ -9164,75 +8330,11 @@
     ]
   },
   {
-    "code": "PI-515",
-    "type": "Premium / PI",
-    "image": "images/PI-515.jpg",
-    "thumb": "thumbs/PI-515.jpg",
-    "filename": "PI-515.jpg",
-    "colors": [
-      "grey",
-      "navy"
-    ],
-    "patterns": [
-      "texture"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "premium",
-      "casual",
-      "light",
-      "dark"
-    ],
-    "tags": [
-      "grey",
-      "navy",
-      "texture",
-      "shirt",
-      "premium",
-      "casual",
-      "light",
-      "dark"
-    ]
-  },
-  {
     "code": "PI-517",
     "type": "Premium / PI",
     "image": "images/PI-517.jpg",
     "thumb": "thumbs/PI-517.jpg",
     "filename": "PI-517.jpg",
-    "colors": [
-      "grey"
-    ],
-    "patterns": [
-      "solid"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "premium",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "grey",
-      "solid",
-      "shirt",
-      "premium",
-      "formal",
-      "light"
-    ]
-  },
-  {
-    "code": "PI-522",
-    "type": "Premium / PI",
-    "image": "images/PI-522.jpg",
-    "thumb": "thumbs/PI-522.jpg",
-    "filename": "PI-522.jpg",
     "colors": [
       "grey"
     ],
@@ -9373,36 +8475,6 @@
     ],
     "tags": [
       "blue",
-      "grey",
-      "solid",
-      "shirt",
-      "premium",
-      "formal",
-      "light"
-    ]
-  },
-  {
-    "code": "PI-530",
-    "type": "Premium / PI",
-    "image": "images/PI-530.jpg",
-    "thumb": "thumbs/PI-530.jpg",
-    "filename": "PI-530.jpg",
-    "colors": [
-      "grey"
-    ],
-    "patterns": [
-      "solid"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "premium",
-      "formal",
-      "light"
-    ],
-    "tags": [
       "grey",
       "solid",
       "shirt",
