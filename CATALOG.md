@@ -267,11 +267,11 @@ Use `Cmd+F` / `Ctrl+F` to search a fabric code like `I-440` or `PI-531`.
 | `I-460` | Fabric | Grey, Solid, Shirt, Formal, Light | [![I-460](thumbs/I-460.jpg)](images/I-460.jpg) | [I-460.jpg](images/I-460.jpg) |
 | `I-461` | Fabric | Blue, Grey, Solid, Shirt, Formal, Light | [![I-461](thumbs/I-461.jpg)](images/I-461.jpg) | [I-461.jpg](images/I-461.jpg) |
 | `I-462` | Fabric | Grey, Solid, Shirt, Formal, Light | [![I-462](thumbs/I-462.jpg)](images/I-462.jpg) | [I-462.jpg](images/I-462.jpg) |
-| `I-463` | Fabric | Grey, White, Texture, Shirt, Casual, Light | [![I-463](thumbs/I-463.jpg)](images/I-463.jpg) | [I-463.jpg](images/I-463.jpg) |
-| `I-464` | Fabric | Charcoal, White, Black, Texture, Shirt, Casual, Light | [![I-464](thumbs/I-464.jpg)](images/I-464.jpg) | [I-464.jpg](images/I-464.jpg) |
+| `I-463` | Fabric | Grey, White, Navy, Texture, Shirt, Casual, Light | [![I-463](thumbs/I-463.jpg)](images/I-463.jpg) | [I-463.jpg](images/I-463.jpg) |
+| `I-464` | Fabric | White, Cream, Grey, Stripes, Shirt, Formal, Light | [![I-464](thumbs/I-464.jpg)](images/I-464.jpg) | [I-464.jpg](images/I-464.jpg) |
 | `I-465` | Fabric | Grey, White, Solid, Shirt, Formal, Light | [![I-465](thumbs/I-465.jpg)](images/I-465.jpg) | [I-465.jpg](images/I-465.jpg) |
 | `I-466` | Fabric | Grey, Blue, Texture, Shirt, Casual, Light | [![I-466](thumbs/I-466.jpg)](images/I-466.jpg) | [I-466.jpg](images/I-466.jpg) |
-| `I-467` | Fabric | Blue, Solid, Shirt, Formal | [![I-467](thumbs/I-467.jpg)](images/I-467.jpg) | [I-467.jpg](images/I-467.jpg) |
+| `I-467` | Fabric | White, Blue, Grey, Solid, Shirt, Formal, Light | [![I-467](thumbs/I-467.jpg)](images/I-467.jpg) | [I-467.jpg](images/I-467.jpg) |
 | `I-468` | Fabric | White, Grey, Solid, Shirt, Formal, Light | [![I-468](thumbs/I-468.jpg)](images/I-468.jpg) | [I-468.jpg](images/I-468.jpg) |
 | `PI-502` | Premium / PI | Cream, Grey, Solid, Shirt, Premium, Formal | [![PI-502](thumbs/PI-502.jpg)](images/PI-502.jpg) | [PI-502.jpg](images/PI-502.jpg) |
 | `PI-503` | Premium / PI | Grey, Solid, Shirt, Premium, Formal | [![PI-503](thumbs/PI-503.jpg)](images/PI-503.jpg) | [PI-503.jpg](images/PI-503.jpg) |

@@ -8001,7 +8001,8 @@
     "filename": "I-463.jpg",
     "colors": [
       "grey",
-      "white"
+      "white",
+      "navy"
     ],
     "patterns": [
       "texture"
@@ -8012,15 +8013,18 @@
     "styles": [
       "shirt",
       "casual",
-      "light"
+      "light",
+      "dark"
     ],
     "tags": [
       "grey",
       "white",
+      "navy",
       "texture",
       "shirt",
       "casual",
-      "light"
+      "light",
+      "dark"
     ]
   },
   {
@@ -8030,31 +8034,29 @@
     "thumb": "thumbs/I-464.jpg",
     "filename": "I-464.jpg",
     "colors": [
-      "charcoal",
       "white",
-      "black"
+      "cream",
+      "grey"
     ],
     "patterns": [
-      "texture"
+      "stripes"
     ],
     "uses": [
       "shirt"
     ],
     "styles": [
       "shirt",
-      "casual",
-      "light",
-      "dark"
+      "formal",
+      "light"
     ],
     "tags": [
-      "charcoal",
       "white",
-      "black",
-      "texture",
+      "cream",
+      "grey",
+      "stripes",
       "shirt",
-      "casual",
-      "light",
-      "dark"
+      "formal",
+      "light"
     ]
   },
   {
@@ -8124,7 +8126,9 @@
     "thumb": "thumbs/I-467.jpg",
     "filename": "I-467.jpg",
     "colors": [
-      "blue"
+      "white",
+      "blue",
+      "grey"
     ],
     "patterns": [
       "solid"
@@ -8134,13 +8138,17 @@
     ],
     "styles": [
       "shirt",
-      "formal"
+      "formal",
+      "light"
     ],
     "tags": [
+      "white",
       "blue",
+      "grey",
       "solid",
       "shirt",
-      "formal"
+      "formal",
+      "light"
     ]
   },
   {

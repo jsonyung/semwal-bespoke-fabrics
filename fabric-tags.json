@@ -6952,7 +6952,8 @@
   "I-463": {
     "colors": [
       "grey",
-      "white"
+      "white",
+      "navy"
     ],
     "patterns": [
       "texture"
@@ -6963,45 +6964,46 @@
     "styles": [
       "shirt",
       "casual",
-      "light"
+      "light",
+      "dark"
     ],
     "tags": [
       "grey",
       "white",
+      "navy",
       "texture",
       "shirt",
       "casual",
-      "light"
+      "light",
+      "dark"
     ],
     "source": "auto"
   },
   "I-464": {
     "colors": [
-      "charcoal",
       "white",
-      "black"
+      "cream",
+      "grey"
     ],
     "patterns": [
-      "texture"
+      "stripes"
     ],
     "uses": [
       "shirt"
     ],
     "styles": [
       "shirt",
-      "casual",
-      "light",
-      "dark"
+      "formal",
+      "light"
     ],
     "tags": [
-      "charcoal",
       "white",
-      "black",
-      "texture",
+      "cream",
+      "grey",
+      "stripes",
       "shirt",
-      "casual",
-      "light",
-      "dark"
+      "formal",
+      "light"
     ],
     "source": "auto"
   },
@@ -7059,7 +7061,9 @@
   },
   "I-467": {
     "colors": [
-      "blue"
+      "white",
+      "blue",
+      "grey"
     ],
     "patterns": [
       "solid"
@@ -7069,13 +7073,17 @@
     ],
     "styles": [
       "shirt",
-      "formal"
+      "formal",
+      "light"
     ],
     "tags": [
+      "white",
       "blue",
+      "grey",
       "solid",
       "shirt",
-      "formal"
+      "formal",
+      "light"
     ],
     "source": "auto"
   },
