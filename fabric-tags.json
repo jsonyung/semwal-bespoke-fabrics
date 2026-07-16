@@ -551,36 +551,6 @@
     ],
     "source": "auto"
   },
-  "I-51": {
-    "colors": [
-      "navy",
-      "grey",
-      "white"
-    ],
-    "patterns": [
-      "stripes"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light",
-      "dark"
-    ],
-    "tags": [
-      "navy",
-      "grey",
-      "white",
-      "stripes",
-      "shirt",
-      "formal",
-      "light",
-      "dark"
-    ],
-    "source": "auto"
-  },
   "I-52": {
     "colors": [
       "grey",
@@ -1290,32 +1260,6 @@
       "formal",
       "light",
       "dark"
-    ],
-    "source": "auto"
-  },
-  "I-112": {
-    "colors": [
-      "purple",
-      "grey"
-    ],
-    "patterns": [
-      "texture"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "casual",
-      "light"
-    ],
-    "tags": [
-      "purple",
-      "grey",
-      "texture",
-      "shirt",
-      "casual",
-      "light"
     ],
     "source": "auto"
   },

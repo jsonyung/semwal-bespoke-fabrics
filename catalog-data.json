@@ -632,40 +632,6 @@
     ]
   },
   {
-    "code": "I-51",
-    "type": "Fabric",
-    "image": "images/I-51.jpg",
-    "thumb": "thumbs/I-51.jpg",
-    "filename": "I-51.jpg",
-    "colors": [
-      "navy",
-      "grey",
-      "white"
-    ],
-    "patterns": [
-      "stripes"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light",
-      "dark"
-    ],
-    "tags": [
-      "navy",
-      "grey",
-      "white",
-      "stripes",
-      "shirt",
-      "formal",
-      "light",
-      "dark"
-    ]
-  },
-  {
     "code": "I-52",
     "type": "Fabric",
     "image": "images/I-52.jpg",
@@ -1479,36 +1445,6 @@
       "formal",
       "light",
       "dark"
-    ]
-  },
-  {
-    "code": "I-112",
-    "type": "Fabric",
-    "image": "images/I-112.jpg",
-    "thumb": "thumbs/I-112.jpg",
-    "filename": "I-112.jpg",
-    "colors": [
-      "purple",
-      "grey"
-    ],
-    "patterns": [
-      "texture"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "casual",
-      "light"
-    ],
-    "tags": [
-      "purple",
-      "grey",
-      "texture",
-      "shirt",
-      "casual",
-      "light"
     ]
   },
   {
