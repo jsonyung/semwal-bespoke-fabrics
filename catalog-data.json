@@ -6626,34 +6626,6 @@
     ]
   },
   {
-    "code": "I-419",
-    "type": "Fabric",
-    "image": "images/I-419.jpg",
-    "thumb": "thumbs/I-419.jpg",
-    "filename": "I-419.jpg",
-    "colors": [
-      "grey"
-    ],
-    "patterns": [
-      "solid"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "grey",
-      "solid",
-      "shirt",
-      "formal",
-      "light"
-    ]
-  },
-  {
     "code": "I-420",
     "type": "Fabric",
     "image": "images/I-420.jpg",
