@@ -376,6 +376,60 @@
         line-height: 1.2;
       }
 
+      /* ── Metre bar ── */
+      .meter-wrap {
+        display: grid;
+        gap: 4px;
+        padding: 0 12px 11px;
+      }
+
+      .meter-label {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 11px;
+        color: var(--muted);
+      }
+
+      .meter-label strong {
+        font-size: 12px;
+        font-weight: 700;
+      }
+
+      .meter-label .low-badge {
+        background: #fff3e0;
+        color: #e65100;
+        border: 1px solid #ffcc80;
+        border-radius: 999px;
+        padding: 1px 7px;
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+      }
+
+      .meter-track {
+        height: 5px;
+        border-radius: 999px;
+        background: var(--panel-2);
+        overflow: hidden;
+      }
+
+      .meter-fill {
+        height: 100%;
+        border-radius: 999px;
+        transition: width 400ms ease;
+        background: linear-gradient(90deg, #43a047, #66bb6a);
+      }
+
+      .meter-fill.low {
+        background: linear-gradient(90deg, #e65100, #ff7043);
+      }
+
+      .meter-fill.medium {
+        background: linear-gradient(90deg, #f57f17, #ffca28);
+      }
+
       .empty {
         display: none;
         padding: 34px;
@@ -810,7 +864,24 @@
         visibleFabrics = fabrics.filter((item) => matchesFilter(item) && matchesQuery(item, query));
         grid.innerHTML = visibleFabrics
           .map(
-            (item, index) => `
+            (item, index) => {
+              const meters = typeof item.meters === "number" ? item.meters : null;
+              const isLow = meters !== null && meters < 5;
+              const isMedium = meters !== null && meters >= 5 && meters < 10;
+              const pct = meters !== null ? Math.min(100, Math.round((meters / 15) * 100)) : null;
+              const fillClass = isLow ? "low" : isMedium ? "medium" : "";
+              const meterHtml = meters !== null
+                ? `<div class="meter-wrap">
+                    <div class="meter-label">
+                      <span><strong>${meters}</strong> mtrs left</span>
+                      ${isLow ? '<span class="low-badge">Low Stock</span>' : ''}
+                    </div>
+                    <div class="meter-track">
+                      <div class="meter-fill ${fillClass}" style="width:${pct}%"></div>
+                    </div>
+                  </div>`
+                : "";
+              return `
               <article class="card">
                 <a class="thumb" href="${item.image}" data-index="${index}" aria-label="Open ${item.code}">
                   <img src="${item.thumb || item.image}" alt="${item.code}" loading="lazy" decoding="async" />
@@ -826,8 +897,10 @@
                       .join("")}
                   </div>
                 </div>
+                ${meterHtml}
               </article>
-            `
+            `;
+            }
           )
           .join("");
         resultCount.innerHTML = `<strong>${visibleFabrics.length}</strong> of ${fabrics.length} fabrics`;

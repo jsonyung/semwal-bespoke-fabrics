@@ -80,6 +80,12 @@ def tags_for_code(code: str, fabric_tags: dict[str, dict[str, list[str]]]) -> di
         if values:
             merged[key] = values
     merged["tags"] = list(dict.fromkeys([*merged["colors"], *merged["patterns"], *merged["uses"], *merged["styles"]]))
+    # Pass through metres-remaining if set
+    if "meters" in raw:
+        try:
+            merged["meters"] = float(raw["meters"])
+        except (TypeError, ValueError):
+            pass
     return merged
 
 
