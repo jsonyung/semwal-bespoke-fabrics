@@ -1,133 +1,181 @@
-# Semwal Bespoke Catalog Office Guide
+# Semwal Bespoke Catalog — Office Guide
 
-This is the main guide for normal office use.
+This is the main guide for daily office use.
+
+---
 
 ## What The Project Does
 
 This project makes three things from the fabric photos in `images/`:
 
-- A searchable website catalog.
-- A downloadable PDF catalog.
-- A GitHub searchable Markdown catalog.
+- A searchable website catalog (live on GitHub Pages)
+- A downloadable PDF catalog
+- A GitHub searchable Markdown catalog
 
-The live website is:
-
-```text
+**Live website:**
+```
 https://jsonyung.github.io/semwal-bespoke-fabrics/
 ```
 
+---
+
 ## Daily Workflows
 
-### Add New Fabric
+### ▶ Hide A Fabric (Out Of Stock)
 
-1. Put the fabric photo inside `images/`.
-2. Rename it to the fabric code, for example `I-463.jpg`.
+When a fabric is out of stock — remove it from the website and PDF.
+
+```bash
+./mark-out-of-stock.sh I-440
+```
+
+- The photo moves to `archive/out-of-stock/` (kept safe, not deleted).
+- The fabric disappears from the website and PDF immediately after pushing.
+
+---
+
+### ▶ Bring A Fabric Back (In Stock Again)
+
+When a fabric is available again — restore it to the website and PDF.
+
+```bash
+./restore-fabric.sh I-440
+```
+
+- The photo moves back to `images/`.
+- The fabric returns to the website and PDF.
+
+---
+
+### ▶ Set Metres Remaining (Low Stock Warning)
+
+When fabric is running low but **not yet fully out of stock** — show a warning bar on the website.
+
+```bash
+./set-meters.sh I-440 4
+```
+
+This shows a coloured metre bar on the website card:
+- 🔴 **Red + "Low Stock" badge** = under 5 mtrs
+- 🟡 **Yellow bar** = 5–10 mtrs
+- 🟢 **Green bar** = 10+ mtrs
+
+The PDF is **not affected** — metres only show on the website.
+
+To remove the bar when fabric is restocked:
+
+```bash
+./set-meters.sh I-440 0
+```
+
+After setting metres, always run:
+
+```bash
+./update-catalog.sh
+```
+
+---
+
+### ▶ Add A New Fabric
+
+1. Put the fabric photo in `images/`
+2. Name it with the fabric code, e.g. `I-469.jpg`
 3. Run:
 
 ```bash
 ./update-catalog.sh
 ```
 
-4. When asked to commit and push, type `y`.
+**Photo requirements:**
+- Size: 800×1000 px (portrait) recommended
+- Format: JPG
+- Background: white, clean, no chairs or furniture
+- Use ImageMagick to resize: see `HOW_TO_ADD_FABRIC_IMAGES.md`
 
-### Hide Out-Of-Stock Fabric
+---
 
-Use this when the fabric is temporarily unavailable or should not show to clients.
+### ▶ Rebuild Website + PDF
 
-```bash
-./mark-out-of-stock.sh I-440
-```
-
-The photo moves to `archive/out-of-stock/`, but it is not deleted.
-
-### Bring Fabric Back In Stock
-
-```bash
-./restore-fabric.sh I-440
-```
-
-The photo moves back to `images/` and returns to the website/PDF.
-
-### Correct Fabric Tags
-
-Use this when a fabric should show under better filters.
-
-```bash
-./tag-fabric.sh I-440 colors=white,blue patterns=stripes styles=formal,light
-```
-
-Then run:
+After any change, run this to update everything:
 
 ```bash
 ./update-catalog.sh
 ```
+
+This rebuilds:
+- `catalog-data.json` (website data)
+- `CATALOG.md` (GitHub searchable list)
+- `thumbs/` (website thumbnails)
+- `semwal-bespoke-fabrics-catalog.pdf`
+- `README.md`
+
+---
+
+## Quick Reference — All Commands
+
+| Task | Command |
+|---|---|
+| Hide fabric (out of stock) | `./mark-out-of-stock.sh I-440` |
+| Restore fabric (back in stock) | `./restore-fabric.sh I-440` |
+| Set metres remaining | `./set-meters.sh I-440 4` |
+| Remove metre bar | `./set-meters.sh I-440 0` |
+| Add new fabric | Put photo in `images/`, run `./update-catalog.sh` |
+| Rebuild website + PDF | `./update-catalog.sh` |
+| Fix fabric tags/filters | `./tag-fabric.sh I-440 colors=blue patterns=stripes` |
+| Review all tags visually | `python3 scripts/generate_tag_review.py` |
+
+---
 
 ## Website Filters
 
-The website shows simple filters first:
+The website has:
+- **Search box** — type any fabric code like `I-440`
+- **Series filter** — `All`, `I`, `PI`
+- **Advanced filters:**
+  - Pattern: `Solid`, `Checks`, `Stripes`, `Printed`, `Texture`
+  - Color: `White`, `Cream`, `Blue`, `Navy`, `Black`, `Grey`, `Beige`, `Maroon`, `Green`
+  - Style: `Shirt`, `Formal`, `Casual`, `Premium`, `Light`, `Dark`
 
-- Search box
-- Series: `All`, `I`, `PI`
+---
 
-Extra filters are inside **Advanced filters**:
+## Current Catalog Stats (as of Jul 2026)
 
-- Pattern: `Solid`, `Checks`, `Stripes`, `Printed`, `Texture`
-- Color: `White`, `Cream`, `Blue`, `Navy`, `Black`, `Grey`, `Beige`, `Maroon`, `Green`
-- Style: `Shirt`, `Formal`, `Casual`, `Premium`, `Light`, `Dark`
+| Status | Count |
+|---|---|
+| Active fabrics on website | 270 |
+| Archived (out of stock) | 43 |
+| Low stock (metre bars) | 28 |
 
-## Review Every Fabric
+---
 
-Run this to create a visual review board:
+## File Map
 
-```bash
-python3 scripts/generate_tag_review.py
-```
+| File / Folder | Purpose |
+|---|---|
+| `images/` | Active fabric photos — what's on the website |
+| `archive/out-of-stock/` | Hidden fabrics — kept safe, not deleted |
+| `thumbs/` | Auto-generated website thumbnails |
+| `fabric-tags.json` | Fabric filter tags + metres data |
+| `catalog-data.json` | Auto-generated website data |
+| `index.html` | The website catalog |
+| `semwal-bespoke-fabrics-catalog.pdf` | Auto-generated PDF catalog |
+| `CATALOG.md` | GitHub searchable catalog |
+| `update-catalog.sh` | Main updater — run after any change |
+| `mark-out-of-stock.sh` | Hide a fabric |
+| `restore-fabric.sh` | Bring a fabric back |
+| `set-meters.sh` | Set metres remaining for low stock |
+| `tag-fabric.sh` | Fix fabric filter tags |
+| `STOCK_WORKFLOW.md` | Full stock workflow guide |
+| `HOW_TO_ADD_FABRIC_IMAGES.md` | Image sizing + ImageMagick guide |
+| `FABRIC_TAGGING.md` | Tagging guide |
 
-Then open:
+---
 
-```text
-fabric-tag-review.html
-```
-
-Use that page to check each image and decide whether its tags are correct. If a fabric needs correction, use `./tag-fabric.sh`.
-
-## PDF Generation
-
-Normally use:
-
-```bash
-./update-catalog.sh
-```
-
-That regenerates the PDF automatically.
-
-Only run the PDF script directly if you know the catalog data is already updated:
-
-```bash
-python3 scripts/generate_pdf_catalog.py
-```
-
-## GitHub Privacy
+## GitHub Privacy Note
 
 On GitHub Free, making this repository private will stop GitHub Pages from publishing the website.
 
 Best options:
-
-- Keep this repo public if the website must stay live.
-- Use a paid GitHub plan if you need Pages from a private repo.
-- Later split the setup into a private working repo and a public website-only repo.
-
-## File Map
-
-- `images/`: active fabric photos.
-- `archive/out-of-stock/`: hidden fabrics kept safely.
-- `thumbs/`: generated website thumbnails.
-- `fabric-tags.json`: editable fabric filter tags.
-- `catalog-data.json`: generated website data.
-- `index.html`: website catalog.
-- `semwal-bespoke-fabrics-catalog.pdf`: generated PDF catalog.
-- `CATALOG.md`: GitHub searchable catalog.
-- `update-catalog.sh`: main updater.
-- `tag-fabric.sh`: correct tags for one fabric.
-- `mark-out-of-stock.sh`: hide a fabric.
-- `restore-fabric.sh`: bring back a fabric.
+- Keep this repo **public** if the website must stay live.
+- Use a **paid GitHub plan** if you need Pages from a private repo.
+- Later split into two repos: a private working repo and a public website-only repo.

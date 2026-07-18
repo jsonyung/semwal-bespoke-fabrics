@@ -637,30 +637,6 @@
     ],
     "source": "auto"
   },
-  "I-61": {
-    "colors": [
-      "grey"
-    ],
-    "patterns": [
-      "solid"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "grey",
-      "solid",
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "source": "auto"
-  },
   "I-65": {
     "colors": [
       "blue",
@@ -2671,32 +2647,6 @@
     ],
     "source": "auto"
   },
-  "I-255": {
-    "colors": [
-      "blue",
-      "grey"
-    ],
-    "patterns": [
-      "solid"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "blue",
-      "grey",
-      "solid",
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "source": "auto"
-  },
   "I-256": {
     "colors": [
       "navy",
@@ -2724,32 +2674,6 @@
       "formal",
       "light",
       "dark"
-    ],
-    "source": "auto"
-  },
-  "I-259": {
-    "colors": [
-      "grey",
-      "blue"
-    ],
-    "patterns": [
-      "solid"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "grey",
-      "blue",
-      "solid",
-      "shirt",
-      "formal",
-      "light"
     ],
     "source": "auto"
   },
@@ -3399,32 +3323,6 @@
     ],
     "source": "auto"
   },
-  "I-297": {
-    "colors": [
-      "blue",
-      "grey"
-    ],
-    "patterns": [
-      "texture"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "casual",
-      "light"
-    ],
-    "tags": [
-      "blue",
-      "grey",
-      "texture",
-      "shirt",
-      "casual",
-      "light"
-    ],
-    "source": "auto"
-  },
   "I-298": {
     "colors": [
       "grey",
@@ -3866,30 +3764,6 @@
     "tags": [
       "grey",
       "blue",
-      "solid",
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "source": "auto"
-  },
-  "I-329": {
-    "colors": [
-      "grey"
-    ],
-    "patterns": [
-      "solid"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "grey",
       "solid",
       "shirt",
       "formal",
