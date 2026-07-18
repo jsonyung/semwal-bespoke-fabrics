@@ -71,7 +71,8 @@
       "formal",
       "light"
     ],
-    "source": "auto"
+    "source": "auto",
+    "meters": 4.0
   },
   "I-24": {
     "colors": [
@@ -1121,7 +1122,8 @@
       "formal",
       "dark"
     ],
-    "source": "auto"
+    "source": "auto",
+    "meters": 4.0
   },
   "I-103": {
     "colors": [
@@ -1319,7 +1321,8 @@
       "light",
       "dark"
     ],
-    "source": "auto"
+    "source": "auto",
+    "meters": 4.0
   },
   "I-131": {
     "colors": [
@@ -1397,7 +1400,8 @@
       "formal",
       "light"
     ],
-    "source": "auto"
+    "source": "auto",
+    "meters": 4.0
   },
   "I-138": {
     "colors": [
@@ -1421,7 +1425,8 @@
       "formal",
       "light"
     ],
-    "source": "auto"
+    "source": "auto",
+    "meters": 4.0
   },
   "I-144": {
     "colors": [
@@ -1445,7 +1450,8 @@
       "formal",
       "light"
     ],
-    "source": "auto"
+    "source": "auto",
+    "meters": 4.0
   },
   "I-145": {
     "colors": [
@@ -1579,7 +1585,8 @@
       "formal",
       "light"
     ],
-    "source": "auto"
+    "source": "auto",
+    "meters": 4.0
   },
   "I-159": {
     "colors": [
@@ -1627,7 +1634,8 @@
       "formal",
       "light"
     ],
-    "source": "auto"
+    "source": "auto",
+    "meters": 4.0
   },
   "I-162": {
     "colors": [
@@ -1883,7 +1891,8 @@
       "formal",
       "dark"
     ],
-    "source": "auto"
+    "source": "auto",
+    "meters": 4.0
   },
   "I-184": {
     "colors": [
@@ -2013,7 +2022,8 @@
       "formal",
       "light"
     ],
-    "source": "auto"
+    "source": "auto",
+    "meters": 4.0
   },
   "I-198": {
     "colors": [
@@ -2113,7 +2123,8 @@
       "formal",
       "light"
     ],
-    "source": "auto"
+    "source": "auto",
+    "meters": 4.0
   },
   "I-214": {
     "colors": [
@@ -2191,7 +2202,8 @@
       "formal",
       "light"
     ],
-    "source": "auto"
+    "source": "auto",
+    "meters": 4.0
   },
   "I-219": {
     "colors": [
@@ -2263,7 +2275,8 @@
       "formal",
       "light"
     ],
-    "source": "auto"
+    "source": "auto",
+    "meters": 4.0
   },
   "I-224": {
     "colors": [
@@ -2501,7 +2514,8 @@
       "light",
       "dark"
     ],
-    "source": "auto"
+    "source": "auto",
+    "meters": 4.0
   },
   "I-247": {
     "colors": [
@@ -2529,7 +2543,8 @@
       "light",
       "dark"
     ],
-    "source": "auto"
+    "source": "auto",
+    "meters": 4.0
   },
   "I-248": {
     "colors": [
@@ -2645,7 +2660,8 @@
       "light",
       "dark"
     ],
-    "source": "auto"
+    "source": "auto",
+    "meters": 4.0
   },
   "I-256": {
     "colors": [
@@ -2727,7 +2743,8 @@
       "light",
       "dark"
     ],
-    "source": "auto"
+    "source": "auto",
+    "meters": 4.0
   },
   "I-265": {
     "colors": [
@@ -2837,7 +2854,8 @@
       "formal",
       "light"
     ],
-    "source": "auto"
+    "source": "auto",
+    "meters": 4.0
   },
   "I-269": {
     "colors": [
@@ -2919,7 +2937,8 @@
       "light",
       "dark"
     ],
-    "source": "auto"
+    "source": "auto",
+    "meters": 4.0
   },
   "I-277": {
     "colors": [
@@ -3463,7 +3482,8 @@
       "formal",
       "light"
     ],
-    "source": "auto"
+    "source": "auto",
+    "meters": 4.0
   },
   "I-311": {
     "colors": [
@@ -4045,7 +4065,8 @@
       "formal",
       "light"
     ],
-    "source": "auto"
+    "source": "auto",
+    "meters": 4.0
   },
   "I-346": {
     "colors": [
@@ -5561,7 +5582,8 @@
       "formal",
       "light"
     ],
-    "source": "auto"
+    "source": "auto",
+    "meters": 4.0
   },
   "I-416": {
     "colors": [
@@ -6933,7 +6955,8 @@
       "formal",
       "light"
     ],
-    "source": "auto"
+    "source": "auto",
+    "meters": 4.0
   },
   "PI-503": {
     "colors": [
@@ -6989,7 +7012,8 @@
       "light",
       "dark"
     ],
-    "source": "auto"
+    "source": "auto",
+    "meters": 4.0
   },
   "PI-509": {
     "colors": [
@@ -7067,7 +7091,8 @@
       "formal",
       "light"
     ],
-    "source": "auto"
+    "source": "auto",
+    "meters": 4.0
   },
   "PI-524": {
     "colors": [
@@ -7093,7 +7118,8 @@
       "formal",
       "light"
     ],
-    "source": "auto"
+    "source": "auto",
+    "meters": 4.0
   },
   "PI-526": {
     "colors": [
@@ -7175,7 +7201,8 @@
       "formal",
       "light"
     ],
-    "source": "auto"
+    "source": "auto",
+    "meters": 4.0
   },
   "PI-531": {
     "colors": [
@@ -7201,6 +7228,7 @@
       "formal",
       "light"
     ],
-    "source": "auto"
+    "source": "auto",
+    "meters": 4.0
   }
 }

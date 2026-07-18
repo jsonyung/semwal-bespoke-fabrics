@@ -214,7 +214,11 @@ def main() -> None:
         if current and current.get("source") == "manual":
             records[image_path.stem] = current
         else:
-            records[image_path.stem] = analyze_image(image_path)
+            analyzed = analyze_image(image_path)
+            # Preserve manually set metres — never wipe them on re-analysis
+            if current and "meters" in current:
+                analyzed["meters"] = current["meters"]
+            records[image_path.stem] = analyzed
 
     OUTPUT_FILE.write_text(json.dumps(records, indent=2) + "\n", encoding="utf-8")
     print(f"Generated {OUTPUT_FILE.name} for {len(records)} fabrics.")

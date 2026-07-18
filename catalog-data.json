@@ -83,7 +83,8 @@
       "shirt",
       "formal",
       "light"
-    ]
+    ],
+    "meters": 4.0
   },
   {
     "code": "I-24",
@@ -1285,7 +1286,8 @@
       "shirt",
       "formal",
       "dark"
-    ]
+    ],
+    "meters": 4.0
   },
   {
     "code": "I-103",
@@ -1511,7 +1513,8 @@
       "formal",
       "light",
       "dark"
-    ]
+    ],
+    "meters": 4.0
   },
   {
     "code": "I-131",
@@ -1601,7 +1604,8 @@
       "shirt",
       "formal",
       "light"
-    ]
+    ],
+    "meters": 4.0
   },
   {
     "code": "I-138",
@@ -1629,7 +1633,8 @@
       "shirt",
       "formal",
       "light"
-    ]
+    ],
+    "meters": 4.0
   },
   {
     "code": "I-144",
@@ -1657,7 +1662,8 @@
       "shirt",
       "formal",
       "light"
-    ]
+    ],
+    "meters": 4.0
   },
   {
     "code": "I-145",
@@ -1811,7 +1817,8 @@
       "shirt",
       "formal",
       "light"
-    ]
+    ],
+    "meters": 4.0
   },
   {
     "code": "I-159",
@@ -1867,7 +1874,8 @@
       "shirt",
       "formal",
       "light"
-    ]
+    ],
+    "meters": 4.0
   },
   {
     "code": "I-162",
@@ -2163,7 +2171,8 @@
       "shirt",
       "formal",
       "dark"
-    ]
+    ],
+    "meters": 4.0
   },
   {
     "code": "I-184",
@@ -2313,7 +2322,8 @@
       "shirt",
       "formal",
       "light"
-    ]
+    ],
+    "meters": 4.0
   },
   {
     "code": "I-198",
@@ -2429,7 +2439,8 @@
       "shirt",
       "formal",
       "light"
-    ]
+    ],
+    "meters": 4.0
   },
   {
     "code": "I-214",
@@ -2519,7 +2530,8 @@
       "shirt",
       "formal",
       "light"
-    ]
+    ],
+    "meters": 4.0
   },
   {
     "code": "I-219",
@@ -2603,7 +2615,8 @@
       "shirt",
       "formal",
       "light"
-    ]
+    ],
+    "meters": 4.0
   },
   {
     "code": "I-224",
@@ -2877,7 +2890,8 @@
       "formal",
       "light",
       "dark"
-    ]
+    ],
+    "meters": 4.0
   },
   {
     "code": "I-247",
@@ -2909,7 +2923,8 @@
       "formal",
       "light",
       "dark"
-    ]
+    ],
+    "meters": 4.0
   },
   {
     "code": "I-248",
@@ -3041,7 +3056,8 @@
       "formal",
       "light",
       "dark"
-    ]
+    ],
+    "meters": 4.0
   },
   {
     "code": "I-256",
@@ -3135,7 +3151,8 @@
       "casual",
       "light",
       "dark"
-    ]
+    ],
+    "meters": 4.0
   },
   {
     "code": "I-265",
@@ -3261,7 +3278,8 @@
       "shirt",
       "formal",
       "light"
-    ]
+    ],
+    "meters": 4.0
   },
   {
     "code": "I-269",
@@ -3355,7 +3373,8 @@
       "formal",
       "light",
       "dark"
-    ]
+    ],
+    "meters": 4.0
   },
   {
     "code": "I-277",
@@ -3979,7 +3998,8 @@
       "shirt",
       "formal",
       "light"
-    ]
+    ],
+    "meters": 4.0
   },
   {
     "code": "I-311",
@@ -4645,7 +4665,8 @@
       "shirt",
       "formal",
       "light"
-    ]
+    ],
+    "meters": 4.0
   },
   {
     "code": "I-346",
@@ -6393,7 +6414,8 @@
       "shirt",
       "formal",
       "light"
-    ]
+    ],
+    "meters": 4.0
   },
   {
     "code": "I-416",
@@ -7973,7 +7995,8 @@
       "premium",
       "formal",
       "light"
-    ]
+    ],
+    "meters": 4.0
   },
   {
     "code": "PI-503",
@@ -8037,7 +8060,8 @@
       "formal",
       "light",
       "dark"
-    ]
+    ],
+    "meters": 4.0
   },
   {
     "code": "PI-509",
@@ -8127,7 +8151,8 @@
       "premium",
       "formal",
       "light"
-    ]
+    ],
+    "meters": 4.0
   },
   {
     "code": "PI-524",
@@ -8157,7 +8182,8 @@
       "premium",
       "formal",
       "light"
-    ]
+    ],
+    "meters": 4.0
   },
   {
     "code": "PI-526",
@@ -8251,7 +8277,8 @@
       "premium",
       "formal",
       "light"
-    ]
+    ],
+    "meters": 4.0
   },
   {
     "code": "PI-531",
@@ -8281,6 +8308,7 @@
       "premium",
       "formal",
       "light"
-    ]
+    ],
+    "meters": 4.0
   }
 ]

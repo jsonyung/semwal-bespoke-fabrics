@@ -258,6 +258,31 @@
       </section>
 
       <section class="section">
+        <h2>Set Metres Remaining (Low Stock Warning)</h2>
+        <p>Use this when a fabric is running low but <strong>not yet out of stock</strong>. It shows a coloured metre bar and "Low Stock" badge on the website card. The PDF is not affected.</p>
+        <div class="steps">
+          <article class="step">
+            <h3>1. Run The Metres Command</h3>
+            <p>Replace the code and number with the fabric code and metres remaining.</p>
+            <pre>./set-meters.sh I-440 4</pre>
+            <p>More examples:</p>
+            <pre>./set-meters.sh I-21 4        # under 5 mtrs → red bar + Low Stock badge
+./set-meters.sh I-102 7       # 5–10 mtrs → yellow bar
+./set-meters.sh I-135 12      # 10+ mtrs → green bar
+./set-meters.sh I-21 0        # remove the bar (restocked)</pre>
+          </article>
+          <article class="step">
+            <h3>2. Rebuild &amp; Publish</h3>
+            <pre>./update-catalog.sh</pre>
+            <p>Type <code>y</code> when it asks to commit and push.</p>
+          </article>
+        </div>
+        <div class="note">
+          Metre bar colours: 🔴 Red + "Low Stock" = under 5 mtrs &nbsp;·&nbsp; 🟡 Yellow = 5–10 mtrs &nbsp;·&nbsp; 🟢 Green = 10+ mtrs
+        </div>
+      </section>
+
+      <section class="section">
         <h2>Add New Fabric</h2>
         <div class="steps">
           <article class="step">
