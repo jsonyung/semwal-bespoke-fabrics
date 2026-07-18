@@ -308,6 +308,32 @@
           <li>If the online website looks old, hard refresh with <code>Cmd+Shift+R</code> on Mac or <code>Ctrl+Shift+R</code> on Windows.</li>
         </ul>
       </section>
+
+      <section class="section">
+        <h2>Quick Reference — All Commands</h2>
+        <div class="steps">
+          <article class="step">
+            <h3>Hide (out of stock)</h3>
+            <pre>./mark-out-of-stock.sh I-440</pre>
+          </article>
+          <article class="step">
+            <h3>Bring back (in stock again)</h3>
+            <pre>./restore-fabric.sh I-440</pre>
+          </article>
+          <article class="step">
+            <h3>Set metres remaining</h3>
+            <pre>./set-meters.sh I-440 4     # sets 4 metres
+./set-meters.sh I-440 0     # removes the bar</pre>
+          </article>
+          <article class="step">
+            <h3>Add new fabric / Rebuild website + PDF</h3>
+            <pre>./update-catalog.sh</pre>
+          </article>
+        </div>
+        <div class="note">
+          For adding new fabric photos (ImageMagick resize &amp; crop guide), see <strong>HOW_TO_ADD_FABRIC_IMAGES.md</strong> in the project folder.
+        </div>
+      </section>
     </main>
   </body>
 </html>

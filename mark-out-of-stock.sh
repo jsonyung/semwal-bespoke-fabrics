@@ -52,5 +52,20 @@ fi
 mv "$source_file" "$target_file"
 echo "Moved $filename to archive/out-of-stock/"
 echo "This hides it from the live website and PDF, but keeps the photo safe."
+
+# Clear metres remaining for this fabric so stale data doesn't persist
+python3 - "$code" <<'PY'
+import json, sys
+from pathlib import Path
+code = sys.argv[1]
+tags_path = Path("fabric-tags.json")
+if tags_path.exists():
+    tags = json.loads(tags_path.read_text(encoding="utf-8"))
+    if code in tags and "meters" in tags[code]:
+        del tags[code]["meters"]
+        tags_path.write_text(json.dumps(dict(sorted(tags.items())), indent=2) + "\n", encoding="utf-8")
+        print(f"Cleared metres entry for {code}.")
+PY
+
 echo
 ./update-catalog.sh
