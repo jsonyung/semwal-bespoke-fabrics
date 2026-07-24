@@ -2663,36 +2663,6 @@
     "source": "auto",
     "meters": 4.0
   },
-  "I-256": {
-    "colors": [
-      "navy",
-      "grey",
-      "blue"
-    ],
-    "patterns": [
-      "stripes"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light",
-      "dark"
-    ],
-    "tags": [
-      "navy",
-      "grey",
-      "blue",
-      "stripes",
-      "shirt",
-      "formal",
-      "light",
-      "dark"
-    ],
-    "source": "auto"
-  },
   "I-261": {
     "colors": [
       "grey"
@@ -3455,35 +3425,6 @@
       "light"
     ],
     "source": "auto"
-  },
-  "I-306": {
-    "colors": [
-      "red",
-      "grey",
-      "orange"
-    ],
-    "patterns": [
-      "solid"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "red",
-      "grey",
-      "orange",
-      "solid",
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "source": "auto",
-    "meters": 4.0
   },
   "I-311": {
     "colors": [

@@ -1,6 +1,6 @@
 # Semwal Bespoke Fabrics Catalog
 
-Total fabrics: **270**
+Total fabrics: **268**
 
 Use `Cmd+F` / `Ctrl+F` to search a fabric code like `I-440` or `PI-531`.
 
@@ -105,7 +105,6 @@ Use `Cmd+F` / `Ctrl+F` to search a fabric code like `I-440` or `PI-531`.
 | `I-251` | Fabric | Grey, Red, Maroon, Stripes, Shirt, Formal, Light | [![I-251](thumbs/I-251.jpg)](images/I-251.jpg) | [I-251.jpg](images/I-251.jpg) |
 | `I-252` | Fabric | Charcoal, Grey, Checks, Shirt, Formal, Light | [![I-252](thumbs/I-252.jpg)](images/I-252.jpg) | [I-252.jpg](images/I-252.jpg) |
 | `I-254` | Fabric | Grey, Charcoal, Solid, Shirt, Formal, Light | [![I-254](thumbs/I-254.jpg)](images/I-254.jpg) | [I-254.jpg](images/I-254.jpg) |
-| `I-256` | Fabric | Navy, Grey, Blue, Stripes, Shirt, Formal, Light | [![I-256](thumbs/I-256.jpg)](images/I-256.jpg) | [I-256.jpg](images/I-256.jpg) |
 | `I-261` | Fabric | Grey, Solid, Shirt, Formal, Light | [![I-261](thumbs/I-261.jpg)](images/I-261.jpg) | [I-261.jpg](images/I-261.jpg) |
 | `I-263` | Fabric | Grey, Navy, Texture, Shirt, Casual, Light | [![I-263](thumbs/I-263.jpg)](images/I-263.jpg) | [I-263.jpg](images/I-263.jpg) |
 | `I-265` | Fabric | Grey, Blue, Solid, Shirt, Formal, Light | [![I-265](thumbs/I-265.jpg)](images/I-265.jpg) | [I-265.jpg](images/I-265.jpg) |
@@ -134,7 +133,6 @@ Use `Cmd+F` / `Ctrl+F` to search a fabric code like `I-440` or `PI-531`.
 | `I-299` | Fabric | Black, Grey, Texture, Shirt, Casual, Light | [![I-299](thumbs/I-299.jpg)](images/I-299.jpg) | [I-299.jpg](images/I-299.jpg) |
 | `I-300` | Fabric | Brown, Grey, Beige, Checks, Shirt, Formal, Light | [![I-300](thumbs/I-300.jpg)](images/I-300.jpg) | [I-300.jpg](images/I-300.jpg) |
 | `I-302` | Fabric | Red, Grey, Checks, Shirt, Formal, Light | [![I-302](thumbs/I-302.jpg)](images/I-302.jpg) | [I-302.jpg](images/I-302.jpg) |
-| `I-306` | Fabric | Red, Grey, Orange, Solid, Shirt, Formal, Light | [![I-306](thumbs/I-306.jpg)](images/I-306.jpg) | [I-306.jpg](images/I-306.jpg) |
 | `I-311` | Fabric | Grey, Charcoal, Solid, Shirt, Formal, Light | [![I-311](thumbs/I-311.jpg)](images/I-311.jpg) | [I-311.jpg](images/I-311.jpg) |
 | `I-315` | Fabric | Grey, Charcoal, Solid, Shirt, Formal, Light | [![I-315](thumbs/I-315.jpg)](images/I-315.jpg) | [I-315.jpg](images/I-315.jpg) |
 | `I-316` | Fabric | Grey, Green, Charcoal, Solid, Shirt, Formal, Light | [![I-316](thumbs/I-316.jpg)](images/I-316.jpg) | [I-316.jpg](images/I-316.jpg) |

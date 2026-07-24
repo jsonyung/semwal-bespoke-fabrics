@@ -3060,40 +3060,6 @@
     "meters": 4.0
   },
   {
-    "code": "I-256",
-    "type": "Fabric",
-    "image": "images/I-256.jpg",
-    "thumb": "thumbs/I-256.jpg",
-    "filename": "I-256.jpg",
-    "colors": [
-      "navy",
-      "grey",
-      "blue"
-    ],
-    "patterns": [
-      "stripes"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light",
-      "dark"
-    ],
-    "tags": [
-      "navy",
-      "grey",
-      "blue",
-      "stripes",
-      "shirt",
-      "formal",
-      "light",
-      "dark"
-    ]
-  },
-  {
     "code": "I-261",
     "type": "Fabric",
     "image": "images/I-261.jpg",
@@ -3967,39 +3933,6 @@
       "formal",
       "light"
     ]
-  },
-  {
-    "code": "I-306",
-    "type": "Fabric",
-    "image": "images/I-306.jpg",
-    "thumb": "thumbs/I-306.jpg",
-    "filename": "I-306.jpg",
-    "colors": [
-      "red",
-      "grey",
-      "orange"
-    ],
-    "patterns": [
-      "solid"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "red",
-      "grey",
-      "orange",
-      "solid",
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "meters": 4.0
   },
   {
     "code": "I-311",
