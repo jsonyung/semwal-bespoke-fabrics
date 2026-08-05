@@ -745,6 +745,11 @@
                 <button type="button" data-filter-group="style" data-filter-value="light">Light</button>
                 <button type="button" data-filter-group="style" data-filter-value="dark">Dark</button>
               </div>
+              <div class="filters">
+                <span class="filter-label">Stock</span>
+                <button class="active" type="button" data-filter-group="stock" data-filter-value="all">All</button>
+                <button type="button" data-filter-group="stock" data-filter-value="low" style="color:#c0392b;font-weight:700;">&#9888; Less than 5 Mtrs</button>
+              </div>
               <button id="clearFilters" class="filter-clear" type="button">Clear filters</button>
             </div>
           </div>
@@ -816,6 +821,7 @@
         pattern: "all",
         color: "all",
         style: "all",
+        stock: "all",
       };
       let activeIndex = 0;
       let imageRequestId = 0;
@@ -850,6 +856,7 @@
         ) {
           return false;
         }
+        if (activeFilters.stock === "low" && !(typeof item.meters === "number" && item.meters < 5)) return false;
         return true;
       }
 
@@ -1019,10 +1026,10 @@
       }
 
       function updateFilterSummary() {
-        const active = ["pattern", "color", "style"]
+        const active = ["pattern", "color", "style", "stock"]
           .filter((group) => activeFilters[group] !== "all")
-          .map((group) => titleCase(activeFilters[group]));
-        filterSummary.textContent = active.length ? active.join(" / ") : "Pattern, color, and style";
+          .map((group) => group === "stock" ? "Less than 5 Mtrs" : titleCase(activeFilters[group]));
+        filterSummary.textContent = active.length ? active.join(" / ") : "Pattern, color, style, stock";
       }
 
       filterButtons.forEach((button) => {
@@ -1040,6 +1047,7 @@
           pattern: "all",
           color: "all",
           style: "all",
+          stock: "all",
         };
         search.value = "";
         syncFilterButtons();
