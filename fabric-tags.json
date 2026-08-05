@@ -1376,7 +1376,8 @@
       "formal",
       "light"
     ],
-    "source": "auto"
+    "source": "auto",
+    "meters": 4.0
   },
   "I-135": {
     "colors": [
@@ -2075,7 +2076,8 @@
       "formal",
       "light"
     ],
-    "source": "auto"
+    "source": "auto",
+    "meters": 4.0
   },
   "I-211": {
     "colors": [
@@ -2685,7 +2687,8 @@
       "formal",
       "light"
     ],
-    "source": "auto"
+    "source": "auto",
+    "meters": 4.0
   },
   "I-263": {
     "colors": [

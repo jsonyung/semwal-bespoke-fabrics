@@ -1576,7 +1576,8 @@
       "shirt",
       "formal",
       "light"
-    ]
+    ],
+    "meters": 4.0
   },
   {
     "code": "I-135",
@@ -2383,7 +2384,8 @@
       "shirt",
       "formal",
       "light"
-    ]
+    ],
+    "meters": 4.0
   },
   {
     "code": "I-211",
@@ -3085,7 +3087,8 @@
       "shirt",
       "formal",
       "light"
-    ]
+    ],
+    "meters": 4.0
   },
   {
     "code": "I-263",
