@@ -1,54 +1,4 @@
 {
-  "I-18": {
-    "colors": [
-      "grey"
-    ],
-    "patterns": [
-      "solid"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "grey",
-      "solid",
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "source": "auto"
-  },
-  "I-19": {
-    "colors": [
-      "grey",
-      "white"
-    ],
-    "patterns": [
-      "solid"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "grey",
-      "white",
-      "solid",
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "source": "auto"
-  },
   "I-21": {
     "colors": [
       "grey"
@@ -1379,31 +1329,6 @@
     "source": "auto",
     "meters": 4.0
   },
-  "I-135": {
-    "colors": [
-      "grey"
-    ],
-    "patterns": [
-      "solid"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "grey",
-      "solid",
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "source": "auto",
-    "meters": 4.0
-  },
   "I-138": {
     "colors": [
       "grey"
@@ -2254,31 +2179,6 @@
       "light"
     ],
     "source": "auto"
-  },
-  "I-222": {
-    "colors": [
-      "grey"
-    ],
-    "patterns": [
-      "solid"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "grey",
-      "solid",
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "source": "auto",
-    "meters": 4.0
   },
   "I-224": {
     "colors": [
@@ -7010,33 +6910,6 @@
       "light"
     ],
     "source": "auto"
-  },
-  "PI-517": {
-    "colors": [
-      "grey"
-    ],
-    "patterns": [
-      "solid"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "premium",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "grey",
-      "solid",
-      "shirt",
-      "premium",
-      "formal",
-      "light"
-    ],
-    "source": "auto",
-    "meters": 4.0
   },
   "PI-524": {
     "colors": [

@@ -14,7 +14,7 @@ A searchable fabric catalog for Semwal Bespoke.
 
 ## What is inside
 
-- Total fabric images: **268**
+- Total fabric images: **263**
 - PDF catalog: [semwal-bespoke-fabrics-catalog.pdf](semwal-bespoke-fabrics-catalog.pdf)
 - Searchable Markdown catalog: [CATALOG.md](CATALOG.md)
 - Browser search catalog: [index.html](index.html)
@@ -27,8 +27,8 @@ A searchable fabric catalog for Semwal Bespoke.
 
 ## Code summary
 
-- `I` series: 257 fabrics, from `I-18` to `I-468`
-- `PI` series: 11 fabrics, from `PI-502` to `PI-531`
+- `I` series: 253 fabrics, from `I-21` to `I-468`
+- `PI` series: 10 fabrics, from `PI-502` to `PI-531`
 
 ## How to search
 

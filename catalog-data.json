@@ -1,63 +1,5 @@
 [
   {
-    "code": "I-18",
-    "type": "Fabric",
-    "image": "images/I-18.jpg",
-    "thumb": "thumbs/I-18.jpg",
-    "filename": "I-18.jpg",
-    "colors": [
-      "grey"
-    ],
-    "patterns": [
-      "solid"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "grey",
-      "solid",
-      "shirt",
-      "formal",
-      "light"
-    ]
-  },
-  {
-    "code": "I-19",
-    "type": "Fabric",
-    "image": "images/I-19.jpg",
-    "thumb": "thumbs/I-19.jpg",
-    "filename": "I-19.jpg",
-    "colors": [
-      "grey",
-      "white"
-    ],
-    "patterns": [
-      "solid"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "grey",
-      "white",
-      "solid",
-      "shirt",
-      "formal",
-      "light"
-    ]
-  },
-  {
     "code": "I-21",
     "type": "Fabric",
     "image": "images/I-21.jpg",
@@ -1580,35 +1522,6 @@
     "meters": 4.0
   },
   {
-    "code": "I-135",
-    "type": "Fabric",
-    "image": "images/I-135.jpg",
-    "thumb": "thumbs/I-135.jpg",
-    "filename": "I-135.jpg",
-    "colors": [
-      "grey"
-    ],
-    "patterns": [
-      "solid"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "grey",
-      "solid",
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "meters": 4.0
-  },
-  {
     "code": "I-138",
     "type": "Fabric",
     "image": "images/I-138.jpg",
@@ -2590,35 +2503,6 @@
       "formal",
       "light"
     ]
-  },
-  {
-    "code": "I-222",
-    "type": "Fabric",
-    "image": "images/I-222.jpg",
-    "thumb": "thumbs/I-222.jpg",
-    "filename": "I-222.jpg",
-    "colors": [
-      "grey"
-    ],
-    "patterns": [
-      "solid"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "grey",
-      "solid",
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "meters": 4.0
   },
   {
     "code": "I-224",
@@ -8058,37 +7942,6 @@
       "formal",
       "light"
     ]
-  },
-  {
-    "code": "PI-517",
-    "type": "Premium / PI",
-    "image": "images/PI-517.jpg",
-    "thumb": "thumbs/PI-517.jpg",
-    "filename": "PI-517.jpg",
-    "colors": [
-      "grey"
-    ],
-    "patterns": [
-      "solid"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "premium",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "grey",
-      "solid",
-      "shirt",
-      "premium",
-      "formal",
-      "light"
-    ],
-    "meters": 4.0
   },
   {
     "code": "PI-524",
