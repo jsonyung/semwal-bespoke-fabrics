@@ -1,6 +1,6 @@
 # Semwal Bespoke Fabrics Catalog
 
-Total fabrics: **263**
+Total fabrics: **262**
 
 Use `Cmd+F` / `Ctrl+F` to search a fabric code like `I-440` or `PI-531`.
 
@@ -268,4 +268,3 @@ Use `Cmd+F` / `Ctrl+F` to search a fabric code like `I-440` or `PI-531`.
 | `PI-526` | Premium / PI | Blue, Grey, Texture, Shirt, Premium, Casual | [![PI-526](thumbs/PI-526.jpg)](images/PI-526.jpg) | [PI-526.jpg](images/PI-526.jpg) |
 | `PI-528` | Premium / PI | Grey, Solid, Shirt, Premium, Formal | [![PI-528](thumbs/PI-528.jpg)](images/PI-528.jpg) | [PI-528.jpg](images/PI-528.jpg) |
 | `PI-529` | Premium / PI | Blue, Grey, Solid, Shirt, Premium, Formal | [![PI-529](thumbs/PI-529.jpg)](images/PI-529.jpg) | [PI-529.jpg](images/PI-529.jpg) |
-| `PI-531` | Premium / PI | Grey, Stripes, Shirt, Premium, Formal | [![PI-531](thumbs/PI-531.jpg)](images/PI-531.jpg) | [PI-531.jpg](images/PI-531.jpg) |

@@ -8068,36 +8068,5 @@
       "light"
     ],
     "meters": 4.0
-  },
-  {
-    "code": "PI-531",
-    "type": "Premium / PI",
-    "image": "images/PI-531.jpg",
-    "thumb": "thumbs/PI-531.jpg",
-    "filename": "PI-531.jpg",
-    "colors": [
-      "grey"
-    ],
-    "patterns": [
-      "stripes"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "premium",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "grey",
-      "stripes",
-      "shirt",
-      "premium",
-      "formal",
-      "light"
-    ],
-    "meters": 4.0
   }
 ]

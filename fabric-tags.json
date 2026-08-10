@@ -7020,32 +7020,5 @@
     ],
     "source": "auto",
     "meters": 4.0
-  },
-  "PI-531": {
-    "colors": [
-      "grey"
-    ],
-    "patterns": [
-      "stripes"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "premium",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "grey",
-      "stripes",
-      "shirt",
-      "premium",
-      "formal",
-      "light"
-    ],
-    "source": "auto",
-    "meters": 4.0
   }
 }
