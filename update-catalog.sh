@@ -39,6 +39,14 @@ if git diff --quiet && git diff --cached --quiet; then
   exit 0
 fi
 
+if [ "${AUTO_PUSH:-0}" = "1" ] || [ "${AUTO_COMMIT:-0}" = "1" ]; then
+  git add -A
+  git commit -m "Update fabric catalog"
+  git push
+  echo "Catalog updated and pushed to GitHub automatically."
+  exit 0
+fi
+
 if [ ! -t 0 ]; then
   echo "Changes were generated but not committed or pushed because this is not an interactive terminal."
   echo "Run ./update-catalog.sh in Terminal to approve commit and push, or commit manually."
