@@ -6322,34 +6322,6 @@
     ]
   },
   {
-    "code": "I-420",
-    "type": "Fabric",
-    "image": "images/I-420.jpg",
-    "thumb": "thumbs/I-420.jpg",
-    "filename": "I-420.jpg",
-    "colors": [
-      "grey"
-    ],
-    "patterns": [
-      "solid"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "grey",
-      "solid",
-      "shirt",
-      "formal",
-      "light"
-    ]
-  },
-  {
     "code": "I-421",
     "type": "Fabric",
     "image": "images/I-421.jpg",
