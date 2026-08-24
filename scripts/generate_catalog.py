@@ -9,7 +9,9 @@ from PIL import Image
 
 PROJECT_DIR = Path(__file__).resolve().parents[1]
 IMAGE_DIR = PROJECT_DIR / "images"
+ARCHIVE_DIR = PROJECT_DIR / "archive" / "out-of-stock"
 THUMB_DIR = PROJECT_DIR / "thumbs"
+ARCHIVE_THUMB_DIR = THUMB_DIR / "archive"
 TAGS_FILE = PROJECT_DIR / "fabric-tags.json"
 IMAGE_EXTENSIONS = {".jpg", ".jpeg", ".png", ".webp", ".heic", ".tif", ".tiff"}
 
@@ -30,17 +32,17 @@ def fabric_type(code: str) -> str:
     return "Uncategorized"
 
 
-def create_thumbnail(source: Path, code: str) -> str:
-    THUMB_DIR.mkdir(exist_ok=True)
-    output = THUMB_DIR / f"{code}.jpg"
+def create_thumbnail(source: Path, code: str, target_dir: Path = THUMB_DIR, rel_prefix: str = "thumbs") -> str:
+    target_dir.mkdir(parents=True, exist_ok=True)
+    output = target_dir / f"{code}.jpg"
     if output.exists() and output.stat().st_mtime >= source.stat().st_mtime:
-        return f"thumbs/{output.name}"
+        return f"{rel_prefix}/{output.name}"
 
     with Image.open(source) as image:
         image = image.convert("RGB")
         image.thumbnail((420, 420), Image.Resampling.LANCZOS)
         image.save(output, "JPEG", quality=72, optimize=True, progressive=True)
-    return f"thumbs/{output.name}"
+    return f"{rel_prefix}/{output.name}"
 
 
 def load_fabric_tags() -> dict[str, dict[str, list[str]]]:
@@ -114,17 +116,55 @@ def build_records() -> list[dict[str, object]]:
     return records
 
 
-def cleanup_thumbnails(records: list[dict[str, object]]) -> None:
-    if not THUMB_DIR.exists():
-        return
-    active = {Path(record["thumb"]).name for record in records}
-    for thumb in THUMB_DIR.glob("*.jpg"):
-        if thumb.name not in active:
-            thumb.unlink()
+def build_archive_records() -> list[dict[str, object]]:
+    if not ARCHIVE_DIR.exists():
+        return []
+    fabric_tags = load_fabric_tags()
+    files = [
+        path
+        for path in ARCHIVE_DIR.iterdir()
+        if path.is_file() and path.suffix.lower() in IMAGE_EXTENSIONS
+    ]
+    records = []
+    for path in sorted(files, key=natural_key):
+        code = path.stem
+        thumb = create_thumbnail(path, code, target_dir=ARCHIVE_THUMB_DIR, rel_prefix="thumbs/archive")
+        tags = tags_for_code(code, fabric_tags)
+        records.append(
+            {
+                "code": code,
+                "type": fabric_type(code),
+                "image": f"archive/out-of-stock/{path.name}",
+                "thumb": thumb,
+                "filename": path.name,
+                "status": "out-of-stock",
+                **tags,
+            }
+        )
+    return records
+
+
+def cleanup_thumbnails(records: list[dict[str, object]], archive_records: list[dict[str, object]] | None = None) -> None:
+    if THUMB_DIR.exists():
+        active = {Path(record["thumb"]).name for record in records}
+        for thumb in THUMB_DIR.glob("*.jpg"):
+            if thumb.name not in active:
+                thumb.unlink()
+
+    if ARCHIVE_THUMB_DIR.exists() and archive_records is not None:
+        active_arch = {Path(record["thumb"]).name for record in archive_records}
+        for thumb in ARCHIVE_THUMB_DIR.glob("*.jpg"):
+            if thumb.name not in active_arch:
+                thumb.unlink()
 
 
 def write_json(records: list[dict[str, object]]) -> None:
     output = PROJECT_DIR / "catalog-data.json"
+    output.write_text(json.dumps(records, indent=2) + "\n", encoding="utf-8")
+
+
+def write_archive_json(records: list[dict[str, object]]) -> None:
+    output = PROJECT_DIR / "archive-data.json"
     output.write_text(json.dumps(records, indent=2) + "\n", encoding="utf-8")
 
 
@@ -384,11 +424,13 @@ def write_readme(records: list[dict[str, object]]) -> None:
 
 def main() -> None:
     records = build_records()
-    cleanup_thumbnails(records)
+    archive_records = build_archive_records()
+    cleanup_thumbnails(records, archive_records)
     write_json(records)
+    write_archive_json(archive_records)
     write_catalog_md(records)
     write_readme(records)
-    print(f"Generated catalog for {len(records)} fabrics.")
+    print(f"Generated catalog for {len(records)} active fabrics and {len(archive_records)} archived fabrics.")
 
 
 if __name__ == "__main__":

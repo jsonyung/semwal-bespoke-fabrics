@@ -376,6 +376,50 @@
         line-height: 1.2;
       }
 
+      /* ── Out of Stock Card Style ── */
+      .card.is-oos {
+        border: 2px dashed #b0b6c6;
+        background: #fbfbfd;
+      }
+
+      .card.is-oos:hover {
+        border-color: #8c93a8;
+        box-shadow: 0 10px 24px rgba(0, 0, 0, 0.09);
+      }
+
+      .card.is-oos .thumb {
+        position: relative;
+      }
+
+      .oos-overlay-badge {
+        position: absolute;
+        top: 8px;
+        right: 8px;
+        background: rgba(211, 47, 47, 0.94);
+        color: #ffffff;
+        font-size: 10px;
+        font-weight: 800;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        padding: 3px 8px;
+        border-radius: 6px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+        pointer-events: none;
+      }
+
+      .oos-pill {
+        display: inline-flex;
+        align-items: center;
+        gap: 4px;
+        padding: 2px 8px;
+        border-radius: 999px;
+        background: #fee2e2;
+        color: #b91c1c;
+        border: 1px solid #fca5a5;
+        font-size: 11px;
+        font-weight: 700;
+      }
+
       /* ── Metre bar ── */
       .meter-wrap {
         display: grid;
@@ -700,6 +744,12 @@
           </div>
           <div class="filter-panel" aria-label="Catalog filters">
             <div class="filters series-row">
+              <span class="filter-label">Availability</span>
+              <button class="active" type="button" data-filter-group="availability" data-filter-value="active">In Stock</button>
+              <button type="button" data-filter-group="availability" data-filter-value="oos" style="color:#b91c1c;">Out of Stock</button>
+              <button type="button" data-filter-group="availability" data-filter-value="all">All</button>
+            </div>
+            <div class="filters series-row">
               <span class="filter-label">Series</span>
               <button class="active" type="button" data-filter-group="series" data-filter-value="all">All</button>
               <button type="button" data-filter-group="series" data-filter-value="I">I</button>
@@ -815,8 +865,11 @@
       const nextButton = document.querySelector("#nextButton");
       const openGallery = document.querySelector("#openGallery");
       let fabrics = [];
+      let activeFabrics = [];
+      let archiveFabrics = [];
       let visibleFabrics = [];
       let activeFilters = {
+        availability: "active",
         series: "all",
         pattern: "all",
         color: "all",
@@ -825,7 +878,7 @@
       };
       let activeIndex = 0;
       let imageRequestId = 0;
-      const DATA_VERSION = "tags-v2";
+      const DATA_VERSION = "tags-v3";
 
       function titleCase(value) {
         return String(value || "")
@@ -845,7 +898,12 @@
           .map(titleCase);
       }
 
-      function matchesFilter(item) {
+      function matchesFilter(item, hasQuery) {
+        // Availability logic:
+        // If user typed a search query and availability is "active", let search look into both active and OOS
+        if (activeFilters.availability === "active" && !hasQuery && item.isOos) return false;
+        if (activeFilters.availability === "oos" && !item.isOos) return false;
+
         if (activeFilters.series !== "all" && !item.code.startsWith(`${activeFilters.series}-`)) return false;
         if (activeFilters.pattern !== "all" && !tagList(item, "patterns").includes(activeFilters.pattern)) return false;
         if (activeFilters.color !== "all" && !tagList(item, "colors").includes(activeFilters.color)) return false;
@@ -868,7 +926,8 @@
 
       function render() {
         const query = search.value.trim();
-        visibleFabrics = fabrics.filter((item) => matchesFilter(item) && matchesQuery(item, query));
+        const hasQuery = query.length > 0;
+        visibleFabrics = fabrics.filter((item) => matchesFilter(item, hasQuery) && matchesQuery(item, query));
         grid.innerHTML = visibleFabrics
           .map(
             (item, index) => {
@@ -877,7 +936,7 @@
               const isMedium = meters !== null && meters >= 5 && meters < 10;
               const pct = meters !== null ? Math.min(100, Math.round((meters / 15) * 100)) : null;
               const fillClass = isLow ? "low" : isMedium ? "medium" : "";
-              const meterHtml = meters !== null
+              const meterHtml = meters !== null && !item.isOos
                 ? `<div class="meter-wrap">
                     <div class="meter-label">
                       <span><strong>${meters}</strong> mtrs left</span>
@@ -889,14 +948,15 @@
                   </div>`
                 : "";
               return `
-              <article class="card">
+              <article class="card ${item.isOos ? 'is-oos' : ''}">
                 <a class="thumb" href="${item.image}" data-index="${index}" aria-label="Open ${item.code}">
                   <img src="${item.thumb || item.image}" alt="${item.code}" loading="lazy" decoding="async" />
+                  ${item.isOos ? '<span class="oos-overlay-badge">Out of Stock</span>' : ''}
                 </a>
                 <div class="meta">
                   <div class="meta-line">
                     <span class="code">${item.code}</span>
-                    <span class="type">${item.type}</span>
+                    ${item.isOos ? '<span class="oos-pill">OOS</span>' : `<span class="type">${item.type}</span>`}
                   </div>
                   <div class="tag-row" aria-label="${item.code} tags">
                     ${displayTags(item, 3)
@@ -910,7 +970,10 @@
             }
           )
           .join("");
-        resultCount.innerHTML = `<strong>${visibleFabrics.length}</strong> of ${fabrics.length} fabrics`;
+        
+        const oosCount = visibleFabrics.filter(f => f.isOos).length;
+        const oosSuffix = oosCount > 0 && activeFilters.availability !== "oos" ? ` (${oosCount} OOS)` : "";
+        resultCount.innerHTML = `<strong>${visibleFabrics.length}</strong> fabrics shown${oosSuffix}`;
         empty.style.display = visibleFabrics.length ? "none" : "block";
       }
 
@@ -938,8 +1001,9 @@
         const item = visibleFabrics[activeIndex];
         const requestId = ++imageRequestId;
         const detailTags = displayTags(item, 7).join(" · ");
-        viewerCode.textContent = item.code;
-        viewerDetail.textContent = `${item.filename} · ${item.type}${detailTags ? ` · ${detailTags}` : ""}`;
+        const statusLabel = item.isOos ? " · 🔴 Out of Stock" : "";
+        viewerCode.textContent = item.code + (item.isOos ? " (Out of Stock)" : "");
+        viewerDetail.textContent = `${item.filename} · ${item.type}${statusLabel}${detailTags ? ` · ${detailTags}` : ""}`;
         viewerImage.src = item.thumb || item.image;
         viewerImage.alt = item.code;
         viewerImage.classList.add("loading");
@@ -1043,6 +1107,7 @@
 
       clearFilters.addEventListener("click", () => {
         activeFilters = {
+          availability: "active",
           series: "all",
           pattern: "all",
           color: "all",
@@ -1066,11 +1131,15 @@
         navigator.serviceWorker.register("sw.js").catch(() => {});
       }
 
-      fetch(`catalog-data.json?v=${DATA_VERSION}`, { cache: "no-cache" })
-        .then((response) => response.json())
-        .then((data) => {
-          fabrics = data;
-          totalFabrics.textContent = data.length;
+      Promise.all([
+        fetch(`catalog-data.json?v=${DATA_VERSION}`, { cache: "no-cache" }).then((res) => res.json()).catch(() => []),
+        fetch(`archive-data.json?v=${DATA_VERSION}`, { cache: "no-cache" }).then((res) => res.json()).catch(() => [])
+      ])
+        .then(([activeList, archiveList]) => {
+          activeFabrics = activeList.map(item => ({ ...item, isOos: false }));
+          archiveFabrics = archiveList.map(item => ({ ...item, isOos: true }));
+          fabrics = [...activeFabrics, ...archiveFabrics];
+          totalFabrics.textContent = activeFabrics.length;
           render();
         })
         .catch(() => {
