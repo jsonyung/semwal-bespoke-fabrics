@@ -1,9 +1,10 @@
-const CACHE_NAME = "semwal-bespoke-fabrics-v14";
+const CACHE_NAME = "semwal-bespoke-fabrics-v15";
 const CORE_ASSETS = [
   "./",
   "./index.html",
   "./stock-guide.html",
   "./catalog-data.json",
+  "./archive-data.json",
   "./fabric-tags.json",
   "./sw.js",
   "./assets/semwal-logo.png",

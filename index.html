@@ -206,10 +206,11 @@
       }
 
       .filter-label {
-        width: 68px;
+        min-width: 92px;
         color: var(--muted);
-        font-size: 12px;
+        font-size: 11px;
         font-weight: 750;
+        letter-spacing: 0.04em;
         text-transform: uppercase;
       }
 
@@ -256,6 +257,12 @@
         border-color: var(--accent);
         background: var(--accent);
         color: #fff;
+      }
+
+      button[data-filter-value="oos"].active {
+        border-color: #b91c1c;
+        background: #b91c1c;
+        color: #fff !important;
       }
 
       .filter-clear {
@@ -900,7 +907,6 @@
 
       function matchesFilter(item, hasQuery) {
         // Availability logic:
-        // If user typed a search query and availability is "active", let search look into both active and OOS
         if (activeFilters.availability === "active" && !hasQuery && item.isOos) return false;
         if (activeFilters.availability === "oos" && !item.isOos) return false;
 
@@ -914,7 +920,11 @@
         ) {
           return false;
         }
-        if (activeFilters.stock === "low" && !(typeof item.meters === "number" && item.meters < 5)) return false;
+        // Low stock filter only applies to active in-stock items with meters < 5
+        if (activeFilters.stock === "low") {
+          if (item.isOos) return false;
+          if (!(typeof item.meters === "number" && item.meters < 5)) return false;
+        }
         return true;
       }
 
