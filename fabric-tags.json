@@ -2206,32 +2206,6 @@
     ],
     "source": "auto"
   },
-  "I-225": {
-    "colors": [
-      "grey",
-      "teal"
-    ],
-    "patterns": [
-      "solid"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "grey",
-      "teal",
-      "solid",
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "source": "auto"
-  },
   "I-227": {
     "colors": [
       "grey"

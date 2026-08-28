@@ -2535,36 +2535,6 @@
     ]
   },
   {
-    "code": "I-225",
-    "type": "Fabric",
-    "image": "images/I-225.jpg",
-    "thumb": "thumbs/I-225.jpg",
-    "filename": "I-225.jpg",
-    "colors": [
-      "grey",
-      "teal"
-    ],
-    "patterns": [
-      "solid"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "grey",
-      "teal",
-      "solid",
-      "shirt",
-      "formal",
-      "light"
-    ]
-  },
-  {
     "code": "I-227",
     "type": "Fabric",
     "image": "images/I-227.jpg",

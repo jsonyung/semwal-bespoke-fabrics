@@ -378,6 +378,27 @@
     ]
   },
   {
+    "code": "I-225",
+    "type": "Fabric",
+    "image": "archive/out-of-stock/I-225.jpg",
+    "thumb": "thumbs/archive/I-225.jpg",
+    "filename": "I-225.jpg",
+    "status": "out-of-stock",
+    "colors": [],
+    "patterns": [],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal"
+    ],
+    "tags": [
+      "shirt",
+      "formal"
+    ]
+  },
+  {
     "code": "I-235",
     "type": "Fabric",
     "image": "archive/out-of-stock/I-235.jpg",
