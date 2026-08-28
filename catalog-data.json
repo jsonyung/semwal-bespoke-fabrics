@@ -4052,36 +4052,6 @@
     ]
   },
   {
-    "code": "I-325",
-    "type": "Fabric",
-    "image": "images/I-325.jpg",
-    "thumb": "thumbs/I-325.jpg",
-    "filename": "I-325.jpg",
-    "colors": [
-      "blue",
-      "grey"
-    ],
-    "patterns": [
-      "texture"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "casual",
-      "light"
-    ],
-    "tags": [
-      "blue",
-      "grey",
-      "texture",
-      "shirt",
-      "casual",
-      "light"
-    ]
-  },
-  {
     "code": "I-333",
     "type": "Fabric",
     "image": "images/I-333.jpg",

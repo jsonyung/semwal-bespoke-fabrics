@@ -3531,32 +3531,6 @@
     ],
     "source": "auto"
   },
-  "I-325": {
-    "colors": [
-      "blue",
-      "grey"
-    ],
-    "patterns": [
-      "texture"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "casual",
-      "light"
-    ],
-    "tags": [
-      "blue",
-      "grey",
-      "texture",
-      "shirt",
-      "casual",
-      "light"
-    ],
-    "source": "auto"
-  },
   "I-333": {
     "colors": [
       "blue",
