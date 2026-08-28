@@ -793,36 +793,6 @@
     ]
   },
   {
-    "code": "I-69",
-    "type": "Fabric",
-    "image": "images/I-69.jpg",
-    "thumb": "thumbs/I-69.jpg",
-    "filename": "I-69.jpg",
-    "colors": [
-      "grey",
-      "blue"
-    ],
-    "patterns": [
-      "stripes"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "grey",
-      "blue",
-      "stripes",
-      "shirt",
-      "formal",
-      "light"
-    ]
-  },
-  {
     "code": "I-70",
     "type": "Fabric",
     "image": "images/I-70.jpg",

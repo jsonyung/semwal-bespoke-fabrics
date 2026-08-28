@@ -692,32 +692,6 @@
     ],
     "source": "auto"
   },
-  "I-69": {
-    "colors": [
-      "grey",
-      "blue"
-    ],
-    "patterns": [
-      "stripes"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "grey",
-      "blue",
-      "stripes",
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "source": "auto"
-  },
   "I-70": {
     "colors": [
       "grey",

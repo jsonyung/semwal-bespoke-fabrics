@@ -84,6 +84,27 @@
     ]
   },
   {
+    "code": "I-69",
+    "type": "Fabric",
+    "image": "archive/out-of-stock/I-69.jpg",
+    "thumb": "thumbs/archive/I-69.jpg",
+    "filename": "I-69.jpg",
+    "status": "out-of-stock",
+    "colors": [],
+    "patterns": [],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal"
+    ],
+    "tags": [
+      "shirt",
+      "formal"
+    ]
+  },
+  {
     "code": "I-79",
     "type": "Fabric",
     "image": "archive/out-of-stock/I-79.jpg",
