@@ -3557,32 +3557,6 @@
     ],
     "source": "auto"
   },
-  "I-326": {
-    "colors": [
-      "grey",
-      "blue"
-    ],
-    "patterns": [
-      "solid"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "grey",
-      "blue",
-      "solid",
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "source": "auto"
-  },
   "I-333": {
     "colors": [
       "blue",

@@ -798,6 +798,27 @@
     ]
   },
   {
+    "code": "I-326",
+    "type": "Fabric",
+    "image": "archive/out-of-stock/I-326.jpg",
+    "thumb": "thumbs/archive/I-326.jpg",
+    "filename": "I-326.jpg",
+    "status": "out-of-stock",
+    "colors": [],
+    "patterns": [],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal"
+    ],
+    "tags": [
+      "shirt",
+      "formal"
+    ]
+  },
+  {
     "code": "I-329",
     "type": "Fabric",
     "image": "archive/out-of-stock/I-329.jpg",

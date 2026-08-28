@@ -4082,36 +4082,6 @@
     ]
   },
   {
-    "code": "I-326",
-    "type": "Fabric",
-    "image": "images/I-326.jpg",
-    "thumb": "thumbs/I-326.jpg",
-    "filename": "I-326.jpg",
-    "colors": [
-      "grey",
-      "blue"
-    ],
-    "patterns": [
-      "solid"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "grey",
-      "blue",
-      "solid",
-      "shirt",
-      "formal",
-      "light"
-    ]
-  },
-  {
     "code": "I-333",
     "type": "Fabric",
     "image": "images/I-333.jpg",
