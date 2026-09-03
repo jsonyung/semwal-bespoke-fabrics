@@ -2761,34 +2761,6 @@
     "source": "auto",
     "meters": 4.0
   },
-  "I-279": {
-    "colors": [
-      "grey",
-      "blue",
-      "pink"
-    ],
-    "patterns": [
-      "stripes"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "grey",
-      "blue",
-      "pink",
-      "stripes",
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "source": "auto"
-  },
   "I-280": {
     "colors": [
       "grey"
