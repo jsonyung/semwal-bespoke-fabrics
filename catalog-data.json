@@ -3170,34 +3170,6 @@
     "meters": 4.0
   },
   {
-    "code": "I-280",
-    "type": "Fabric",
-    "image": "images/I-280.jpg",
-    "thumb": "thumbs/I-280.jpg",
-    "filename": "I-280.jpg",
-    "colors": [
-      "grey"
-    ],
-    "patterns": [
-      "solid"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "grey",
-      "solid",
-      "shirt",
-      "formal",
-      "light"
-    ]
-  },
-  {
     "code": "I-281",
     "type": "Fabric",
     "image": "images/I-281.jpg",

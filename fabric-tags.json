@@ -2761,30 +2761,6 @@
     "source": "auto",
     "meters": 4.0
   },
-  "I-280": {
-    "colors": [
-      "grey"
-    ],
-    "patterns": [
-      "solid"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "grey",
-      "solid",
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "source": "auto"
-  },
   "I-281": {
     "colors": [
       "grey",
