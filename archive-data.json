@@ -567,6 +567,27 @@
     ]
   },
   {
+    "code": "I-278",
+    "type": "Fabric",
+    "image": "archive/out-of-stock/I-278.jpg",
+    "thumb": "thumbs/archive/I-278.jpg",
+    "filename": "I-278.jpg",
+    "status": "out-of-stock",
+    "colors": [],
+    "patterns": [],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal"
+    ],
+    "tags": [
+      "shirt",
+      "formal"
+    ]
+  },
+  {
     "code": "I-288",
     "type": "Fabric",
     "image": "archive/out-of-stock/I-288.jpg",

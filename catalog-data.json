@@ -3170,38 +3170,6 @@
     "meters": 4.0
   },
   {
-    "code": "I-278",
-    "type": "Fabric",
-    "image": "images/I-278.jpg",
-    "thumb": "thumbs/I-278.jpg",
-    "filename": "I-278.jpg",
-    "colors": [
-      "grey",
-      "blue",
-      "green"
-    ],
-    "patterns": [
-      "stripes"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "grey",
-      "blue",
-      "green",
-      "stripes",
-      "shirt",
-      "formal",
-      "light"
-    ]
-  },
-  {
     "code": "I-279",
     "type": "Fabric",
     "image": "images/I-279.jpg",
