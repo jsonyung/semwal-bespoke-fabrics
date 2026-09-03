@@ -3170,38 +3170,6 @@
     "meters": 4.0
   },
   {
-    "code": "I-285",
-    "type": "Fabric",
-    "image": "images/I-285.jpg",
-    "thumb": "thumbs/I-285.jpg",
-    "filename": "I-285.jpg",
-    "colors": [
-      "grey",
-      "charcoal"
-    ],
-    "patterns": [
-      "solid"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light",
-      "dark"
-    ],
-    "tags": [
-      "grey",
-      "charcoal",
-      "solid",
-      "shirt",
-      "formal",
-      "light",
-      "dark"
-    ]
-  },
-  {
     "code": "I-286",
     "type": "Fabric",
     "image": "images/I-286.jpg",
