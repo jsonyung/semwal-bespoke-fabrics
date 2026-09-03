@@ -2761,34 +2761,6 @@
     "source": "auto",
     "meters": 4.0
   },
-  "I-287": {
-    "colors": [
-      "grey",
-      "charcoal"
-    ],
-    "patterns": [
-      "solid"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light",
-      "dark"
-    ],
-    "tags": [
-      "grey",
-      "charcoal",
-      "solid",
-      "shirt",
-      "formal",
-      "light",
-      "dark"
-    ],
-    "source": "auto"
-  },
   "I-292": {
     "colors": [
       "purple",
