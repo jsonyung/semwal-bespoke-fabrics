@@ -2761,34 +2761,6 @@
     "source": "auto",
     "meters": 4.0
   },
-  "I-277": {
-    "colors": [
-      "blue",
-      "teal",
-      "grey"
-    ],
-    "patterns": [
-      "stripes"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "blue",
-      "teal",
-      "grey",
-      "stripes",
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "source": "auto"
-  },
   "I-278": {
     "colors": [
       "grey",
