@@ -3265,34 +3265,6 @@
     ],
     "source": "auto"
   },
-  "I-334": {
-    "colors": [
-      "black",
-      "grey"
-    ],
-    "patterns": [
-      "texture"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "casual",
-      "light",
-      "dark"
-    ],
-    "tags": [
-      "black",
-      "grey",
-      "texture",
-      "shirt",
-      "casual",
-      "light",
-      "dark"
-    ],
-    "source": "auto"
-  },
   "I-336": {
     "colors": [
       "grey",

@@ -3746,38 +3746,6 @@
     ]
   },
   {
-    "code": "I-334",
-    "type": "Fabric",
-    "image": "images/I-334.jpg",
-    "thumb": "thumbs/I-334.jpg",
-    "filename": "I-334.jpg",
-    "colors": [
-      "black",
-      "grey"
-    ],
-    "patterns": [
-      "texture"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "casual",
-      "light",
-      "dark"
-    ],
-    "tags": [
-      "black",
-      "grey",
-      "texture",
-      "shirt",
-      "casual",
-      "light",
-      "dark"
-    ]
-  },
-  {
     "code": "I-336",
     "type": "Fabric",
     "image": "images/I-336.jpg",

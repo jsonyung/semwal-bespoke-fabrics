@@ -1092,6 +1092,27 @@
     ]
   },
   {
+    "code": "I-334",
+    "type": "Fabric",
+    "image": "archive/out-of-stock/I-334.jpg",
+    "thumb": "thumbs/archive/I-334.jpg",
+    "filename": "I-334.jpg",
+    "status": "out-of-stock",
+    "colors": [],
+    "patterns": [],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal"
+    ],
+    "tags": [
+      "shirt",
+      "formal"
+    ]
+  },
+  {
     "code": "I-354",
     "type": "Fabric",
     "image": "archive/out-of-stock/I-354.jpg",
