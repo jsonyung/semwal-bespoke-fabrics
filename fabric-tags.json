@@ -2730,37 +2730,6 @@
     ],
     "source": "auto"
   },
-  "I-274": {
-    "colors": [
-      "green",
-      "grey",
-      "charcoal"
-    ],
-    "patterns": [
-      "solid"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light",
-      "dark"
-    ],
-    "tags": [
-      "green",
-      "grey",
-      "charcoal",
-      "solid",
-      "shirt",
-      "formal",
-      "light",
-      "dark"
-    ],
-    "source": "auto",
-    "meters": 4.0
-  },
   "I-292": {
     "colors": [
       "purple",

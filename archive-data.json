@@ -546,6 +546,27 @@
     ]
   },
   {
+    "code": "I-274",
+    "type": "Fabric",
+    "image": "archive/out-of-stock/I-274.jpg",
+    "thumb": "thumbs/archive/I-274.jpg",
+    "filename": "I-274.jpg",
+    "status": "out-of-stock",
+    "colors": [],
+    "patterns": [],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal"
+    ],
+    "tags": [
+      "shirt",
+      "formal"
+    ]
+  },
+  {
     "code": "I-277",
     "type": "Fabric",
     "image": "archive/out-of-stock/I-277.jpg",

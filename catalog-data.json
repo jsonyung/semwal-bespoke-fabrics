@@ -3135,41 +3135,6 @@
     ]
   },
   {
-    "code": "I-274",
-    "type": "Fabric",
-    "image": "images/I-274.jpg",
-    "thumb": "thumbs/I-274.jpg",
-    "filename": "I-274.jpg",
-    "colors": [
-      "green",
-      "grey",
-      "charcoal"
-    ],
-    "patterns": [
-      "solid"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light",
-      "dark"
-    ],
-    "tags": [
-      "green",
-      "grey",
-      "charcoal",
-      "solid",
-      "shirt",
-      "formal",
-      "light",
-      "dark"
-    ],
-    "meters": 4.0
-  },
-  {
     "code": "I-292",
     "type": "Fabric",
     "image": "images/I-292.jpg",
