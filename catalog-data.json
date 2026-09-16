@@ -1463,35 +1463,6 @@
     ]
   },
   {
-    "code": "I-133",
-    "type": "Fabric",
-    "image": "images/I-133.jpg",
-    "thumb": "thumbs/I-133.jpg",
-    "filename": "I-133.jpg",
-    "colors": [
-      "grey"
-    ],
-    "patterns": [
-      "stripes"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "grey",
-      "stripes",
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "meters": 4.0
-  },
-  {
     "code": "I-138",
     "type": "Fabric",
     "image": "images/I-138.jpg",

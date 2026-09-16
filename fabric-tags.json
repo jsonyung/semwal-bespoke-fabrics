@@ -1278,31 +1278,6 @@
     ],
     "source": "auto"
   },
-  "I-133": {
-    "colors": [
-      "grey"
-    ],
-    "patterns": [
-      "stripes"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "grey",
-      "stripes",
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "source": "auto",
-    "meters": 4.0
-  },
   "I-138": {
     "colors": [
       "grey"
