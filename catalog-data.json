@@ -1671,35 +1671,6 @@
     ]
   },
   {
-    "code": "I-160",
-    "type": "Fabric",
-    "image": "images/I-160.jpg",
-    "thumb": "thumbs/I-160.jpg",
-    "filename": "I-160.jpg",
-    "colors": [
-      "grey"
-    ],
-    "patterns": [
-      "solid"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "grey",
-      "solid",
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "meters": 4.0
-  },
-  {
     "code": "I-162",
     "type": "Fabric",
     "image": "images/I-162.jpg",
