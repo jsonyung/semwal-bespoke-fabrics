@@ -903,6 +903,27 @@
     ]
   },
   {
+    "code": "I-295",
+    "type": "Fabric",
+    "image": "archive/out-of-stock/I-295.jpg",
+    "thumb": "thumbs/archive/I-295.jpg",
+    "filename": "I-295.jpg",
+    "status": "out-of-stock",
+    "colors": [],
+    "patterns": [],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal"
+    ],
+    "tags": [
+      "shirt",
+      "formal"
+    ]
+  },
+  {
     "code": "I-297",
     "type": "Fabric",
     "image": "archive/out-of-stock/I-297.jpg",

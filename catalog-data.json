@@ -3137,36 +3137,6 @@
     ]
   },
   {
-    "code": "I-295",
-    "type": "Fabric",
-    "image": "images/I-295.jpg",
-    "thumb": "thumbs/I-295.jpg",
-    "filename": "I-295.jpg",
-    "colors": [
-      "green",
-      "grey"
-    ],
-    "patterns": [
-      "texture"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "casual",
-      "light"
-    ],
-    "tags": [
-      "green",
-      "grey",
-      "texture",
-      "shirt",
-      "casual",
-      "light"
-    ]
-  },
-  {
     "code": "I-296",
     "type": "Fabric",
     "image": "images/I-296.jpg",

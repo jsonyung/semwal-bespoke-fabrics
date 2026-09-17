@@ -2732,32 +2732,6 @@
     ],
     "source": "auto"
   },
-  "I-295": {
-    "colors": [
-      "green",
-      "grey"
-    ],
-    "patterns": [
-      "texture"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "casual",
-      "light"
-    ],
-    "tags": [
-      "green",
-      "grey",
-      "texture",
-      "shirt",
-      "casual",
-      "light"
-    ],
-    "source": "auto"
-  },
   "I-296": {
     "colors": [
       "blue",
