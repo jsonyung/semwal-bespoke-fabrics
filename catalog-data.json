@@ -1643,39 +1643,6 @@
     ]
   },
   {
-    "code": "I-158",
-    "type": "Fabric",
-    "image": "images/I-158.jpg",
-    "thumb": "thumbs/I-158.jpg",
-    "filename": "I-158.jpg",
-    "colors": [
-      "grey",
-      "blue",
-      "beige"
-    ],
-    "patterns": [
-      "checks"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "grey",
-      "blue",
-      "beige",
-      "checks",
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "meters": 4.0
-  },
-  {
     "code": "I-159",
     "type": "Fabric",
     "image": "images/I-159.jpg",

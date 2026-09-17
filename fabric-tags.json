@@ -1434,35 +1434,6 @@
     ],
     "source": "auto"
   },
-  "I-158": {
-    "colors": [
-      "grey",
-      "blue",
-      "beige"
-    ],
-    "patterns": [
-      "checks"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "grey",
-      "blue",
-      "beige",
-      "checks",
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "source": "auto",
-    "meters": 4.0
-  },
   "I-159": {
     "colors": [
       "grey"

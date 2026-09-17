@@ -294,6 +294,27 @@
     ]
   },
   {
+    "code": "I-158",
+    "type": "Fabric",
+    "image": "archive/out-of-stock/I-158.jpg",
+    "thumb": "thumbs/archive/I-158.jpg",
+    "filename": "I-158.jpg",
+    "status": "out-of-stock",
+    "colors": [],
+    "patterns": [],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal"
+    ],
+    "tags": [
+      "shirt",
+      "formal"
+    ]
+  },
+  {
     "code": "I-180",
     "type": "Fabric",
     "image": "archive/out-of-stock/I-180.jpg",
