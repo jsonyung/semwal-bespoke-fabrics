@@ -1,6 +1,6 @@
 # Semwal Bespoke Fabrics Catalog
 
-Total fabrics: **240**
+Total fabrics: **239**
 
 Use `Cmd+F` / `Ctrl+F` to search a fabric code like `I-440` or `PI-531`.
 
@@ -108,7 +108,6 @@ Use `Cmd+F` / `Ctrl+F` to search a fabric code like `I-440` or `PI-531`.
 | `I-294` | Fabric | Grey, Blue, Solid, Shirt, Formal, Light | [![I-294](thumbs/I-294.jpg)](images/I-294.jpg) | [I-294.jpg](images/I-294.jpg) |
 | `I-296` | Fabric | Blue, Purple, Grey, Texture, Shirt, Casual, Light | [![I-296](thumbs/I-296.jpg)](images/I-296.jpg) | [I-296.jpg](images/I-296.jpg) |
 | `I-298` | Fabric | Grey, Green, Charcoal, Checks, Shirt, Formal, Light | [![I-298](thumbs/I-298.jpg)](images/I-298.jpg) | [I-298.jpg](images/I-298.jpg) |
-| `I-299` | Fabric | Black, Grey, Texture, Shirt, Casual, Light | [![I-299](thumbs/I-299.jpg)](images/I-299.jpg) | [I-299.jpg](images/I-299.jpg) |
 | `I-300` | Fabric | Brown, Grey, Beige, Checks, Shirt, Formal, Light | [![I-300](thumbs/I-300.jpg)](images/I-300.jpg) | [I-300.jpg](images/I-300.jpg) |
 | `I-302` | Fabric | Red, Grey, Checks, Shirt, Formal, Light | [![I-302](thumbs/I-302.jpg)](images/I-302.jpg) | [I-302.jpg](images/I-302.jpg) |
 | `I-311` | Fabric | Grey, Charcoal, Solid, Shirt, Formal, Light | [![I-311](thumbs/I-311.jpg)](images/I-311.jpg) | [I-311.jpg](images/I-311.jpg) |

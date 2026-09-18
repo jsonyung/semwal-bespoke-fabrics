@@ -3174,38 +3174,6 @@
     ]
   },
   {
-    "code": "I-299",
-    "type": "Fabric",
-    "image": "images/I-299.jpg",
-    "thumb": "thumbs/I-299.jpg",
-    "filename": "I-299.jpg",
-    "colors": [
-      "black",
-      "grey"
-    ],
-    "patterns": [
-      "texture"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "casual",
-      "light",
-      "dark"
-    ],
-    "tags": [
-      "black",
-      "grey",
-      "texture",
-      "shirt",
-      "casual",
-      "light",
-      "dark"
-    ]
-  },
-  {
     "code": "I-300",
     "type": "Fabric",
     "image": "images/I-300.jpg",
