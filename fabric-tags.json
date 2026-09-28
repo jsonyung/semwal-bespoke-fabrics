@@ -2797,34 +2797,6 @@
     ],
     "source": "auto"
   },
-  "I-311": {
-    "colors": [
-      "grey",
-      "charcoal"
-    ],
-    "patterns": [
-      "solid"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light",
-      "dark"
-    ],
-    "tags": [
-      "grey",
-      "charcoal",
-      "solid",
-      "shirt",
-      "formal",
-      "light",
-      "dark"
-    ],
-    "source": "auto"
-  },
   "I-315": {
     "colors": [
       "grey",

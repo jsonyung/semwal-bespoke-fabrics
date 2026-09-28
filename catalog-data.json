@@ -3210,38 +3210,6 @@
     ]
   },
   {
-    "code": "I-311",
-    "type": "Fabric",
-    "image": "images/I-311.jpg",
-    "thumb": "thumbs/I-311.jpg",
-    "filename": "I-311.jpg",
-    "colors": [
-      "grey",
-      "charcoal"
-    ],
-    "patterns": [
-      "solid"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light",
-      "dark"
-    ],
-    "tags": [
-      "grey",
-      "charcoal",
-      "solid",
-      "shirt",
-      "formal",
-      "light",
-      "dark"
-    ]
-  },
-  {
     "code": "I-315",
     "type": "Fabric",
     "image": "images/I-315.jpg",

@@ -1113,6 +1113,27 @@
     ]
   },
   {
+    "code": "I-311",
+    "type": "Fabric",
+    "image": "archive/out-of-stock/I-311.jpg",
+    "thumb": "thumbs/archive/I-311.jpg",
+    "filename": "I-311.jpg",
+    "status": "out-of-stock",
+    "colors": [],
+    "patterns": [],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal"
+    ],
+    "tags": [
+      "shirt",
+      "formal"
+    ]
+  },
+  {
     "code": "I-313",
     "type": "Fabric",
     "image": "archive/out-of-stock/I-313.jpg",
