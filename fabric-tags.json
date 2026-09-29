@@ -2435,35 +2435,6 @@
     "source": "auto",
     "meters": 4.0
   },
-  "I-263": {
-    "colors": [
-      "grey",
-      "navy"
-    ],
-    "patterns": [
-      "texture"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "casual",
-      "light",
-      "dark"
-    ],
-    "tags": [
-      "grey",
-      "navy",
-      "texture",
-      "shirt",
-      "casual",
-      "light",
-      "dark"
-    ],
-    "source": "auto",
-    "meters": 4.0
-  },
   "I-265": {
     "colors": [
       "grey",

@@ -2796,39 +2796,6 @@
     "meters": 4.0
   },
   {
-    "code": "I-263",
-    "type": "Fabric",
-    "image": "images/I-263.jpg",
-    "thumb": "thumbs/I-263.jpg",
-    "filename": "I-263.jpg",
-    "colors": [
-      "grey",
-      "navy"
-    ],
-    "patterns": [
-      "texture"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "casual",
-      "light",
-      "dark"
-    ],
-    "tags": [
-      "grey",
-      "navy",
-      "texture",
-      "shirt",
-      "casual",
-      "light",
-      "dark"
-    ],
-    "meters": 4.0
-  },
-  {
     "code": "I-265",
     "type": "Fabric",
     "image": "images/I-265.jpg",
