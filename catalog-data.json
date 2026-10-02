@@ -2536,38 +2536,6 @@
     ]
   },
   {
-    "code": "I-239",
-    "type": "Fabric",
-    "image": "images/I-239.jpg",
-    "thumb": "thumbs/I-239.jpg",
-    "filename": "I-239.jpg",
-    "colors": [
-      "charcoal",
-      "grey"
-    ],
-    "patterns": [
-      "texture"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "casual",
-      "light",
-      "dark"
-    ],
-    "tags": [
-      "charcoal",
-      "grey",
-      "texture",
-      "shirt",
-      "casual",
-      "light",
-      "dark"
-    ]
-  },
-  {
     "code": "I-241",
     "type": "Fabric",
     "image": "images/I-241.jpg",

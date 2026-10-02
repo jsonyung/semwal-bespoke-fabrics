@@ -2207,34 +2207,6 @@
     ],
     "source": "auto"
   },
-  "I-239": {
-    "colors": [
-      "charcoal",
-      "grey"
-    ],
-    "patterns": [
-      "texture"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "casual",
-      "light",
-      "dark"
-    ],
-    "tags": [
-      "charcoal",
-      "grey",
-      "texture",
-      "shirt",
-      "casual",
-      "light",
-      "dark"
-    ],
-    "source": "auto"
-  },
   "I-241": {
     "colors": [
       "grey",

@@ -525,6 +525,27 @@
     ]
   },
   {
+    "code": "I-239",
+    "type": "Fabric",
+    "image": "archive/out-of-stock/I-239.jpg",
+    "thumb": "thumbs/archive/I-239.jpg",
+    "filename": "I-239.jpg",
+    "status": "out-of-stock",
+    "colors": [],
+    "patterns": [],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal"
+    ],
+    "tags": [
+      "shirt",
+      "formal"
+    ]
+  },
+  {
     "code": "I-242",
     "type": "Fabric",
     "image": "archive/out-of-stock/I-242.jpg",
