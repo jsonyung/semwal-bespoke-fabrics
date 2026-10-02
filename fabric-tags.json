@@ -2489,36 +2489,6 @@
     ],
     "source": "auto"
   },
-  "I-267": {
-    "colors": [
-      "black",
-      "grey",
-      "purple"
-    ],
-    "patterns": [
-      "texture"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "casual",
-      "light",
-      "dark"
-    ],
-    "tags": [
-      "black",
-      "grey",
-      "purple",
-      "texture",
-      "shirt",
-      "casual",
-      "light",
-      "dark"
-    ],
-    "source": "auto"
-  },
   "I-268": {
     "colors": [
       "green",

@@ -2858,40 +2858,6 @@
     ]
   },
   {
-    "code": "I-267",
-    "type": "Fabric",
-    "image": "images/I-267.jpg",
-    "thumb": "thumbs/I-267.jpg",
-    "filename": "I-267.jpg",
-    "colors": [
-      "black",
-      "grey",
-      "purple"
-    ],
-    "patterns": [
-      "texture"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "casual",
-      "light",
-      "dark"
-    ],
-    "tags": [
-      "black",
-      "grey",
-      "purple",
-      "texture",
-      "shirt",
-      "casual",
-      "light",
-      "dark"
-    ]
-  },
-  {
     "code": "I-268",
     "type": "Fabric",
     "image": "images/I-268.jpg",
