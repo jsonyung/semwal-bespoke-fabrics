@@ -1260,6 +1260,27 @@
     ]
   },
   {
+    "code": "I-324",
+    "type": "Fabric",
+    "image": "archive/out-of-stock/I-324.jpg",
+    "thumb": "thumbs/archive/I-324.jpg",
+    "filename": "I-324.jpg",
+    "status": "out-of-stock",
+    "colors": [],
+    "patterns": [],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal"
+    ],
+    "tags": [
+      "shirt",
+      "formal"
+    ]
+  },
+  {
     "code": "I-325",
     "type": "Fabric",
     "image": "archive/out-of-stock/I-325.jpg",
