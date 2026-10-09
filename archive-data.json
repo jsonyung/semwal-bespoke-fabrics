@@ -315,6 +315,27 @@
     ]
   },
   {
+    "code": "I-159",
+    "type": "Fabric",
+    "image": "archive/out-of-stock/I-159.jpg",
+    "thumb": "thumbs/archive/I-159.jpg",
+    "filename": "I-159.jpg",
+    "status": "out-of-stock",
+    "colors": [],
+    "patterns": [],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal"
+    ],
+    "tags": [
+      "shirt",
+      "formal"
+    ]
+  },
+  {
     "code": "I-160",
     "type": "Fabric",
     "image": "archive/out-of-stock/I-160.jpg",

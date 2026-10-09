@@ -1434,30 +1434,6 @@
     ],
     "source": "auto"
   },
-  "I-159": {
-    "colors": [
-      "grey"
-    ],
-    "patterns": [
-      "texture"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "casual",
-      "light"
-    ],
-    "tags": [
-      "grey",
-      "texture",
-      "shirt",
-      "casual",
-      "light"
-    ],
-    "source": "auto"
-  },
   "I-164": {
     "colors": [
       "grey"

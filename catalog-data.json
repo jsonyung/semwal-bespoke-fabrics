@@ -1643,34 +1643,6 @@
     ]
   },
   {
-    "code": "I-159",
-    "type": "Fabric",
-    "image": "images/I-159.jpg",
-    "thumb": "thumbs/I-159.jpg",
-    "filename": "I-159.jpg",
-    "colors": [
-      "grey"
-    ],
-    "patterns": [
-      "texture"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "casual",
-      "light"
-    ],
-    "tags": [
-      "grey",
-      "texture",
-      "shirt",
-      "casual",
-      "light"
-    ]
-  },
-  {
     "code": "I-164",
     "type": "Fabric",
     "image": "images/I-164.jpg",
