@@ -3030,36 +3030,6 @@
     ],
     "source": "auto"
   },
-  "I-340": {
-    "colors": [
-      "black",
-      "grey",
-      "navy"
-    ],
-    "patterns": [
-      "stripes"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light",
-      "dark"
-    ],
-    "tags": [
-      "black",
-      "grey",
-      "navy",
-      "stripes",
-      "shirt",
-      "formal",
-      "light",
-      "dark"
-    ],
-    "source": "auto"
-  },
   "I-341": {
     "colors": [
       "grey",

@@ -3475,40 +3475,6 @@
     ]
   },
   {
-    "code": "I-340",
-    "type": "Fabric",
-    "image": "images/I-340.jpg",
-    "thumb": "thumbs/I-340.jpg",
-    "filename": "I-340.jpg",
-    "colors": [
-      "black",
-      "grey",
-      "navy"
-    ],
-    "patterns": [
-      "stripes"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light",
-      "dark"
-    ],
-    "tags": [
-      "black",
-      "grey",
-      "navy",
-      "stripes",
-      "shirt",
-      "formal",
-      "light",
-      "dark"
-    ]
-  },
-  {
     "code": "I-341",
     "type": "Fabric",
     "image": "images/I-341.jpg",
