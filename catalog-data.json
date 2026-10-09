@@ -2328,34 +2328,6 @@
     ]
   },
   {
-    "code": "I-220",
-    "type": "Fabric",
-    "image": "images/I-220.jpg",
-    "thumb": "thumbs/I-220.jpg",
-    "filename": "I-220.jpg",
-    "colors": [
-      "grey"
-    ],
-    "patterns": [
-      "solid"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "grey",
-      "solid",
-      "shirt",
-      "formal",
-      "light"
-    ]
-  },
-  {
     "code": "I-224",
     "type": "Fabric",
     "image": "images/I-224.jpg",

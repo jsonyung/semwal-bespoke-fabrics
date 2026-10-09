@@ -2027,30 +2027,6 @@
     ],
     "source": "auto"
   },
-  "I-220": {
-    "colors": [
-      "grey"
-    ],
-    "patterns": [
-      "solid"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "grey",
-      "solid",
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "source": "auto"
-  },
   "I-224": {
     "colors": [
       "teal",

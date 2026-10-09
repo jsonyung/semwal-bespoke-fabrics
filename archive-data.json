@@ -441,6 +441,27 @@
     ]
   },
   {
+    "code": "I-220",
+    "type": "Fabric",
+    "image": "archive/out-of-stock/I-220.jpg",
+    "thumb": "thumbs/archive/I-220.jpg",
+    "filename": "I-220.jpg",
+    "status": "out-of-stock",
+    "colors": [],
+    "patterns": [],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal"
+    ],
+    "tags": [
+      "shirt",
+      "formal"
+    ]
+  },
+  {
     "code": "I-222",
     "type": "Fabric",
     "image": "archive/out-of-stock/I-222.jpg",
