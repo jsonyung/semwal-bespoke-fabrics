@@ -2679,35 +2679,6 @@
     "meters": 4.0
   },
   {
-    "code": "I-261",
-    "type": "Fabric",
-    "image": "images/I-261.jpg",
-    "thumb": "thumbs/I-261.jpg",
-    "filename": "I-261.jpg",
-    "colors": [
-      "grey"
-    ],
-    "patterns": [
-      "solid"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "grey",
-      "solid",
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "meters": 4.0
-  },
-  {
     "code": "I-265",
     "type": "Fabric",
     "image": "images/I-265.jpg",

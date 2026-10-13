@@ -693,6 +693,27 @@
     ]
   },
   {
+    "code": "I-261",
+    "type": "Fabric",
+    "image": "archive/out-of-stock/I-261.jpg",
+    "thumb": "thumbs/archive/I-261.jpg",
+    "filename": "I-261.jpg",
+    "status": "out-of-stock",
+    "colors": [],
+    "patterns": [],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal"
+    ],
+    "tags": [
+      "shirt",
+      "formal"
+    ]
+  },
+  {
     "code": "I-263",
     "type": "Fabric",
     "image": "archive/out-of-stock/I-263.jpg",
