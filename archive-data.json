@@ -210,6 +210,27 @@
     ]
   },
   {
+    "code": "I-129",
+    "type": "Fabric",
+    "image": "archive/out-of-stock/I-129.jpg",
+    "thumb": "thumbs/archive/I-129.jpg",
+    "filename": "I-129.jpg",
+    "status": "out-of-stock",
+    "colors": [],
+    "patterns": [],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal"
+    ],
+    "tags": [
+      "shirt",
+      "formal"
+    ]
+  },
+  {
     "code": "I-133",
     "type": "Fabric",
     "image": "archive/out-of-stock/I-133.jpg",

@@ -1394,41 +1394,6 @@
     ]
   },
   {
-    "code": "I-129",
-    "type": "Fabric",
-    "image": "images/I-129.jpg",
-    "thumb": "thumbs/I-129.jpg",
-    "filename": "I-129.jpg",
-    "colors": [
-      "charcoal",
-      "grey",
-      "black"
-    ],
-    "patterns": [
-      "checks"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light",
-      "dark"
-    ],
-    "tags": [
-      "charcoal",
-      "grey",
-      "black",
-      "checks",
-      "shirt",
-      "formal",
-      "light",
-      "dark"
-    ],
-    "meters": 4.0
-  },
-  {
     "code": "I-131",
     "type": "Fabric",
     "image": "images/I-131.jpg",

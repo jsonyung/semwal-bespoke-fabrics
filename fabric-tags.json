@@ -1217,37 +1217,6 @@
     ],
     "source": "auto"
   },
-  "I-129": {
-    "colors": [
-      "charcoal",
-      "grey",
-      "black"
-    ],
-    "patterns": [
-      "checks"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light",
-      "dark"
-    ],
-    "tags": [
-      "charcoal",
-      "grey",
-      "black",
-      "checks",
-      "shirt",
-      "formal",
-      "light",
-      "dark"
-    ],
-    "source": "auto",
-    "meters": 4.0
-  },
   "I-131": {
     "colors": [
       "navy",
