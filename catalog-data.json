@@ -6677,39 +6677,6 @@
     ]
   },
   {
-    "code": "PI-502",
-    "type": "Premium / PI",
-    "image": "images/PI-502.jpg",
-    "thumb": "thumbs/PI-502.jpg",
-    "filename": "PI-502.jpg",
-    "colors": [
-      "cream",
-      "grey"
-    ],
-    "patterns": [
-      "solid"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "premium",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "cream",
-      "grey",
-      "solid",
-      "shirt",
-      "premium",
-      "formal",
-      "light"
-    ],
-    "meters": 4.0
-  },
-  {
     "code": "PI-503",
     "type": "Premium / PI",
     "image": "images/PI-503.jpg",

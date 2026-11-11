@@ -5808,35 +5808,6 @@
     ],
     "source": "auto"
   },
-  "PI-502": {
-    "colors": [
-      "cream",
-      "grey"
-    ],
-    "patterns": [
-      "solid"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "premium",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "cream",
-      "grey",
-      "solid",
-      "shirt",
-      "premium",
-      "formal",
-      "light"
-    ],
-    "source": "auto",
-    "meters": 4.0
-  },
   "PI-503": {
     "colors": [
       "grey"

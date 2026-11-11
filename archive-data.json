@@ -1701,6 +1701,29 @@
     ]
   },
   {
+    "code": "PI-502",
+    "type": "Premium / PI",
+    "image": "archive/out-of-stock/PI-502.jpg",
+    "thumb": "thumbs/archive/PI-502.jpg",
+    "filename": "PI-502.jpg",
+    "status": "out-of-stock",
+    "colors": [],
+    "patterns": [],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal",
+      "premium"
+    ],
+    "tags": [
+      "shirt",
+      "formal",
+      "premium"
+    ]
+  },
+  {
     "code": "PI-506",
     "type": "Premium / PI",
     "image": "archive/out-of-stock/PI-506.jpg",

@@ -1,6 +1,6 @@
 # Semwal Bespoke Fabrics Catalog
 
-Total fabrics: **226**
+Total fabrics: **225**
 
 Use `Cmd+F` / `Ctrl+F` to search a fabric code like `I-440` or `PI-531`.
 
@@ -223,7 +223,6 @@ Use `Cmd+F` / `Ctrl+F` to search a fabric code like `I-440` or `PI-531`.
 | `I-466` | Fabric | Grey, Blue, Texture, Shirt, Casual, Light | [![I-466](thumbs/I-466.jpg)](images/I-466.jpg) | [I-466.jpg](images/I-466.jpg) |
 | `I-467` | Fabric | White, Blue, Grey, Solid, Shirt, Formal, Light | [![I-467](thumbs/I-467.jpg)](images/I-467.jpg) | [I-467.jpg](images/I-467.jpg) |
 | `I-468` | Fabric | White, Grey, Solid, Shirt, Formal, Light | [![I-468](thumbs/I-468.jpg)](images/I-468.jpg) | [I-468.jpg](images/I-468.jpg) |
-| `PI-502` | Premium / PI | Cream, Grey, Solid, Shirt, Premium, Formal | [![PI-502](thumbs/PI-502.jpg)](images/PI-502.jpg) | [PI-502.jpg](images/PI-502.jpg) |
 | `PI-503` | Premium / PI | Grey, Solid, Shirt, Premium, Formal | [![PI-503](thumbs/PI-503.jpg)](images/PI-503.jpg) | [PI-503.jpg](images/PI-503.jpg) |
 | `PI-504` | Premium / PI | Grey, Charcoal, Solid, Shirt, Premium, Formal | [![PI-504](thumbs/PI-504.jpg)](images/PI-504.jpg) | [PI-504.jpg](images/PI-504.jpg) |
 | `PI-509` | Premium / PI | Grey, Solid, Shirt, Premium, Formal | [![PI-509](thumbs/PI-509.jpg)](images/PI-509.jpg) | [PI-509.jpg](images/PI-509.jpg) |
