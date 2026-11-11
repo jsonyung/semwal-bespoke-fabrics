@@ -2146,38 +2146,6 @@
     "meters": 4.0
   },
   {
-    "code": "I-214",
-    "type": "Fabric",
-    "image": "images/I-214.jpg",
-    "thumb": "thumbs/I-214.jpg",
-    "filename": "I-214.jpg",
-    "colors": [
-      "charcoal",
-      "grey"
-    ],
-    "patterns": [
-      "texture"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "casual",
-      "light",
-      "dark"
-    ],
-    "tags": [
-      "charcoal",
-      "grey",
-      "texture",
-      "shirt",
-      "casual",
-      "light",
-      "dark"
-    ]
-  },
-  {
     "code": "I-215",
     "type": "Fabric",
     "image": "images/I-215.jpg",

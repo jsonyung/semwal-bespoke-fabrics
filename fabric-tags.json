@@ -1869,34 +1869,6 @@
     "source": "auto",
     "meters": 4.0
   },
-  "I-214": {
-    "colors": [
-      "charcoal",
-      "grey"
-    ],
-    "patterns": [
-      "texture"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "casual",
-      "light",
-      "dark"
-    ],
-    "tags": [
-      "charcoal",
-      "grey",
-      "texture",
-      "shirt",
-      "casual",
-      "light",
-      "dark"
-    ],
-    "source": "auto"
-  },
   "I-215": {
     "colors": [
       "red",
