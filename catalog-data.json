@@ -985,36 +985,6 @@
     ]
   },
   {
-    "code": "I-82",
-    "type": "Fabric",
-    "image": "images/I-82.jpg",
-    "thumb": "thumbs/I-82.jpg",
-    "filename": "I-82.jpg",
-    "colors": [
-      "grey",
-      "blue"
-    ],
-    "patterns": [
-      "stripes"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "formal",
-      "light"
-    ],
-    "tags": [
-      "grey",
-      "blue",
-      "stripes",
-      "shirt",
-      "formal",
-      "light"
-    ]
-  },
-  {
     "code": "I-86",
     "type": "Fabric",
     "image": "images/I-86.jpg",

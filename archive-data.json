@@ -126,6 +126,27 @@
     ]
   },
   {
+    "code": "I-82",
+    "type": "Fabric",
+    "image": "archive/out-of-stock/I-82.jpg",
+    "thumb": "thumbs/archive/I-82.jpg",
+    "filename": "I-82.jpg",
+    "status": "out-of-stock",
+    "colors": [],
+    "patterns": [],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal"
+    ],
+    "tags": [
+      "shirt",
+      "formal"
+    ]
+  },
+  {
     "code": "I-83",
     "type": "Fabric",
     "image": "archive/out-of-stock/I-83.jpg",

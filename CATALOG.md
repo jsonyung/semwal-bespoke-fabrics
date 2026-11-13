@@ -1,6 +1,6 @@
 # Semwal Bespoke Fabrics Catalog
 
-Total fabrics: **223**
+Total fabrics: **222**
 
 Use `Cmd+F` / `Ctrl+F` to search a fabric code like `I-440` or `PI-531`.
 
@@ -37,7 +37,6 @@ Use `Cmd+F` / `Ctrl+F` to search a fabric code like `I-440` or `PI-531`.
 | `I-73` | Fabric | Grey, Charcoal, Checks, Shirt, Formal, Light | [![I-73](thumbs/I-73.jpg)](images/I-73.jpg) | [I-73.jpg](images/I-73.jpg) |
 | `I-74` | Fabric | Grey, Blue, Stripes, Shirt, Formal, Light | [![I-74](thumbs/I-74.jpg)](images/I-74.jpg) | [I-74.jpg](images/I-74.jpg) |
 | `I-75` | Fabric | Grey, Blue, Stripes, Shirt, Formal, Light | [![I-75](thumbs/I-75.jpg)](images/I-75.jpg) | [I-75.jpg](images/I-75.jpg) |
-| `I-82` | Fabric | Grey, Blue, Stripes, Shirt, Formal, Light | [![I-82](thumbs/I-82.jpg)](images/I-82.jpg) | [I-82.jpg](images/I-82.jpg) |
 | `I-86` | Fabric | Grey, Blue, Navy, Stripes, Shirt, Formal, Light | [![I-86](thumbs/I-86.jpg)](images/I-86.jpg) | [I-86.jpg](images/I-86.jpg) |
 | `I-87` | Fabric | Maroon, Stripes, Shirt, Formal, Dark | [![I-87](thumbs/I-87.jpg)](images/I-87.jpg) | [I-87.jpg](images/I-87.jpg) |
 | `I-88` | Fabric | Navy, Black, Checks, Shirt, Formal, Dark | [![I-88](thumbs/I-88.jpg)](images/I-88.jpg) | [I-88.jpg](images/I-88.jpg) |
