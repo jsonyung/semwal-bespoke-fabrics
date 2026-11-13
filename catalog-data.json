@@ -6161,34 +6161,6 @@
     ]
   },
   {
-    "code": "I-452",
-    "type": "Fabric",
-    "image": "images/I-452.jpg",
-    "thumb": "thumbs/I-452.jpg",
-    "filename": "I-452.jpg",
-    "colors": [
-      "grey"
-    ],
-    "patterns": [
-      "texture"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "casual",
-      "light"
-    ],
-    "tags": [
-      "grey",
-      "texture",
-      "shirt",
-      "casual",
-      "light"
-    ]
-  },
-  {
     "code": "I-453",
     "type": "Fabric",
     "image": "images/I-453.jpg",

@@ -5360,30 +5360,6 @@
     ],
     "source": "auto"
   },
-  "I-452": {
-    "colors": [
-      "grey"
-    ],
-    "patterns": [
-      "texture"
-    ],
-    "uses": [
-      "shirt"
-    ],
-    "styles": [
-      "shirt",
-      "casual",
-      "light"
-    ],
-    "tags": [
-      "grey",
-      "texture",
-      "shirt",
-      "casual",
-      "light"
-    ],
-    "source": "auto"
-  },
   "I-453": {
     "colors": [
       "grey",

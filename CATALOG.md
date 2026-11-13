@@ -1,6 +1,6 @@
 # Semwal Bespoke Fabrics Catalog
 
-Total fabrics: **225**
+Total fabrics: **224**
 
 Use `Cmd+F` / `Ctrl+F` to search a fabric code like `I-440` or `PI-531`.
 
@@ -206,7 +206,6 @@ Use `Cmd+F` / `Ctrl+F` to search a fabric code like `I-440` or `PI-531`.
 | `I-449` | Fabric | Charcoal, Grey, Cream, Checks, Shirt, Formal, Light | [![I-449](thumbs/I-449.jpg)](images/I-449.jpg) | [I-449.jpg](images/I-449.jpg) |
 | `I-450` | Fabric | Charcoal, Grey, Blue, Solid, Shirt, Formal, Light | [![I-450](thumbs/I-450.jpg)](images/I-450.jpg) | [I-450.jpg](images/I-450.jpg) |
 | `I-451` | Fabric | Grey, Green, Solid, Shirt, Formal, Light | [![I-451](thumbs/I-451.jpg)](images/I-451.jpg) | [I-451.jpg](images/I-451.jpg) |
-| `I-452` | Fabric | Grey, Texture, Shirt, Casual, Light | [![I-452](thumbs/I-452.jpg)](images/I-452.jpg) | [I-452.jpg](images/I-452.jpg) |
 | `I-453` | Fabric | Grey, Charcoal, Solid, Shirt, Formal, Light | [![I-453](thumbs/I-453.jpg)](images/I-453.jpg) | [I-453.jpg](images/I-453.jpg) |
 | `I-454` | Fabric | Grey, Stripes, Shirt, Formal, Light | [![I-454](thumbs/I-454.jpg)](images/I-454.jpg) | [I-454.jpg](images/I-454.jpg) |
 | `I-455` | Fabric | Black, Grey, Texture, Shirt, Casual, Light | [![I-455](thumbs/I-455.jpg)](images/I-455.jpg) | [I-455.jpg](images/I-455.jpg) |

@@ -1701,6 +1701,27 @@
     ]
   },
   {
+    "code": "I-452",
+    "type": "Fabric",
+    "image": "archive/out-of-stock/I-452.jpg",
+    "thumb": "thumbs/archive/I-452.jpg",
+    "filename": "I-452.jpg",
+    "status": "out-of-stock",
+    "colors": [],
+    "patterns": [],
+    "uses": [
+      "shirt"
+    ],
+    "styles": [
+      "shirt",
+      "formal"
+    ],
+    "tags": [
+      "shirt",
+      "formal"
+    ]
+  },
+  {
     "code": "PI-502",
     "type": "Premium / PI",
     "image": "archive/out-of-stock/PI-502.jpg",
